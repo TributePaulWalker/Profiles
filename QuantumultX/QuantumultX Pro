@@ -1,0 +1,247 @@
+# DivineEngine Quantumult 配置示例
+#
+# 以 ";" 或 "#" 或 "//" 开头的行为注释行。
+#
+# 最新完整的示例需查看 Quantumult X 里「配置文件」中的「示例」
+#
+# Update-2021.03.29.16.00
+# Applicable to Quantumult X (App Store) v1.0.20-build517
+[general]
+# Quantumult X 会对指定的网址进行相应测试，以确认节点的可用性
+server_check_url=http://www.gstatic.com/generate_204
+
+# 资源解析器
+resource_parser_url=https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/Scripts/resource-parser.js
+
+# api获取以及节点信息查询
+geo_location_checker=http://ip-api.com/json/?lang=zh-CN, https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/Scripts/IP_API.js
+
+# DNS 排除列表
+dns_exclusion_list=*.cmpassport.com, *.jegotrip.com.cn, *.icitymobile.mobi, id6.me, *.pingan.com.cn, *.cmbchina.com
+excluded_routes=239.255.255.250/32, 24.105.30.129/32, 185.60.112.157/32, 185.60.112.158/32, 182.162.132.1/32
+
+
+[dns]
+# 禁用 IPv6
+no-ipv6
+
+# 自定义 DNS
+# > DNSPod Public DNS
+server=119.29.29.29
+# > Alibaba Public DNS
+# server=223.5.5.5
+
+# 本地 DNS 映射
+# Firebase Cloud Messaging
+address=/mtalk.google.com/108.177.125.188
+# Google Dl
+server=/dl.google.com/119.29.29.29
+server=/dl.l.google.com/119.29.29.29
+
+# 策略组
+[policy]
+static=Final, proxy, direct, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/SSID.png
+static=Streaming, proxy, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Streaming.png
+static=StreamingSE, direct, proxy, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/StreamingSE.png
+static=Guard, reject, direct, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Global.png
+
+# 机场订阅
+[server_remote]
+
+
+# 分流规则
+[filter_remote]
+# 后续规则修正
+https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter/Unbreak.list, tag=后续规则修正, update-interval=86400, opt-parser=false, enabled=true
+
+# NobyDa去广告（测试版）
+https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/AdRuleTest.list, tag=NobyDa去广告（测试版）, update-interval=86400, opt-parser=false, enabled=true
+
+# AD_Block_Plus
+https://raw.githubusercontent.com/NobyDa/ND-AD/master/QuantumultX/AD_Block_Plus.txt, tag=AD_Block_Plus, update-interval=86400, opt-parser=false, enabled=true
+
+# 7000+去广告
+https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/AdRule.list, tag=7000+去广告, update-interval=86400, opt-parser=false, enabled=true
+
+# 广告拦截
+https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter/Guard/Advertising.list, tag=广告拦截, update-interval=86400, opt-parser=false, enabled=true
+
+# 隐私保护
+https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter/Guard/Privacy.list, tag=隐私保护, update-interval=86400, opt-parser=false, enabled=true
+
+# 运营商劫持或恶意网站
+https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter/Guard/Hijacking.list, tag=运营商劫持或恶意网站, update-interval=86400, opt-parser=false, enabled=true
+
+# 国际流媒体服务
+https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter/StreamingMedia/Streaming.list, tag=国际流媒体服务, update-interval=86400, opt-parser=false, enabled=true
+
+# 中国流媒体服务(面向海外版本)
+https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter/StreamingMedia/StreamingSE.list, tag=中国流媒体服务(面向海外版本), update-interval=86400, opt-parser=false, enabled=true
+
+# 全球加速
+https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter/Global.list, tag=全球加速, update-interval=86400, opt-parser=false, enabled=true
+
+# 中国直连
+https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter/China.list, tag=中国直连, update-interval=86400, opt-parser=false, enabled=true
+
+# 中国IP池
+https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter/Extra/ChinaIP.list, tag=ChinaIP, update-interval=86400, opt-parser=false, enabled=true
+
+# 远程重写引用
+[rewrite_remote]
+# 神机复写
+https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Rewrite/General.conf, tag=神机复写, update-interval=86400, opt-parser=false, enabled=true
+# 神机去广告
+https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Rewrite/Block/Advertising.conf, tag=神机去广告, update-interval=86400, opt-parser=false, enabled=true
+# NobyDa（lhie1复写）去广告
+https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/Rewrite_lhie1.conf, tag=NobyDa（lhie1复写）去广告, update-interval=86400, opt-parser=false, enabled=true
+# eHpo1去广告
+https://raw.githubusercontent.com/eHpo1/Rules/master/QuantumultX/Rewrite.txt, tag=eHpo1去广告, update-interval=86400, opt-parser=false, enabled=true
+
+# 本地服务器
+[server_local]
+
+
+# 局部筛选
+[filter_local]
+# Local Area Network 局域网
+host-suffix, local, direct
+ip-cidr, 192.168.0.0/16, direct
+ip-cidr, 10.0.0.0/8, direct
+ip-cidr, 172.16.0.0/12, direct
+ip-cidr, 127.0.0.0/8, direct
+ip-cidr, 100.64.0.0/10, direct
+ip-cidr, 224.0.0.0/4, direct
+ip6-cidr, fe80::/10, direct
+
+# GeoIP China(若启用，则禁用 ChinaIP.list)
+-geoip, cn, direct
+
+final, Final
+
+# 屏蔽iOS系统更新
+# 如果需要屏蔽iOS系统更新、请自行删除掉屏蔽代码开头的“;”
+;host, mesu.apple.com, reject
+;host, gdmf.apple.com, reject
+;host, updates-http.cdn-apple.com, reject
+;host, ns.itunes.apple.com, Apple Update
+;host, appldnld.apple.com, Apple Update
+;host, xp.apple.com, Apple Update
+
+# App Store
+host, p14-buy.itunes.apple.com,proxy
+
+# 去掉YouTube++底部广告
+host-suffix, ehg-youtube.hitbox.com, reject
+
+# 绕过企业证书过期
+host, ocsp.apple.com, reject
+
+# 避免迅雷版权问题
+host, hub5idx.v6.shub.sandai.net, reject
+host, hub5emu.v6.shub.sandai.net, reject
+host, hub5btmain.v6.shub.sandai.net, reject
+
+
+# 本地重写
+[rewrite_local]
+# 微博去启动及内部广告
+^https?://(sdk|wb)app.uve.weibo.com(/interface/sdk/sdkad.php|/wbapplua/wbpullad.lua) url script-response-body https://raw.githubusercontent.com/yichahucha/surge/master/wb_launch.js
+^https?://m?api\.weibo\.c(n|om)/2/(statuses/(unread|extend|positives/get|(friends|video)(/|_)(mix)?timeline)|stories/(video_stream|home_list)|(groups|fangle)/timeline|profile/statuses|comments/build_comments|photo/recommend_list|service/picfeed|searchall|cardlist|page|!/photos/pic_recommend_status|video/tiny_stream_video_list|photo/info) url script-response-body https://raw.githubusercontent.com/yichahucha/surge/master/wb_ad.js
+
+# 微信公众号去广告
+^https?:\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/Wechat.js
+
+# 淘宝历史价格查询
+^http://.+/amdc/mobileDispatch url script-request-body https://raw.githubusercontent.com/yichahucha/surge/master/tb_price.js
+^https?://trade-acs\.m\.taobao\.com/gw/mtop\.taobao\.detail\.getdetail url script-response-body https://raw.githubusercontent.com/yichahucha/surge/master/tb_price.js
+
+# 酷我音乐SVIP
+^https?:\/\/vip1\.kuwo\.cn\/(vip\/v2\/user\/vip|vip\/spi/mservice) url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Kuwo.js
+
+# 百度云VIP倍速播放
+https:\/\/pan\.baidu\.com\/rest\/2\.0\/membership\/user url script-response-body https://raw.githubusercontent.com/TributePaulWalker/JavaScript/main/Baidu%20Cloud.js
+# 京东历史价格查询
+^https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig) url script-response-body https://raw.githubusercontent.com/yichahucha/surge/master/jd_price.js
+
+# 微信链接跳转
+^https?:\/\/weixin110\.qq\.com\/cgi-bin\/mmspamsupport-bin\/newredirectconfirmcgi url script-response-body https://raw.githubusercontent.com/HotKids/Rules/master/Script/weixin110.js
+
+# Safari全能搜索
+# > 以下为Safari全能搜索、需要把Safari的搜索引擎设置为：DuckDuckGo
+
+#gm   (Google图片)
+^https:\/\/duckduckgo.com\/\?q=gm\+([^&]+).+ url 302 https://www.google.com/search?&tbm=isch&q=$1
+
+# gh   (GitHub)
+^https:\/\/duckduckgo.com\/\?q=gh\+([^&]+).+ url 302 https://github.com/search?q=$1
+
+# tf  (Google 搜索 TestFlight)
+^https:\/\/duckduckgo.com\/\?q=tf(\+|%20)([^&]+).+ url 302 https://www.google.com/search?as_q=$2&as_sitesearch=testflight.apple.com
+
+# wb: 微博
+^https:\/\/duckduckgo.com\/\?q=wb\+([^&]+).+ url 302 https://s.weibo.com/weibo/$1
+
+# wx: 微信
+^https:\/\/duckduckgo.com\/\?q=wx\+([^&]+).+ url 302 https://weixin.sogou.com/weixinwap?query=$1
+
+# jd : 京东
+^https:\/\/duckduckgo.com\/\?q=jd\+([^&]+).+ url 302 https://so.m.jd.com/ware/search.action?keyword=$1
+
+# tb: 淘宝
+^https:\/\/duckduckgo.com\/\?q=tb\+([^&]+).+ url 302 https://s.m.taobao.com/h5?q=$1
+
+# tm: 天猫
+^https:\/\/duckduckgo.com\/\?q=tm\+([^&]+).+ url 302 https://s.m.tmall.com/m/search.htm?q=$1
+
+# ytb  (YouTube)
+^https:\/\/duckduckgo.com\/\?q=ytb\+([^&]+).+ url 302 https://www.youtube.com/results?search_query=$1
+
+# ph  (PornHub) 
+^https:\/\/duckduckgo.com\/\?q=ph\+([^&]+).+ url 302 https://cn.pornhub.com/video/search?search=$1
+
+# bi: 必应
+^https:\/\/duckduckgo.com\/\?q=bi\+([^&]+).+ url 302 https://cn.bing.com/search?q=$1
+
+# bd: 百度
+^https:\/\/duckduckgo.com\/\?q=bd\+([^&]+).+ url 302 https://www.baidu.com/s?wd=$1
+
+# ddg: DuckDuckGo 
+^https:\/\/duckduckgo.com\/\?q=ddg\+([^&]+).+ url 302 https://duckduckgo.com/?ia=about&q=$1
+
+# 无指令: 谷歌
+^https:\/\/duckduckgo.com\/\?q=([^&]+).+ url 302 https://www.google.com/search?q=$1
+
+# google
+^https?:\/\/(www.)?(g|google)\.cn url 302 https://www.google.com
+
+# 阻止google.com 跳转到google.com.hk
+^https?:\/\/(www\.)?g\.cn url 302 https://www.google.com
+^https?:\/\/(www\.)?google\.cn url 302 https://www.google.com
+
+# 百度防跳转
+^https?:\/\/.*\.baidu\.com url request-header (\r\n)User-Agent:.+(\r\n) request-header $1User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 13_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.1 Mobile/15E148 Safari/16C50 Quark/604.1 T7/10.3 SearchCraft/2.6.3 (Baidu; P1 8.0.0)$2
+
+# TestFlight下载修正
+^https?:\/\/testflight\.apple\.com\/v\d\/accounts\/.+?\/install$ url script-request-body https://gist.githubusercontent.com/NobyDa/9be418b93afc5e9c8a8f4d28ae403cf2/raw/TF_Download.js
+
+
+# 本地定时任务
+[task_local]
+# 疫情动态 （默认每天8～23点、每小时播报一次）
+0 8-23/1 * * * https://raw.githubusercontent.com/Mazetsz/QX/master/nCov_new.js, tag=疫情动态, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/COVID-19.png, enabled=true
+
+# 本地 HTTP 服务器部署
+[http_backend]
+#
+# 部署一个本地 HTTP 服务器，并使用 JavaScript 进行数据处理。
+# 输入变量为：$reqeust.url、$reqeust.path、$reqeust.headers、$reqeust.body。
+# 使用 $done 输出像 $done({status:"HTTP/1.1 200 OK"}, headers:{}, body:"here is a string") 这样的返回响应。
+# 此外，您还可以使用签名或任何其他验证方法来验证请求是否合法。
+# 部署后您应该通过 http://127.0.0.1:9999/your-path/your-api/. 进行访问。服务器默认监听端口为 9999，您可以在UI中进行更改。
+#
+# [http_backend] 完整示例请查看「示例」
+
+[mitm]
+skip_validating_cert = true
+hostname = api.weibo.cn, mapi.weibo.com, *.uve.weibo.com, -*.weibo.com, mp.weixin.qq.com, trade-acs.m.taobao.com, vip1.kuwo.cn, pan.baidu.com, api.m.jd.com, weixin110.qq.com, duckduckgo.com, *.baidu.com, testflight.apple.com
