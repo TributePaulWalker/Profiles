@@ -16,9 +16,6 @@
 ^(http|https):\/\/(www.)?suning\.com\/ https://suning.com/ 302
 ^(http|https):\/\/(www.)?yhd\.com\/ https://yhd.com/ 302
 
-# Weibo Short URL
-^http:\/\/t\.cn http://sinaurl.cn 302
-
 # Redirect False to True
 # > IGN China to IGN Global
 ^(http|https):\/\/(www.)?ign\.xn--fiqs8s\/ http://cn.ign.com/ccpref/us 302
