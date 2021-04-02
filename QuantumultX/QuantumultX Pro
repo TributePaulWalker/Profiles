@@ -4,7 +4,7 @@
 #
 # 最新完整的示例需查看 Quantumult X 里「配置文件」中的「示例」
 #
-# Update-2021.03.29.16.00
+# Update-2021.04.02.18.30
 # Applicable to Quantumult X (App Store) v1.0.20-build517
 [general]
 # Quantumult X 会对指定的网址进行相应测试，以确认节点的可用性
@@ -28,9 +28,9 @@ no-ipv6
 # 自定义 DNS
 # > DNSPod Public DNS
 server=119.29.29.29
+server=114.114.114.114
 # > Alibaba Public DNS
 # server=223.5.5.5
-
 # 本地 DNS 映射
 # Firebase Cloud Messaging
 address=/mtalk.google.com/108.177.125.188
