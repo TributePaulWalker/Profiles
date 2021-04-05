@@ -1,4 +1,5 @@
-Surge规则分为： 
+Surge规则分为：
+ 
 [Surge Pro](https://github.com/TributePaulWalker/Profiles/blob/main/Surge/Surge%20Pro.conf)版本
 
 以及
