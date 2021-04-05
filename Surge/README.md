@@ -1,3 +1,4 @@
+[https://s.88y.cn/group1/M00/04/7B/CqchN2BrG7qAQtYgAAYmXboXDDw44.jpeg]
 Surge规则分为：
  
 [Surge Pro.conf](https://github.com/TributePaulWalker/Profiles/blob/main/Surge/Surge%20Pro.conf)版本
