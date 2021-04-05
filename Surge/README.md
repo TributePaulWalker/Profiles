@@ -1,10 +1,10 @@
 Surge规则分为：
  
-[Surge Pro](https://github.com/TributePaulWalker/Profiles/blob/main/Surge/Surge%20Pro.conf)版本
+[Surge Pro.conf](https://github.com/TributePaulWalker/Profiles/blob/main/Surge/Surge%20Pro.conf)版本
 
 以及
 
-[Universal Edition](https://github.com/TributePaulWalker/Profiles/blob/main/Surge/Universal%20Edition%20.conf)版本。
+[Universal Edition.conf](https://github.com/TributePaulWalker/Profiles/blob/main/Surge/Universal%20Edition%20.conf)版本。
 
 其中Surge Pro版规则已经包含了个人日常使用的脚本，需要（如果你需要的话）自行添加[Module](https://github.com/TributePaulWalker/Profiles/tree/main/Surge/Module)配合使用。
 
