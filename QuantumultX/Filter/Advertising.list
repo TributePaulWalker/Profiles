@@ -1,0 +1,734 @@
+# Advertising
+# > General
+DOMAIN-KEYWORD,adservice,REJECT
+
+DOMAIN-SUFFIX,1phads.com,REJECT
+DOMAIN-SUFFIX,1rtb.com,REJECT
+DOMAIN-SUFFIX,1xl.co.uk,REJECT
+DOMAIN-SUFFIX,206ads.com,REJECT
+DOMAIN-SUFFIX,3cinteractive.com,REJECT
+DOMAIN-SUFFIX,4mads.com,REJECT
+DOMAIN-SUFFIX,5rocks.io,REJECT
+DOMAIN-SUFFIX,a.ki,REJECT
+DOMAIN-SUFFIX,a8.net,REJECT
+DOMAIN-SUFFIX,a9.com,REJECT
+DOMAIN-SUFFIX,a-ads.com,REJECT
+DOMAIN-SUFFIX,aarki.com,REJECT
+DOMAIN-SUFFIX,aarki.net,REJECT
+DOMAIN-SUFFIX,abtasty.com,REJECT
+DOMAIN-SUFFIX,acento.com,REJECT
+DOMAIN-SUFFIX,actionads.ru,REJECT
+DOMAIN-SUFFIX,actionpay.ru,REJECT
+DOMAIN-SUFFIX,ad.gt,REJECT
+DOMAIN-SUFFIX,ad1.ru,REJECT
+DOMAIN-SUFFIX,ad120m.com,REJECT
+DOMAIN-SUFFIX,ad127m.com,REJECT
+DOMAIN-SUFFIX,ad131m.com,REJECT
+DOMAIN-SUFFIX,ad132m.com,REJECT
+DOMAIN-SUFFIX,ad1data.com,REJECT
+DOMAIN-SUFFIX,ad2games.com,REJECT
+DOMAIN-SUFFIX,ad2iction.com,REJECT
+DOMAIN-SUFFIX,ad4.com.cn,REJECT
+DOMAIN-SUFFIX,ad4game.com,REJECT
+DOMAIN-SUFFIX,ad6media.co.uk,REJECT
+DOMAIN-SUFFIX,ad6media.com,REJECT
+DOMAIN-SUFFIX,ad6media.es,REJECT
+DOMAIN-SUFFIX,ad6media.fr,REJECT
+DOMAIN-SUFFIX,adacado.com,REJECT
+DOMAIN-SUFFIX,adadapted.com,REJECT
+DOMAIN-SUFFIX,adap.tv,REJECT
+DOMAIN-SUFFIX,adasiaholdings.com,REJECT
+DOMAIN-SUFFIX,adatrix.com,REJECT
+DOMAIN-SUFFIX,ad-balancer.at,REJECT
+DOMAIN-SUFFIX,adbecrsl.com,REJECT
+DOMAIN-SUFFIX,adblade.com,REJECT
+DOMAIN-SUFFIX,adblox.net,REJECT
+DOMAIN-SUFFIX,adbooth.com,REJECT
+DOMAIN-SUFFIX,ad-brix.com,REJECT
+DOMAIN-SUFFIX,adcamp.ru,REJECT
+DOMAIN-SUFFIX,adcdnx.com,REJECT
+DOMAIN-SUFFIX,adcel.co,REJECT
+DOMAIN-SUFFIX,ad-center.com,REJECT
+DOMAIN-SUFFIX,adcenter.io,REJECT
+DOMAIN-SUFFIX,adchina.com,REJECT
+DOMAIN-SUFFIX,adcloud.jp,REJECT
+DOMAIN-SUFFIX,ad-cloud.jp,REJECT
+DOMAIN-SUFFIX,adcloud.net,REJECT
+DOMAIN-SUFFIX,adcocktail.com,REJECT
+DOMAIN-SUFFIX,adcolony.com,REJECT
+DOMAIN-SUFFIX,adcomplete.ru,REJECT
+DOMAIN-SUFFIX,adcrowd.com,REJECT
+DOMAIN-SUFFIX,addapptr.com,REJECT
+DOMAIN-SUFFIX,addealing.com,REJECT
+DOMAIN-SUFFIX,addealsnetwork.com,REJECT
+DOMAIN-SUFFIX,ad-delivery.net,REJECT
+DOMAIN-SUFFIX,addict-mobile.net,REJECT
+DOMAIN-SUFFIX,addragon.com,REJECT
+DOMAIN-SUFFIX,adecorp.co.kr,REJECT
+DOMAIN-SUFFIX,adecosystems.net,REJECT
+DOMAIN-SUFFIX,adecosystems.tech,REJECT
+DOMAIN-SUFFIX,adelement.com,REJECT
+DOMAIN-SUFFIX,adelva.com,REJECT
+DOMAIN-SUFFIX,adentifi.com,REJECT
+DOMAIN-SUFFIX,adexchangemachine.com,REJECT
+DOMAIN-SUFFIX,adexprt.com,REJECT
+DOMAIN-SUFFIX,adextent.com,REJECT
+DOMAIN-SUFFIX,adfactor.nl,REJECT
+DOMAIN-SUFFIX,adfalcon.com,REJECT
+DOMAIN-SUFFIX,adflow.ru,REJECT
+DOMAIN-SUFFIX,adform.net,REJECT
+DOMAIN-SUFFIX,adinall.com,REJECT
+DOMAIN-SUFFIX,adkernel.com,REJECT
+DOMAIN-SUFFIX,ad-locus.com,REJECT
+DOMAIN-SUFFIX,adlooxtracking.com,REJECT
+DOMAIN-SUFFIX,admarvel.com,REJECT
+DOMAIN-SUFFIX,admaster.com.cn,REJECT
+DOMAIN-SUFFIX,ad-maven.com,REJECT
+DOMAIN-SUFFIX,admicro.vn,REJECT
+DOMAIN-SUFFIX,admob.com,REJECT
+DOMAIN-SUFFIX,ad-move.jp,REJECT
+DOMAIN-SUFFIX,adnetwork.vn,REJECT
+DOMAIN-SUFFIX,adnxs.com,REJECT
+DOMAIN-SUFFIX,adnyg.com,REJECT
+DOMAIN-SUFFIX,ad-plus.cn,REJECT
+DOMAIN-SUFFIX,adpushup.com,REJECT
+DOMAIN-SUFFIX,adroll.com,REJECT
+DOMAIN-SUFFIX,adsafeprotected.com,REJECT
+DOMAIN-SUFFIX,adsage.cn,REJECT
+DOMAIN-SUFFIX,adsage.com,REJECT
+DOMAIN-SUFFIX,ad-score.com,REJECT
+DOMAIN-SUFFIX,adsensor.org,REJECT
+DOMAIN-SUFFIX,adserve.work,REJECT
+DOMAIN-SUFFIX,adsmediabox.com,REJECT
+DOMAIN-SUFFIX,ads-pixiv.net,REJECT
+DOMAIN-SUFFIX,ad-srv.co,REJECT
+DOMAIN-SUFFIX,adsrvr.org,REJECT
+DOMAIN-SUFFIX,ad-stir.com,REJECT
+DOMAIN-SUFFIX,ads-twitter.com,REJECT
+DOMAIN-SUFFIX,adswizz.com,REJECT
+DOMAIN-SUFFIX,adsymptotic.com,REJECT
+DOMAIN-SUFFIX,ad-sys.com,REJECT
+DOMAIN-SUFFIX,adtarget.io,REJECT
+DOMAIN-SUFFIX,adtarget.me,REJECT
+DOMAIN-SUFFIX,adtdp.com,REJECT
+DOMAIN-SUFFIX,adthor.com,REJECT
+DOMAIN-SUFFIX,adtrace.org,REJECT
+DOMAIN-SUFFIX,advertising.com,REJECT
+DOMAIN-SUFFIX,adwhirl.com,REJECT
+DOMAIN-SUFFIX,adwo.com,REJECT
+DOMAIN-SUFFIX,adxadserv.com,REJECT
+DOMAIN-SUFFIX,adzerk.net,REJECT
+DOMAIN-SUFFIX,aiclk.com,REJECT
+DOMAIN-SUFFIX,airpush.com,REJECT
+DOMAIN-SUFFIX,algovid.com,REJECT
+DOMAIN-SUFFIX,amazon-adsystem.com,REJECT
+DOMAIN-SUFFIX,amoad.com,REJECT
+DOMAIN-SUFFIX,amobee.com,REJECT
+DOMAIN-SUFFIX,app-adforce.jp,REJECT
+DOMAIN-SUFFIX,appads.com,REJECT
+DOMAIN-SUFFIX,appcpi.net,REJECT
+DOMAIN-SUFFIX,appier.net,REJECT
+DOMAIN-SUFFIX,applift.com,REJECT
+DOMAIN-SUFFIX,applovin.com,REJECT
+DOMAIN-SUFFIX,applvn.com,REJECT
+DOMAIN-SUFFIX,appsflyer.com,REJECT
+DOMAIN-SUFFIX,apsalar.com,REJECT
+DOMAIN-SUFFIX,apxadtracking.net,REJECT
+DOMAIN-SUFFIX,aralego.com,REJECT
+DOMAIN-SUFFIX,atomhike.com,REJECT
+DOMAIN-SUFFIX,axonix.com,REJECT
+DOMAIN-SUFFIX,b2pk.com,REJECT
+DOMAIN-SUFFIX,bayimob.com,REJECT
+DOMAIN-SUFFIX,bjvvqu.cn,REJECT
+DOMAIN-SUFFIX,brightcom.com,REJECT
+DOMAIN-SUFFIX,bulldogcpi.com,REJECT
+DOMAIN-SUFFIX,bxsnews.com,REJECT
+DOMAIN-SUFFIX,carbonads.net,REJECT
+DOMAIN-SUFFIX,cdj99d.cn,REJECT
+DOMAIN-SUFFIX,clotfun.mobi,REJECT
+DOMAIN-SUFFIX,clotfun.online,REJECT
+DOMAIN-SUFFIX,cloudmobi.net,REJECT
+DOMAIN-SUFFIX,comscore.com,REJECT
+DOMAIN-SUFFIX,crispadvertising.com,REJECT
+DOMAIN-SUFFIX,criteo.com,REJECT
+DOMAIN-SUFFIX,criteo.net,REJECT
+DOMAIN-SUFFIX,crwdcntrl.net,REJECT
+DOMAIN-SUFFIX,ctrmi.com,REJECT
+DOMAIN-SUFFIX,domob.cn,REJECT
+DOMAIN-SUFFIX,dotomi.com,REJECT
+DOMAIN-SUFFIX,doubleverify.com,REJECT
+DOMAIN-SUFFIX,eroadvertising.com,REJECT
+DOMAIN-SUFFIX,ero-advertising.com,REJECT
+DOMAIN-SUFFIX,exdynsrv.com,REJECT
+DOMAIN-SUFFIX,exosrv.com,REJECT
+DOMAIN-SUFFIX,go2cloud.org,REJECT
+DOMAIN-SUFFIX,growingio.com,REJECT
+DOMAIN-SUFFIX,haloapps.com,REJECT
+DOMAIN-SUFFIX,hubcloud.com.cn,REJECT
+DOMAIN-SUFFIX,hypers.com,REJECT
+DOMAIN-SUFFIX,idealads.net,REJECT
+DOMAIN-SUFFIX,inmobi.cn,REJECT
+DOMAIN-SUFFIX,inmobi.com,REJECT
+DOMAIN-SUFFIX,inmobi.net,REJECT
+DOMAIN-SUFFIX,inmobicdn.cn,REJECT
+DOMAIN-SUFFIX,inmobicdn.net,REJECT
+DOMAIN-SUFFIX,inner-active.mobi,REJECT
+DOMAIN-SUFFIX,innovid.com,REJECT
+DOMAIN-SUFFIX,insurads.com,REJECT
+DOMAIN-SUFFIX,ironsrc.com,REJECT
+DOMAIN-SUFFIX,irs01.com,REJECT
+DOMAIN-SUFFIX,iskyworker.com,REJECT
+DOMAIN-SUFFIX,iyoowi.com,REJECT
+DOMAIN-SUFFIX,juicyads.com,REJECT
+DOMAIN-SUFFIX,leadboltmobile.net,REJECT
+DOMAIN-SUFFIX,lenzmx.com,REJECT
+DOMAIN-SUFFIX,liveadvert.com,REJECT
+DOMAIN-SUFFIX,lnk0.com,REJECT
+DOMAIN-SUFFIX,lnk8.cn,REJECT
+DOMAIN-SUFFIX,localytics.com,REJECT
+DOMAIN-SUFFIX,mdfull.com,REJECT
+DOMAIN-SUFFIX,measurementapi.com,REJECT
+DOMAIN-SUFFIX,medialytics.com,REJECT
+DOMAIN-SUFFIX,meetrics.com,REJECT
+DOMAIN-SUFFIX,meetrics.net,REJECT
+DOMAIN-SUFFIX,miaozhen.com,REJECT
+DOMAIN-SUFFIX,moatads.com,REJECT
+DOMAIN-SUFFIX,mobclix.com,REJECT
+DOMAIN-SUFFIX,mopub.com,REJECT
+DOMAIN-SUFFIX,nexage.com,REJECT
+DOMAIN-SUFFIX,o333o.com,REJECT
+DOMAIN-SUFFIX,okjhb.xyz,REJECT
+DOMAIN-SUFFIX,open-adx.com,REJECT
+DOMAIN-SUFFIX,openx.com,REJECT
+DOMAIN-SUFFIX,openx.net,REJECT
+DOMAIN-SUFFIX,outbrain.com,REJECT
+DOMAIN-SUFFIX,pubmatic.com,REJECT
+DOMAIN-SUFFIX,qchannel01.cn,REJECT
+DOMAIN-SUFFIX,rayjump.com,REJECT
+DOMAIN-SUFFIX,realsrv.com,REJECT
+DOMAIN-SUFFIX,restartad.com,REJECT
+DOMAIN-SUFFIX,revcontent.com,REJECT
+DOMAIN-SUFFIX,revjet.com,REJECT
+DOMAIN-SUFFIX,rubiconproject.com,REJECT
+DOMAIN-SUFFIX,runative-syndicate.com,REJECT
+DOMAIN-SUFFIX,sdkclick.com,REJECT
+DOMAIN-SUFFIX,serving-sys.com,REJECT
+DOMAIN-SUFFIX,sharethrough.com,REJECT
+DOMAIN-SUFFIX,shuzilm.cn,REJECT
+DOMAIN-SUFFIX,simpli.fi,REJECT
+DOMAIN-SUFFIX,sitemaji.com,REJECT
+DOMAIN-SUFFIX,smaato.net,REJECT
+DOMAIN-SUFFIX,smartadserver.com,REJECT
+DOMAIN-SUFFIX,smartnews-ads.com,REJECT
+DOMAIN-SUFFIX,snapads.com,REJECT
+DOMAIN-SUFFIX,socdm.com,REJECT
+DOMAIN-SUFFIX,sonobi.com,REJECT
+DOMAIN-SUFFIX,springserve.com,REJECT
+DOMAIN-SUFFIX,startappservice.com,REJECT
+DOMAIN-SUFFIX,steelhouse.com,REJECT
+DOMAIN-SUFFIX,steelhousemedia.com,REJECT
+DOMAIN-SUFFIX,steepto.com,REJECT
+DOMAIN-SUFFIX,stickyadstv.com,REJECT
+DOMAIN-SUFFIX,streamrail.com,REJECT
+DOMAIN-SUFFIX,streamrail.net,REJECT
+DOMAIN-SUFFIX,strikead.com,REJECT
+DOMAIN-SUFFIX,sumome.com,REJECT
+DOMAIN-SUFFIX,sunnyworks.co.kr,REJECT
+DOMAIN-SUFFIX,superad2.com.sg,REJECT
+DOMAIN-SUFFIX,superadbox.com,REJECT
+DOMAIN-SUFFIX,superads.cn,REJECT
+DOMAIN-SUFFIX,supersonic.com,REJECT
+DOMAIN-SUFFIX,supersonicads.com,REJECT
+DOMAIN-SUFFIX,synergy-e.com,REJECT
+DOMAIN-SUFFIX,tabmo.io,REJECT
+DOMAIN-SUFFIX,taboola.com,REJECT
+DOMAIN-SUFFIX,taboolasyndication.com,REJECT
+DOMAIN-SUFFIX,tacoda.net,REJECT
+DOMAIN-SUFFIX,tactilews.com,REJECT
+DOMAIN-SUFFIX,tagtic.cn,REJECT
+DOMAIN-SUFFIX,tamedia.com.tw,REJECT
+DOMAIN-SUFFIX,tanv.com,REJECT
+DOMAIN-SUFFIX,tanx.com,REJECT
+DOMAIN-SUFFIX,tapdaq.com,REJECT
+DOMAIN-SUFFIX,tapjoy.com,REJECT
+DOMAIN-SUFFIX,tapjoyads.com,REJECT
+DOMAIN-SUFFIX,tappx.com,REJECT
+DOMAIN-SUFFIX,tapresearch.com,REJECT
+DOMAIN-SUFFIX,taptapnetworks.com,REJECT
+DOMAIN-SUFFIX,taptica.com,REJECT
+DOMAIN-SUFFIX,targetspot.com,REJECT
+DOMAIN-SUFFIX,teads.tv,REJECT
+DOMAIN-SUFFIX,terraclicks.com,REJECT
+DOMAIN-SUFFIX,theadex.com,REJECT
+DOMAIN-SUFFIX,themoneytizer.com,REJECT
+DOMAIN-SUFFIX,theoremreach.com,REJECT
+DOMAIN-SUFFIX,thetrafficstat.net,REJECT
+DOMAIN-SUFFIX,tnkfactory.com,REJECT
+DOMAIN-SUFFIX,tns-counter.ru,REJECT
+DOMAIN-SUFFIX,traffichunt.com,REJECT
+DOMAIN-SUFFIX,trafficjunky.net,REJECT
+DOMAIN-SUFFIX,trafmag.com,REJECT
+DOMAIN-SUFFIX,traktum.com,REJECT
+DOMAIN-SUFFIX,tremorhub.com,REJECT
+DOMAIN-SUFFIX,tremormedia.com,REJECT
+DOMAIN-SUFFIX,tremorvideo.com,REJECT
+DOMAIN-SUFFIX,tresensa.com,REJECT
+DOMAIN-SUFFIX,trfmxt.com,REJECT
+DOMAIN-SUFFIX,trvdp.com,REJECT
+DOMAIN-SUFFIX,tubemogul.com,REJECT
+DOMAIN-SUFFIX,tuifish.com,REJECT
+DOMAIN-SUFFIX,tuitiger.com,REJECT
+DOMAIN-SUFFIX,turn.com,REJECT
+DOMAIN-SUFFIX,tutoads.tv,REJECT
+DOMAIN-SUFFIX,u-ad.info,REJECT
+DOMAIN-SUFFIX,uberads.com,REJECT
+DOMAIN-SUFFIX,uimserv.net,REJECT
+DOMAIN-SUFFIX,ultraadserver.com,REJECT
+DOMAIN-SUFFIX,undertone.com,REJECT
+DOMAIN-SUFFIX,unimhk.com,REJECT
+DOMAIN-SUFFIX,unrulymedia.com,REJECT
+DOMAIN-SUFFIX,upltv.com,REJECT
+DOMAIN-SUFFIX,uprivaladserver.net,REJECT
+DOMAIN-SUFFIX,upsight-api.com,REJECT
+DOMAIN-SUFFIX,upsnap.com,REJECT
+DOMAIN-SUFFIX,uri6.com,REJECT
+DOMAIN-SUFFIX,usekahuna.com,REJECT
+DOMAIN-SUFFIX,utarget.ru,REJECT
+DOMAIN-SUFFIX,vads.net.vn,REJECT
+DOMAIN-SUFFIX,vads.vn,REJECT
+DOMAIN-SUFFIX,vamaker.com,REJECT
+DOMAIN-SUFFIX,vdopia.com,REJECT
+DOMAIN-SUFFIX,veinteractive.com,REJECT
+DOMAIN-SUFFIX,vendimob.pl,REJECT
+DOMAIN-SUFFIX,vertamedia.com,REJECT
+DOMAIN-SUFFIX,verticalscope.com,REJECT
+DOMAIN-SUFFIX,vervemobile.com,REJECT
+DOMAIN-SUFFIX,videoadex.com,REJECT
+DOMAIN-SUFFIX,videohub.tv,REJECT
+DOMAIN-SUFFIX,vidoomy.com,REJECT
+DOMAIN-SUFFIX,viewdeos.com,REJECT
+DOMAIN-SUFFIX,vi-serve.com,REJECT
+DOMAIN-SUFFIX,vm5apis.com,REJECT
+DOMAIN-SUFFIX,voiceads.cn,REJECT
+DOMAIN-SUFFIX,voodoo-ads.io,REJECT
+DOMAIN-SUFFIX,vrtcal.com,REJECT
+DOMAIN-SUFFIX,vrtzads.com,REJECT
+DOMAIN-SUFFIX,vrvm.com,REJECT
+DOMAIN-SUFFIX,vserv.mobi,REJECT
+DOMAIN-SUFFIX,vungle.com,REJECT
+DOMAIN-SUFFIX,w55c.net,REJECT
+DOMAIN-SUFFIX,wapstart.ru,REJECT
+DOMAIN-SUFFIX,webads.eu,REJECT
+DOMAIN-SUFFIX,wedolook.com,REJECT
+DOMAIN-SUFFIX,widespace.com,REJECT
+DOMAIN-SUFFIX,wigetmedia.com,REJECT
+DOMAIN-SUFFIX,wordstream.com,REJECT
+DOMAIN-SUFFIX,wrinkads.com,REJECT
+DOMAIN-SUFFIX,wsod.com,REJECT
+DOMAIN-SUFFIX,xapads.com,REJECT
+DOMAIN-SUFFIX,xdrig.com,REJECT
+DOMAIN-SUFFIX,xmlwizard.com,REJECT
+DOMAIN-SUFFIX,xpanama.net,REJECT
+DOMAIN-SUFFIX,xy7elite.com,REJECT
+DOMAIN-SUFFIX,yandexadexchange.net,REJECT
+DOMAIN-SUFFIX,ybrantdigital.com,REJECT
+DOMAIN-SUFFIX,ydmob.com,REJECT
+DOMAIN-SUFFIX,yeahmobi.com,REJECT
+DOMAIN-SUFFIX,yhdichan.com,REJECT
+DOMAIN-SUFFIX,yicha.jp,REJECT
+DOMAIN-SUFFIX,yieldlove-ad-serving.net,REJECT
+DOMAIN-SUFFIX,yieldmo.com,REJECT
+DOMAIN-SUFFIX,yieldoptimizer.com,REJECT
+DOMAIN-SUFFIX,yllix.com,REJECT
+DOMAIN-SUFFIX,ymtrack6.co,REJECT
+DOMAIN-SUFFIX,ymtracking.com,REJECT
+DOMAIN-SUFFIX,yoc.com,REJECT
+DOMAIN-SUFFIX,yoc-performance.com,REJECT
+DOMAIN-SUFFIX,yomedia.vn,REJECT
+DOMAIN-SUFFIX,yomob.com.cn,REJECT
+DOMAIN-SUFFIX,yottos.com,REJECT
+DOMAIN-SUFFIX,youappi.com,REJECT
+DOMAIN-SUFFIX,youmi.net,REJECT
+DOMAIN-SUFFIX,yumimobi.com,REJECT
+DOMAIN-SUFFIX,yunqingugm.com,REJECT
+DOMAIN-SUFFIX,zapr.in,REJECT
+DOMAIN-SUFFIX,zemanta.com,REJECT
+DOMAIN-SUFFIX,zestads.com,REJECT
+DOMAIN-SUFFIX,zhiziyun.com,REJECT
+DOMAIN-SUFFIX,zu08e.cn,REJECT
+DOMAIN-SUFFIX,zucks.co.jp,REJECT
+DOMAIN-SUFFIX,zucks.net,REJECT
+DOMAIN-SUFFIX,zumobi.com,REJECT
+DOMAIN-SUFFIX,zwaar.org,REJECT
+DOMAIN-SUFFIX,zxrtb.com,REJECT
+
+DOMAIN-SUFFIX,ad.cmvideo.cn,REJECT
+DOMAIN-SUFFIX,ad.daum.net,REJECT
+DOMAIN-SUFFIX,ad.g.daum.net,REJECT
+
+DOMAIN,ads.play.cbsi.video,REJECT
+DOMAIN,abema-adx.ameba.jp,REJECT
+DOMAIN,ad.12306.cn,REJECT
+DOMAIN,ad.caiyunapp.com,REJECT
+DOMAIN,ad.flurry.com,REJECT
+DOMAIN,ad.huajiao.com,REJECT
+DOMAIN,ad.hzyoka.com,REJECT
+DOMAIN,ad.jiemian.com,REJECT
+DOMAIN,ad.wappalyzer.com,REJECT
+DOMAIN,ad-cn.jovcloud.com,REJECT
+DOMAIN,ad-mediation.tuanguwen.com,REJECT
+DOMAIN,ads.chinadaily.com.cn,REJECT
+DOMAIN,ads.daydaycook.com.cn,REJECT
+DOMAIN,ads.flurry.com,REJECT
+DOMAIN,ads.storm8.com,REJECT
+DOMAIN,ads.superawesome.tv,REJECT
+DOMAIN,ads.weilitoutiao.net,REJECT
+DOMAIN,adsapi.manhuaren.com,REJECT
+DOMAIN,adsdk.dmzj.com,REJECT
+DOMAIN,adserver.pandora.com,REJECT
+DOMAIN,adservice.tohsoft.com,REJECT
+DOMAIN,adshow.58.com,REJECT
+DOMAIN,adui.tg.meitu.com,REJECT
+DOMAIN,adv.bandi.so,REJECT
+DOMAIN,adv.ettoday.net,REJECT
+DOMAIN,api.ad.xiaomi.com,REJECT
+DOMAIN,api.adnet.mob.com,REJECT
+DOMAIN,api-ad.kajicam.com,REJECT
+DOMAIN,appnext.hs.llnwd.net,REJECT
+DOMAIN,appnext-a.akamaihd.net,REJECT
+DOMAIN,business-cdn.shouji.sogou.com,REJECT
+DOMAIN,g.ousns.net,REJECT
+DOMAIN,ggs.myzaker.com,REJECT
+DOMAIN,ggx.cmvideo.cn,REJECT
+DOMAIN,itad.linetv.tw,REJECT
+DOMAIN,ma-adx.ctrip.com,REJECT
+DOMAIN,mads.suning.com,REJECT
+DOMAIN,mobileads.msn.com,REJECT
+DOMAIN,mopnativeadv.037201.com,REJECT
+DOMAIN,nativeadv.dftoutiao.com,REJECT
+DOMAIN,toots-a.akamaihd.net,REJECT
+
+# (0~9)
+# > 51wnl
+DOMAIN,ad.51wnl-cq.com,REJECT
+DOMAIN,adextra.51wnl-cq.com,REJECT
+DOMAIN,log.51wnl-cq.com,REJECT
+DOMAIN,r.51wnl-cq.com,REJECT
+
+# (A)
+# > Apple
+DOMAIN-SUFFIX,iadsdk.apple.com,REJECT
+DOMAIN-SUFFIX,ads.internal.unity3d.com,REJECT
+DOMAIN-SUFFIX,ads.prd.ie.internal.unity3d.com,REJECT
+DOMAIN-SUFFIX,unityads.unity3d.com,REJECT
+# --- (Alibaba) ---
+DOMAIN,tunion-api.m.taobao.com,REJECT
+# > YOUKU
+DOMAIN-SUFFIX,atm.youku.com,REJECT
+DOMAIN,ad.mobile.youku.com,REJECT
+DOMAIN,iyes.youku.com,REJECT
+DOMAIN,pl.cp31.ott.cibntv.net,REJECT
+# > AMap
+DOMAIN,optimus-ads.amap.com,REJECT
+DOMAIN,optimus-ads.amap.com.w.alikunlun.com,REJECT
+# ------
+# > Autohome
+DOMAIN,adproxy.autohome.com.cn,REJECT
+DOMAIN,rd.autohome.com.cn,REJECT
+DOMAIN,al.autohome.com.cn,REJECT
+DOMAIN,applogapi.autohome.com.cn,REJECT
+DOMAIN,adm0.autoimg.cn,REJECT
+DOMAIN,adm1.autoimg.cn,REJECT
+DOMAIN,adm2.autoimg.cn,REJECT
+DOMAIN,adm3.autoimg.cn,REJECT
+
+# (B)
+# --- (Baidu) ---
+DOMAIN-SUFFIX,duapps.com,REJECT
+DOMAIN-SUFFIX,cpro.baidu.com,REJECT
+DOMAIN-SUFFIX,pos.baidu.com,REJECT
+DOMAIN,afd.baidu.com,REJECT
+DOMAIN,als.baidu.com,REJECT
+DOMAIN,duclick.baidu.com,REJECT
+DOMAIN,mobads.baidu.com,REJECT
+DOMAIN,mobads-logs.baidu.com,REJECT
+DOMAIN,nadvideo2.baidu.com,REJECT
+DOMAIN,nsclick.baidu.com,REJECT
+# > iQIYI
+DOMAIN,t7z.cupid.iqiyi.com,REJECT
+DOMAIN,t7z.cupid.ptqy.gitv.tv,REJECT
+IP-CIDR,101.227.97.240/32,REJECT
+IP-CIDR,101.227.200.11/32,REJECT
+IP-CIDR,101.227.200.28/32,REJECT
+IP-CIDR,124.192.153.42/32,REJECT
+# ------
+# > ByteDance
+DOMAIN-SUFFIX,pangolin-sdk-toutiao.com,REJECT
+DOMAIN,ad.toutiao.com,REJECT
+DOMAIN,pangolin.snssdk.com,REJECT
+# > baicizhan
+DOMAIN,advertise.baicizhan.com,REJECT
+DOMAIN,advertise.baicizhan.org,REJECT
+# > BitAuto
+DOMAIN,adx.yiche.com,REJECT
+DOMAIN,log.ycapp.yiche.com,REJECT
+# > Braze
+DOMAIN-SUFFIX,iad.appboy.com,REJECT
+DOMAIN-SUFFIX,iad-03.appboy.com,REJECT
+DOMAIN-SUFFIX,iad-01.braze.com,REJECT
+DOMAIN-SUFFIX,iad-02.braze.com,REJECT
+DOMAIN-SUFFIX,iad-03.braze.com,REJECT
+DOMAIN-SUFFIX,iad-04.braze.com,REJECT
+DOMAIN-SUFFIX,iad-05.braze.com,REJECT
+DOMAIN-SUFFIX,iad-06.braze.com,REJECT
+DOMAIN-SUFFIX,iad-08.braze.com,REJECT
+
+# (C)
+# > CNTV
+DOMAIN,galaxy.bjcathay.com,REJECT
+DOMAIN,mdrecv.app.cntvwb.cn,REJECT
+DOMAIN,sdapprecv.app.cntvwb.cn,REJECT
+DOMAIN,vdapprecv.app.cntvwb.cn,REJECT
+# > ChinaTelecom
+DOMAIN,ad.21cn.com,REJECT
+DOMAIN,ad.k.21cn.com,REJECT
+DOMAIN,admarket.21cn.com,REJECT
+DOMAIN,adshows.21cn.com,REJECT
+# > Chelaile
+DOMAIN,atrace.chelaile.net.cn,REJECT
+DOMAIN,logs.chelaile.net.cn,REJECT
+# > Camera360
+DOMAIN,dispatcher.360in.com,REJECT
+DOMAIN,ad.360in.com,REJECT
+DOMAIN,exp.360in.com,REJECT
+
+# (G)
+# > Google
+DOMAIN-SUFFIX,doubleclick.net,REJECT
+DOMAIN-SUFFIX,googleadservices.com,REJECT
+DOMAIN-SUFFIX,googleadsserving.cn,REJECT
+DOMAIN-SUFFIX,googlesyndication.com,REJECT
+DOMAIN-SUFFIX,googletagservices.com,REJECT
+DOMAIN,ads.youtube.com,REJECT
+
+# (H)
+# > HunanTV
+DOMAIN-SUFFIX,da.mgtv.com,REJECT
+DOMAIN-SUFFIX,da.hunantv.com,REJECT
+DOMAIN-SUFFIX,log.hunantv.com,REJECT
+DOMAIN-SUFFIX,v2.hunantv.com,REJECT
+# > Hupu
+DOMAIN,adx.hupu.com,REJECT
+DOMAIN,adx-api.hupu.com,REJECT
+DOMAIN,goblin.hupu.com,REJECT
+# > happycast
+DOMAIN,ad.hpplay.cn,REJECT
+DOMAIN,adc.hpplay.cn,REJECT
+DOMAIN,adcdn.hpplay.cn,REJECT
+DOMAIN,adeng.hpplay.cn,REJECT
+DOMAIN,pin.hpplay.cn,REJECT
+DOMAIN,rp.hpplay.cn,REJECT
+DOMAIN,rpt.hpplay.cn,REJECT
+
+# (J)
+# > Kingsoft
+DOMAIN,ad-stat.ksosoft.com,REJECT
+DOMAIN,img.auction-ads.wpscdn.cn,REJECT
+DOMAIN,counter.kingsoft.com,REJECT
+DOMAIN,counter.ksosoft.com,REJECT
+DOMAIN,minfo.wps.cn,REJECT
+DOMAIN,mobad.ijinshan.com,REJECT
+DOMAIN,ups.ksmobile.net,REJECT
+DOMAIN,ws.ksmobile.net,REJECT
+
+# (K)
+# > Kuaishou
+DOMAIN-SUFFIX,e.kuaishou.com,REJECT
+DOMAIN,js-ad.a.yximgs.com,REJECT
+
+# (L)
+# > Le
+DOMAIN-SUFFIX,webp2p.letv.com,REJECT
+DOMAIN,ark.letv.com,REJECT
+DOMAIN,emma-414870e223.huodonghezi.com,REJECT
+DOMAIN,g3.letv.com,REJECT
+DOMAIN,n.mark.letv.com,REJECT
+# > LinkWiFi
+DOMAIN,a.wkanx.com,REJECT
+DOMAIN,cwx.lianwangtech.com,REJECT
+DOMAIN,c1wx.lianwangtech.com,REJECT
+
+# (M)
+# > MojiWeather
+DOMAIN,ad.api.moji.com,REJECT
+DOMAIN,adlaunch.moji.com,REJECT
+DOMAIN,ads.mojicdn.com,REJECT
+DOMAIN,v1.log.moji.com,REJECT
+
+# (N)
+# > NetEase
+DOMAIN-SUFFIX,dsp.youdao.com,REJECT
+DOMAIN-SUFFIX,union.youdao.com,REJECT
+DOMAIN,ad.bn.netease.com,REJECT
+DOMAIN,ad.yixin.im,REJECT
+DOMAIN,admusicpic.music.126.net,REJECT
+DOMAIN,gorgon.youdao.com,REJECT
+DOMAIN,iad.g.163.com,REJECT
+DOMAIN,iadmat.nosdn.127.net,REJECT
+DOMAIN,iadmusicmat.music.126.net,REJECT
+DOMAIN,iadmusicmatvideo.music.126.net,REJECT
+DOMAIN,impservice.dictapp.youdao.com,REJECT
+DOMAIN,impservice.youdao.com,REJECT
+DOMAIN,n.3g.163.com,REJECT
+DOMAIN,nex.163.com,REJECT
+DOMAIN,yt-adp.nosdn.127.net,REJECT
+DOMAIN,yt-adp.ws.126.net,REJECT
+
+# (P)
+# > PPTV
+DOMAIN,ads.aplus.pptv.com,REJECT
+DOMAIN,ads.aplusapi.pptv.com,REJECT
+DOMAIN,asimgs.pplive.cn,REJECT
+DOMAIN,de.as.pptv.com,REJECT
+# > Photoable
+DOMAIN,regist.fotoable.com,REJECT
+DOMAIN,cdn.adapi.fotoable.com,REJECT
+# > PeanutWiFi
+DOMAIN,adnew.wifi8.com,REJECT
+DOMAIN,adfile.wifi8.com,REJECT
+# > PConline
+DOMAIN,ad-analysis.pconline.com.cn,REJECT
+DOMAIN,iad0ssl.pcauto.com.cn,REJECT
+DOMAIN,iad0ssl.pconline.com.cn,REJECT
+DOMAIN,imgad0.pcauto.com.cn,REJECT
+DOMAIN,imgad0.pconline.com.cn,REJECT
+DOMAIN,ivy.pchouse.com.cn,REJECT
+# > Phoenix New Media
+DOMAIN-SUFFIX,deliver.ifeng.com,REJECT
+DOMAIN,api.newad.ifeng.com,REJECT
+DOMAIN,ifengad.3g.ifeng.com,REJECT
+
+# (Q)
+# > QingTing
+DOMAIN,ad.qingting.fm,REJECT
+DOMAIN,adlaunch.qingting.fm,REJECT
+DOMAIN,ad-cdn.qingting.fm,REJECT
+# > OPPO
+DOMAIN-SUFFIX,ads.oppomobile.com,REJECT
+DOMAIN,adsfs.oppomobile.com,REJECT
+
+# (S)
+# > Sina
+DOMAIN-SUFFIX,alitui.weibo.com,REJECT
+DOMAIN-SUFFIX,beacon.sina.com.cn,REJECT
+DOMAIN,adimg.uve.weibo.com,REJECT
+DOMAIN,adimg.vue.weibo.com,REJECT
+DOMAIN,u1.img.mobile.sina.cn,REJECT
+DOMAIN,sax.sina.com.cn,REJECT
+DOMAIN,saxs.sina.com.cn,REJECT
+DOMAIN,saxn.sina.com.cn,REJECT
+# > SOHU
+DOMAIN-SUFFIX,ad.sohu.com,REJECT
+DOMAIN-SUFFIX,ads.sohu.com,REJECT
+DOMAIN-SUFFIX,aty.sohu.com,REJECT
+DOMAIN,imp.optaim.com,REJECT
+DOMAIN,v2.reachmax.cn,REJECT
+DOMAIN,hui.sohu.com,REJECT
+
+# (T)
+# --- (Tencent) ---
+DOMAIN-SUFFIX,e.qq.com,REJECT
+DOMAIN-SUFFIX,gdt.qq.com,REJECT
+DOMAIN-SUFFIX,l.qq.com,REJECT
+DOMAIN,adsmind.apdcdn.tc.qq.com,REJECT
+DOMAIN,adsmind.gdtimg.com,REJECT
+DOMAIN,adsmind.tc.qq.com,REJECT
+DOMAIN,pgdt.gtimg.cn,REJECT
+DOMAIN,pgdt.gtimg.com,REJECT
+DOMAIN,pgdt.ugdtimg.com,REJECT
+DOMAIN,splashqqlive.gtimg.com,REJECT
+DOMAIN,wa.gtimg.com,REJECT
+DOMAIN,wxsnsdy.wxs.qq.com,REJECT
+DOMAIN,wxsnsdythumb.wxs.qq.com,REJECT
+# > Tencent Music (TME)
+DOMAIN,ad.tencentmusic.com,REJECT
+DOMAIN,adserviceretry.kugou.com,REJECT
+DOMAIN,ads.service.kugou.com,REJECT
+DOMAIN,adsfile.bssdlbig.kugou.com,REJECT
+DOMAIN,g.koowo.com,REJECT
+DOMAIN,kgmobilestat.kugou.com,REJECT
+DOMAIN,kgmobilestatbak.kugou.com,REJECT
+DOMAIN,mobilelog.kugou.com,REJECT
+DOMAIN,mobilead.kuwo.cn,REJECT
+DOMAIN,rich.kuwo.cn,REJECT
+# ------
+# > TongHuaShun
+DOMAIN,adm.10jqka.com.cn,REJECT
+DOMAIN,stat.10jqka.com.cn,REJECT
+# > The Paper
+DOMAIN,admonitor.thepaper.cn,REJECT
+DOMAIN,adpai.thepaper.cn,REJECT
+DOMAIN,imgadpai.thepaper.cn,REJECT
+# > Thunder
+DOMAIN,adsp.xunlei.com,REJECT
+DOMAIN,etl.xlmc.sandai.net,REJECT
+
+# (V)
+# > VariFlight
+DOMAIN,adv-adlog.variflight.com,REJECT
+DOMAIN,adv-ads.variflight.com,REJECT
+DOMAIN,app-ad.variflight.com,REJECT
+# > vivo
+DOMAIN,adlog.vivo.com.cn,REJECT
+DOMAIN,adreq.vivo.com.cn,REJECT
+DOMAIN,ads-marketing-vivofs.vivo.com.cn,REJECT
+DOMAIN,adsdk.vivo.com.cn,REJECT
+DOMAIN,adsstatic.vivo.com.cn,REJECT
+DOMAIN,adxlog.vivo.com.cn,REJECT
+DOMAIN,vcardsdkservice.vivo.com.cn,REJECT
+DOMAIN-KEYWORD,stsdk.vivo.com.cn,REJECT
+DOMAIN-KEYWORD,stsdk.vivoglobal.com,REJECT
+# > Viber
+DOMAIN,ads.viber.com,REJECT
+DOMAIN,ads-d.viber.com,REJECT
+DOMAIN,ads.aws.viber.com,REJECT
+
+# (X)
+# > Ximalaya
+DOMAIN,ad.ximalaya.com,REJECT
+DOMAIN,adbs.ximalaya.com,REJECT
+DOMAIN,adse.ximalaya.com,REJECT
+DOMAIN,adse.wsa.ximalaya.com,REJECT
+DOMAIN,adbehavior.wsa.ximalaya.com,REJECT
+DOMAIN,adbehavior.ximalaya.com,REJECT
+DOMAIN,adsebs.ximalaya.com,REJECT
+# > Xiaohongshu
+DOMAIN,ads-img-qc.xhscdn.com,REJECT
+DOMAIN,ads-video-al.xhscdn.com,REJECT
+DOMAIN,ads-video-qc.xhscdn.com,REJECT
+DOMAIN,t-ads.xiaohongshu.com,REJECT
+
+# (Y)
+# > Yahoo
+DOMAIN-SUFFIX,adserver.yahoo.com,REJECT
+DOMAIN-SUFFIX,adspecs.yahoo.com,REJECT
+DOMAIN-SUFFIX,advertising.yahoo.com,REJECT
+DOMAIN-SUFFIX,gemini.yahoo.com,REJECT
+DOMAIN,admarketing.yahoo.net,REJECT
+DOMAIN,ads.auctions.yahoo.com,REJECT
+DOMAIN,ads.finance.yahoo.com,REJECT
+DOMAIN,ads.yahoo.com,REJECT
+DOMAIN,ads.yahoo.de,REJECT
+
+# (Z)
+# > Zhihu
+USER-AGENT,AVOS*,REJECT
+DOMAIN,appcloud2.in.zhihu.com,REJECT
+DOMAIN,mqtt.zhihu.com,REJECT
+DOMAIN,sugar.zhihu.com,REJECT
+DOMAIN,118.89.204.198,REJECT
+IP-CIDR,118.89.204.198/32,REJECT
+IP6-CIDR,2402:4e00:1200:ed00:0:9089:6dac:96b6/128,REJECT
+# > ZOL
+DOMAIN,apppv.zol.com.cn,REJECT
+DOMAIN,pvnapp.zol.com.cn,REJECT
