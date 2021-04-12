@@ -29,8 +29,6 @@ Universal Edition版规则则已经包含[Module](https://github.com/TributePaul
 * [eHpo1](https://github.com/787a68)
 * [Peng-YM](https://github.com/Peng-YM)
 * [Chavy](https://github.com/chavyleung)
-* [id77](https://github.com/id77)
-* [ZhiYi-N](https://github.com/ZhiYi-N)
 * [blackmatrix7](https://github.com/blackmatrix7)
 * [Semporia](https://github.com/Semporia)
 
