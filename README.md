@@ -1,5 +1,5 @@
 ![avatar](https://s.88y.cn/group1/M00/04/7B/CqchN2BrG7qAQtYgAAYmXboXDDw44.jpeg)
-特别感谢：
+特别鸣谢：
 * [ConnersHua](https://github.com/DivineEngine/Profiles/tree/master)
 * [mieqq](https://github.com/mieqq/mieqq)
 * [maicoo](https://github.com/blankmagic)
@@ -17,7 +17,7 @@
 排名不分先后！感谢各位大佬的规则以及无私分享！
 
 
-⚠️特此声明⚠️ 
+⚠️ 特此声明：
 
 本规则基于花姐ConnerosHua的DivineEngine，鉴于个人使用方便的基础上加入了各位大佬的脚本和规则。感谢各位大佬的辛勤付出和无私付出。再此特别致谢！
 
