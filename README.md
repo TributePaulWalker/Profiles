@@ -5,25 +5,19 @@
 * [maicoo](https://github.com/blankmagic)
 * [Yichahucha](https://github.com/yichahucha/surge/tree/master)
 * [Hackl0us](https://github.com/Hackl0us)
-* [Tartarus](https://github.com/Tartarus2014)
-* [Orz-3](https://github.com/Orz-3)
-* [Choler](https://github.com/Choler)
 * [ChuheGit](https://github.com/ChuheGit/1)
-* [nzw9314](https://github.com/nzw9314)
 * [NobyDa](https://github.com/NobyDa)
 * [KOP-XIAO](https://github.com/KOP-XIAO)
 * [Qure](https://github.com/Koolson/Qure)
-* [eHpo1](https://github.com/787a68)
+* [Orz-3](https://github.com/Orz-3)
 * [Peng-YM](https://github.com/Peng-YM)
 * [Chavy](https://github.com/chavyleung)
-* [blackmatrix7](https://github.com/blackmatrix7)
 * [Semporia](https://github.com/Semporia)
-......
 
 排名不分先后！感谢各位大佬的规则以及无私分享！
 
 
-⚠️ ⚠️ ⚠️ ⚠️ 
+⚠️特此声明⚠️ 
 
 本规则基于花姐ConnerosHua的DivineEngine，鉴于个人使用方便的基础上加入了各位大佬的脚本和规则。感谢各位大佬的辛勤付出和无私付出。再此特别致谢！
 
