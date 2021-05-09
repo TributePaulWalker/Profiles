@@ -22,17 +22,10 @@
 
 排名不分先后！感谢各位大佬的规则以及无私分享！
 
-No Ad Rule
-
-⚠️For pure self-use ⚠️
-
-Sina Weibo：@鶴曉語avi
-
-Good Luck Have Fun！
 
 ⚠️ ⚠️ ⚠️ ⚠️ 
 
-本规则基于花姐ConnerosHua的DivineEngine，鉴于个人使用方便的基础上加入了各位大佬的脚本和规则。感谢各位大佬的辛勤付出和无私付出。再次特别致谢！
+本规则基于花姐ConnerosHua的DivineEngine，鉴于个人使用方便的基础上加入了各位大佬的脚本和规则。感谢各位大佬的辛勤付出和无私付出。再此特别致谢！
 
 免责声明：
 
