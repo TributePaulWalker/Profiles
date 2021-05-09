@@ -8,11 +8,11 @@
 * [ChuheGit](https://github.com/ChuheGit/1)
 * [NobyDa](https://github.com/NobyDa)
 * [KOP-XIAO](https://github.com/KOP-XIAO)
-* [Qure](https://github.com/Koolson/Qure)
-* [Orz-3](https://github.com/Orz-3)
 * [Peng-YM](https://github.com/Peng-YM)
 * [Chavy](https://github.com/chavyleung)
 * [Semporia](https://github.com/Semporia)
+* [Qure](https://github.com/Koolson/Qure)
+* [Orz-3](https://github.com/Orz-3)
 
 排名不分先后！感谢各位大佬的规则以及无私分享！
 
