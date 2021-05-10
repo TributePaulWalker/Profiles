@@ -1,7 +1,7 @@
 ![avatar](https://s.88y.cn/group1/M00/04/7B/CqchN2BrG7qAQtYgAAYmXboXDDw44.jpeg)
 特别鸣谢：
 * [ConnersHua / DivineEngine](https://github.com/DivineEngine/Profiles/tree/master)
-* [mieqq](https://github.com/mieqq/mieqq)
+* [mieqq / Surge](https://github.com/mieqq/mieqq)
 * [maicoo](https://github.com/blankmagic)
 * [Yichahucha](https://github.com/yichahucha/surge/tree/master)
 * [Hackl0us](https://github.com/Hackl0us)
