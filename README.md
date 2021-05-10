@@ -3,7 +3,7 @@
 * [ConnersHua / DivineEngine](https://github.com/DivineEngine/Profiles/tree/master)
 * [mieqq / Surge](https://github.com/mieqq/mieqq)
 * [maicoo / Surge](https://github.com/blankmagic)
-* [Yichahucha](https://github.com/yichahucha/surge/tree/master)
+* [Yichahucha /Surge](https://github.com/yichahucha/surge/tree/master)
 * [Hackl0us](https://github.com/Hackl0us)
 * [ChuheGit](https://github.com/ChuheGit/1)
 * [NobyDa](https://github.com/NobyDa)
