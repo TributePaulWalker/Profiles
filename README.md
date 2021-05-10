@@ -10,7 +10,6 @@
 * [KOP-XIAO](https://github.com/KOP-XIAO)
 * [Peng-YM](https://github.com/Peng-YM)
 * [Chavy](https://github.com/chavyleung)
-* [Semporia](https://github.com/Semporia)
 * [Qure](https://github.com/Koolson/Qure)
 * [Orz-3](https://github.com/Orz-3)
 
