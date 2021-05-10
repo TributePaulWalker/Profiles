@@ -2,7 +2,7 @@
 特别鸣谢：
 * [ConnersHua / DivineEngine](https://github.com/DivineEngine/Profiles/tree/master)
 * [mieqq / Surge](https://github.com/mieqq/mieqq)
-* [maicoo](https://github.com/blankmagic)
+* [maicoo / Surge](https://github.com/blankmagic)
 * [Yichahucha](https://github.com/yichahucha/surge/tree/master)
 * [Hackl0us](https://github.com/Hackl0us)
 * [ChuheGit](https://github.com/ChuheGit/1)
