@@ -1,7 +1,6 @@
 ![avatar](https://s.88y.cn/group1/M00/04/7B/CqchN2BrG7qAQtYgAAYmXboXDDw44.jpeg)
-特别鸣谢：
 
-*Special thanks*
+*特别感谢*
 
 <details>
   <summary>The author list</summary>
