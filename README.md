@@ -3,7 +3,7 @@
 *特别感谢*
 
 <details>
-  <summary>感谢名单</summary>
+  <summary>排名不分先后</summary>
 
 * [ConnersHua](https://github.com/DivineEngine/Profiles/tree/master)
 * [mieqq](https://github.com/mieqq/mieqq)
