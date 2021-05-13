@@ -1,8 +1,6 @@
 ![avatar](https://s.88y.cn/group1/M00/04/7B/CqchN2BrG7qAQtYgAAYmXboXDDw44.jpeg)
 
 *特别感谢*
-
-<details>
   <summary>排名不分先后</summary>
 
 * [ConnersHua](https://github.com/DivineEngine/Profiles/tree/master)
