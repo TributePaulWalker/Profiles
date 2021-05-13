@@ -23,9 +23,13 @@
 
 *郑重声明*
 
+<details>
+
 本规则基于ConnerosHua的[DivineEngine](https://github.com/DivineEngine/Profiles/tree/master)，基于个人使用方便的基础上加入了各位大佬的脚本和规则。感谢各位大佬的辛勤维护和无私付出。在此特别致谢！
 
 *免责声明*
+
+<details>
 
 ⚠️ Brian 发布的规则项目中涉及的任何解锁和解密分析脚本仅用于资源共享和学习研究，不能保证其合法性，准确性，完整性和有效性，请根据情况自行判断.
 
