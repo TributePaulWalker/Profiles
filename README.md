@@ -3,7 +3,7 @@
 *特别感谢*
 
 <details>
-  <summary>The author list</summary>
+  <summary>感谢名单</summary>
 
 * [ConnersHua](https://github.com/DivineEngine/Profiles/tree/master)
 * [mieqq](https://github.com/mieqq/mieqq)
