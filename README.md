@@ -14,8 +14,9 @@
 * [Chavy](https://github.com/chavyleung)
 * [Qure](https://github.com/Koolson/Qure)
 * [Orz-3](https://github.com/Orz-3)
-排名不分先后，
-感谢各位大佬的规则以及无私分享！
+
+*排名不分先后，
+感谢各位大佬的规则以及无私分享！*
 
 
 ⚠️ 郑重声明：
