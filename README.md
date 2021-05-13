@@ -1,7 +1,6 @@
 ![avatar](https://s.88y.cn/group1/M00/04/7B/CqchN2BrG7qAQtYgAAYmXboXDDw44.jpeg)
 
 *特别感谢*
-  <summary>排名不分先后</summary>
 
 * [ConnersHua](https://github.com/DivineEngine/Profiles/tree/master)
 * [mieqq](https://github.com/mieqq/mieqq)
@@ -15,7 +14,7 @@
 * [Chavy](https://github.com/chavyleung)
 * [Qure](https://github.com/Koolson/Qure)
 * [Orz-3](https://github.com/Orz-3)
-
+排名不分先后，
 感谢各位大佬的规则以及无私分享！
 
 
