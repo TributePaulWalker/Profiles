@@ -4166,17 +4166,6 @@ e.imguol.com
 h.imguol.com
 imimobile.com
 tracking.immobilienscout24.de
-ap.immomo.com
-api-log.immomo.com
-api-vip.immomo.com
-connperf.immomo.com
-game.immomo.com
-live-api.immomo.com
-live-m.immomo.com
-paas-push-api.immomo.com
-paas-push-api-log.immomo.com
-stserver.immomo.com
-ulink.immomo.com
 sdk.imoads.com
 b.imonomy.com
 bkcdn.imonomy.com
