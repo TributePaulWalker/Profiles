@@ -4169,7 +4169,6 @@ tracking.immobilienscout24.de
 ap.immomo.com
 api-log.immomo.com
 api-vip.immomo.com
-app-log.immomo.com
 connperf.immomo.com
 game.immomo.com
 live-api.immomo.com
