@@ -1,4 +1,4 @@
-![avatar](https://s.88y.cn/group1/M00/04/7B/CqchN2BrG7qAQtYgAAYmXboXDDw44.jpeg)
+![avatar](https://raw.githubusercontent.com/TributePaulWalker/Profiles/main/IMG/PaulWalker.PNG)
 
 *特别感谢*
 
