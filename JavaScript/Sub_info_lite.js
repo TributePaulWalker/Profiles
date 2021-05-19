@@ -9,7 +9,7 @@ Surge配置参考注释，感谢@asukanana,感谢@congcong.
 DlerCloud = select, policy-path=http://sub.info?url=你encode后的订阅链接&due_day=1&alert=1&title=DlerCloud, update-interval=3600
 
 [Script]
-机场信息 = type=http-request,pattern=http://sub\.info,script-path= https://raw.githubusercontent.com/TributePaulWalker/Profiles/main/JavaScript/Sub_info_lite.js
+机场信息 = type=http-request,pattern=http://sub\.info,script-path=https://raw.githubusercontent.com/TributePaulWalker/Profiles/main/JavaScript/Sub_info_lite.js
 
 ----------------------------------------
 
