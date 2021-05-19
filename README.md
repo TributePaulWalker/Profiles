@@ -1,4 +1,4 @@
-![avatar](https://raw.githubusercontent.com/TributePaulWalker/Profiles/main/PaulWalker/PaulWalker.PNG)
+![avatar](https://raw.githubusercontent.com/TributePaulWalker/PaulWalker/main/PaulWalker.JPG)
 
 *特别感谢*
 
