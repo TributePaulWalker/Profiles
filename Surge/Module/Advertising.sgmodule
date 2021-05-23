@@ -484,25 +484,7 @@ URL-REGEX,^https?:\/\/api\.m\.jd.com\/client\.action\?functionId=start,REJECT-TI
 # > YUNMAI - restapi.iyunmai.com
 ^https?:\/\/restapi\.iyunmai\.com\/api\/ios\/ad\/ - reject
 
-# Z
-# > Zhihu - www.zhihu.com,api.zhihu.com
-^https?:\/\/api\.zhihu\.com\/commercial_api\/ - reject
-^https?:\/\/api\.zhihu\.com\/fringe\/ad - reject
-^https?:\/\/api\.zhihu\.com\/ad - reject
-^https?:\/\/api\.zhihu\.com\/appview\/api\/v\d\/answers\/\d+\/recommendations - reject
-^https?:\/\/api\.zhihu\.com\/\w+\/\d+\/comments\/featured-comment-ad - reject
-^https?:\/\/www\.zhihu\.com\/api\/v\d\/answers/\d+/recommendations - reject
-# > zhibo8 - a.qiumibao.com
-^https?:\/\/a\.qiumibao\.com\/activities\/config\.php - reject
-^https?:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d):\d+\/allOne\.php\?ad_name - reject
-# > zhuishushenqi - *.zhuishushenqi.com
-^https?:\/\/(api|b)\.zhuishushenqi\.com\/advert - reject
-^https?:\/\/api\.zhuishushenqi\.com\/splashes\/ios - reject
-^https?:\/\/api\.zhuishushenqi\.com\/notification\/shelfMessage - reject
-^https?:\/\/api\.zhuishushenqi\.com\/user\/bookshelf-updated - reject
-^https?:\/\/itunes\.apple\.com\/lookup\?id=575826903 - reject
-# > Zuoyebang - www.zybang.com
-^https?:\/\/www\.zybang\.com\/adx\/ - reject
+
 # > ZUIYOU - api.izuiyou.com
 ^https?:\/\/api\.izuiyou\.com\/ad\/ - reject
 # > Zhan - tiku.zhan.com
