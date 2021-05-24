@@ -1,5 +1,5 @@
 ![avatar](https://raw.githubusercontent.com/TributePaulWalker/PaulWalker/main/PaulWalker.JPG)
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=TributePaulWalker&show_icons=true&count_private=true)](https://github.com/TributePaulWalker)
+
 
 *特别感谢*
 
@@ -15,7 +15,7 @@
 * [Chavy](https://github.com/chavyleung)
 * [Qure](https://github.com/Koolson/Qure)
 * [Orz-3](https://github.com/Orz-3)
-
+[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=TributePaulWalker&show_icons=true&count_private=true)](https://github.com/TributePaulWalker)
 排名不分先后，
 
 感谢各位大佬的规则以及无私分享！
