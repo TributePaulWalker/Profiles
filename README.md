@@ -1,6 +1,6 @@
 ![avatar](https://raw.githubusercontent.com/TributePaulWalker/PaulWalker/main/PaulWalker.JPG)
 
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=TributePaulWalker&show_icons=true&count_private=true&theme=vue)](https://github.com/TributePaulWalker/Profiles)
+[![TributePaulWalker's GitHub stats](https://github-readme-stats.vercel.app/api?username=TributePaulWalker&show_icons=true&count_private=true&theme=vue)](https://github.com/TributePaulWalker/Profiles)
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=TributePaulWalker&layout=compact&theme=vue)](https://github.com/TributePaulWalker/TributePaulWalker)
 
@@ -16,6 +16,8 @@
 * [KOP-XIAO](https://github.com/KOP-XIAO)
 * [Peng-YM](https://github.com/Peng-YM)
 * [Chavy](https://github.com/chavyleung)
+* [nzw9314](https://github.com/nzw9314)
+* [zqzess](https://github.com/zqzess)
 * [Qure](https://github.com/Koolson/Qure)
 * [Orz-3](https://github.com/Orz-3)
 
