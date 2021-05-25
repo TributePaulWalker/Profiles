@@ -17,6 +17,7 @@
 * [Peng-YM](https://github.com/Peng-YM)
 * [Chavy](https://github.com/chavyleung)
 * [nzw9314](https://github.com/nzw9314)
+* [Anurag Hazra](https://github.com/anuraghazra)
 * [zqzess](https://github.com/zqzess)
 * [Qure](https://github.com/Koolson/Qure)
 * [Orz-3](https://github.com/Orz-3)
