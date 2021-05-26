@@ -3,7 +3,6 @@
 #!system=ios
 
 [URL Rewrite]
-
 # Safari全能搜索
 # 以下为Safari全能搜索、需要把Safari的搜索引擎设置为：DuckDuckGo
 # gm (Google图片)
