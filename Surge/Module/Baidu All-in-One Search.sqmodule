@@ -1,5 +1,5 @@
 #!name=Baidu All-in-One
-#!desc=Safari全能搜索百度版，需要把Safari的搜索引擎设置为：百度。
+#!desc=Safari全能搜索百度版，需要把Safari的搜索引擎设置为：百度
 #!搜索示例:gg Paul Walker
 
 [URL Rewrite]
