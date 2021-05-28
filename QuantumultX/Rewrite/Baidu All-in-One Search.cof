@@ -6,16 +6,16 @@ hostname = %APPEND% m.baidu.com
 
 
 # gm (Google图片)
-^https:\/\/m\.baidu\.com/s\?from=(.+)&word=gm\+([^&]+) https://www.google.com/search?&tbm=isch&q=$2 302
+^https:\/\/m\.baidu\.com/s\?from=(.+)&word=gm\+([^&]+) url 302 https://www.google.com/search?&tbm=isch&q=$2
 
 # gh (GitHub)
-^https:\/\/m\.baidu\.com/s\?from=(.+)&word=gh\+([^&]+) https://github.com/search?q=$2 302
+^https:\/\/m\.baidu\.com/s\?from=(.+)&word=gh\+([^&]+) url 302 https://github.com/search?q=$2
 
 # tf (Google 搜索 TestFlight)
-^https:\/\/m\.baidu\.com/s\?from=(.+)&word=tf(\+|%20)([^&]+) https://www.google.com/search?as_q=$3&as_sitesearch=testflight.apple.com 302
+^https:\/\/m\.baidu\.com/s\?from=(.+)&word=tf(\+|%20)([^&]+) url 302 https://www.google.com/search?as_q=$3&as_sitesearch=testflight.apple.com
 
 # wb (微博)
-^https:\/\/m\.baidu\.com/s\?from=(.+)&word=wb\+([^&]+) https://s.weibo.com/weibo/$2 302
+^https:\/\/m\.baidu\.com/s\?from=(.+)&word=wb\+([^&]+) url 302 https://s.weibo.com/weibo/$2
 
 # wx (微信)
 ^https:\/\/m\.baidu\.com/s\?from=(.+)&word=wx\+([^&]+) https://weixin.sogou.com/weixinwap?query=$2 302
