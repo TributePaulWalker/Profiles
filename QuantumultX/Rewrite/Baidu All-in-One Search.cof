@@ -2,7 +2,8 @@
 #!desc=Safari全能搜索百度版，需要把Safari的搜索引擎设置为：百度
 #!搜索示例:gg Paul Walker
 
-[URL Rewrite]
+hostname = %APPEND% m.baidu.com
+
 
 # gm (Google图片)
 ^https:\/\/m\.baidu\.com/s\?from=(.+)&word=gm\+([^&]+) https://www.google.com/search?&tbm=isch&q=$2 302
@@ -44,5 +45,3 @@
 ^https:\/\/m\.baidu\.com/s\?from=(.+)&word=gg\+([^&]+) https://www.google.com/search?q=$2 302
 
 
-[MITM]
-hostname = %APPEND% m.baidu.com
