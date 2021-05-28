@@ -18,10 +18,10 @@ hostname = %APPEND% m.baidu.com
 ^https:\/\/m\.baidu\.com/s\?from=(.+)&word=wb\+([^&]+) url 302 https://s.weibo.com/weibo/$2
 
 # wx (微信)
-^https:\/\/m\.baidu\.com/s\?from=(.+)&word=wx\+([^&]+) https://weixin.sogou.com/weixinwap?query=$2 302
+^https:\/\/m\.baidu\.com/s\?from=(.+)&word=wx\+([^&]+) url 302 https://weixin.sogou.com/weixinwap?query=$2
 
 # jd (京东)
-^https:\/\/m\.baidu\.com/s\?from=(.+)&word=jd\+([^&]+) https://so.m.jd.com/ware/search.action?keyword=$2 302
+^https:\/\/m\.baidu\.com/s\?from=(.+)&word=jd\+([^&]+) url 302 https://so.m.jd.com/ware/search.action?keyword=$2
 
 # tb (淘宝)
 ^https:\/\/m\.baidu\.com/s\?from=(.+)&word=tb\+([^&]+) https://s.m.taobao.com/h5?q=$2 302
