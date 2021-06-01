@@ -17,6 +17,7 @@
 * [Peng-YM](https://github.com/Peng-YM)
 * [Chavy](https://github.com/chavyleung)
 * [nzw9314](https://github.com/nzw9314)
+* [Tartarus2014](https://github.com/Tartarus2014)
 * [Anurag Hazra](https://github.com/anuraghazra)
 * [zqzess](https://github.com/zqzess)
 * [Qure](https://github.com/Koolson/Qure)
@@ -24,7 +25,7 @@
 
 排名不分先后，
 
-感谢各位大佬的规则以及无私分享！
+感谢各位大佬的规则以及维护分享！
 
 
 ⚠️ 郑重声明：
