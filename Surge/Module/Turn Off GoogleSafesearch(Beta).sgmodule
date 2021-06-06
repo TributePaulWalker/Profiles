@@ -1,0 +1,10 @@
+#!name=Turn Off Google Safesearch(Beta)
+#!desc=关闭 Google 安全搜索。第二条用于被 Google 识别成中国大陆，也就是访问不了 https://www.google.com/maps/timeline 的 IP。桌面端请使用 https://google.com/ncr。
+#!system=ios
+
+[URL Rewrite]
+(https:\/\/www\.google\.com([.a-z]+)?\/.+)(&safe=(active|strict)&)(.+) $1&safe=off 302
+https://www\.google\.com\.hk\/search\?q=([\w.]+)&(.+) https://www.google.com.sg/search?q=$1&safe=off 302
+
+[MITM]
+hostname = %INSERT% www.google.com,www.google.com.*
