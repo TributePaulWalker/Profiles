@@ -9,7 +9,8 @@ Surge配置参考注释，感谢@asukanana,感谢@congcong.
 Dler = select, policy-path=http://sub.info?url=你encode后的订阅链接&due_day=1&alert=1&title=DlerCloud, update-interval=3600
 
 [Script]
-Sub_info = type=http-request,pattern=http://sub\.info,script-path=https://raw.githubusercontent.com/mieqq/mieqq/master/sub_info.js
+机场信息 = type=http-request,pattern=http://sub\.info,script-path=https://raw.githubusercontent.com/TributePaulWalker/Profiles/main/JavaScript/Sub_info_lite.js
+
 ----------------------------------------
 
 脚本不用修改，直接配置就好。
