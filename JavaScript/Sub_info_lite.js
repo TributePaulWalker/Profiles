@@ -15,7 +15,7 @@ Dler = select, policy-path=http://sub.info?url=你encode后的订阅链接&due_d
 
 脚本不用修改，直接配置就好。
 
-先将带有流量信息的节点订阅链接encode，用encode后的链接替换"url="后面的[机场节点链接]订阅encode链接：https://www.urlencoder.org
+先将带有流量信息的节点订阅链接encode，用encode后的链接替换"url="后面的[机场节点链接](订阅encode链接：https://www.urlencoder.org)
 
 可选参数 &reset_day，后面的数字替换成流量每月重置的日期，如1号就写1，8号就写8。如"&reset_day=8",不加该参数不显示流量重置信息。
 
