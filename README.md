@@ -18,6 +18,7 @@
 * [Chavy](https://github.com/chavyleung)
 * [nzw9314](https://github.com/nzw9314)
 * [Tartarus2014](https://github.com/Tartarus2014)
+* [Semporia](https://github.com/Semporia)
 * [Anurag Hazra](https://github.com/anuraghazra)
 * [zqzess](https://github.com/zqzess)
 * [Qure](https://github.com/Koolson/Qure)
