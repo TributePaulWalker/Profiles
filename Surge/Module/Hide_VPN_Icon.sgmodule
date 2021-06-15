@@ -3,4 +3,4 @@
 #!system=ios
 
 [General]
-hide-vpn-icon=true
+hide-vpn-icon = true
