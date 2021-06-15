@@ -3,4 +3,4 @@
 #!system=ios
 
 [General]
-tun-excluded-routes = %APPEND% 0.0.0.1/31
+hide-vpn-icon=true
