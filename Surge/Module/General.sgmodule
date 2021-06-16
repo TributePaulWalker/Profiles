@@ -1,5 +1,6 @@
 #!name=Advanced Settings & URL Redirect
 #!desc=高级设置及通用的 URL 重定向优化（如 Google 搜索及地图、AbeamTV 区域限制等）
+
 [URL Rewrite]
 # Redirect Google Search Service
 ^https?:\/\/(www.)?(g|google)\.cn https://www.google.com 302
@@ -68,7 +69,7 @@
 ^https?:\/\/api\.abema\.io\/v\d\/ip\/check - reject
 
 # bilibili Intl
-(^https?:\/\/app\.biliintl\.com\/intl\/.+)(&s_locale=zh-Hans_[A-Z]{2})(.+) $1&s_locale=en-US_US$3 302
+# (^https?:\/\/app\.biliintl\.com\/intl\/.+)(&s_locale=zh-Hans_[A-Z]{2})(.+) $1&s_locale=en-US_US$3 302
 (^https?:\/\/app\.biliintl\.com\/intl\/.+)(&sim_code=\d+)(.+) $1$3 302
 
 # AICoin
