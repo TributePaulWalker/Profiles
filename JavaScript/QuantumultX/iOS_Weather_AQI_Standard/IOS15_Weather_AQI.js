@@ -10,7 +10,7 @@ const aqicnToken = $.getdata($.token) || '';
 // STEP 2: 参考下方配置片段，在代理工具的配置文件中添加对应的配置。注意：script-path 后应该替换为添加 apicnToken 值后的脚本路径
 /*
 	[rewrite_local]
-	iOS15美标空气质量 = type=http-response,pattern=https://weather-data.apple.com/v2/weather/[\w-]+/-?[0-9]+\.[0-9]+/-?[0-9]+\.[0-9]+\?,requires-body=true,script-path=path/to/iOS15_Weather_AQI_US.js
+	^https:\/\/weather-data\.apple\.com\/v2\/weather\/[\w-]+\/-?[0-9]+\.[0-9]+\/-?[0-9]+\.[0-9]+\? url script-response-body QuantumultX_IOS15_Weather_AQI_Standard.js
 
 	[MITM]
 	hostname = weather-data.apple.com
