@@ -6,7 +6,7 @@ Surge配置参考注释，感谢@asukanana,感谢@congcong.
 ----------------------------------------
 
 [Proxy Group]
-Amy = select, policy-path=http://sub.info?url=机场节点链接&reset_day=13&alert=1&title=Amytelecom, update-interval=3600
+Amy = select, policy-path=http://sub.info?url=encode后机场节点链接&reset_day=13&alert=1&title=Amytelecom, update-interval=3600
 
 [Script]
 机场信息 = type=http-request,pattern=http://sub\.info,script-path=https://raw.githubusercontent.com/TributePaulWalker/Profiles/main/JavaScript/Sub_info_lite.js
