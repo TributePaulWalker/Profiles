@@ -3,4 +3,6 @@
 #!system=ios
 
 [General]
-hide-vpn-icon = true
+hide-vpn-icon=true
+# 待商店版可用上条后移除
+tun-excluded-routes = 0.0.0.1/31
