@@ -9,12 +9,12 @@ Surge配置参考注释，感谢@asukanana,感谢@congcong.
 Amy = select, policy-path=http://sub.info?url=encode后的机场节点链接&reset_day=13&alert=1&title=Amytelecom, update-interval=3600
 
 [Script]
-机场信息 = type=http-request,pattern=http://sub\.info,script-path=https://raw.githubusercontent.com/TributePaulWalker/Profiles/main/JavaScript/Sub_info_lite.js
+机场信息 = type=http-request,pattern=http://sub\.info,script-path=https://raw.githubusercontent.com/TributePaulWalker/Profiles/main/JavaScript/Sub_info_lite.js,timeout=10
 ----------------------------------------
 
 脚本不用修改，直接配置就好。
+
 先将带有流量信息的节点订阅链接encode，用encode后的链接替换"url="后面的[机场节点链接](订阅encode链接：https://www.urlencoder.org)
-先将带有流量信息的节点订阅链接encode，用encode后的链接替换"url="后面的[机场节点链接]
 
 可选参数 &reset_day，后面的数字替换成流量每月重置的日期，如1号就写1，8号就写8。如"&reset_day=8",不加该参数不显示流量重置信息。
 
@@ -31,8 +31,11 @@ let year = now.getFullYear();
 let params = getUrlParams($request.url);
 let resetDay = parseInt(params["due_day"] || params["reset_day"]);
 let resetLeft = getRmainingDays(resetDay);
+let delay = 0;
 
 (async () => {
+  let is_enhanced = await is_enhanced_mode();
+  if (is_enhanced) delay = 2000;
   let usage = await getDataUsage(params.url);
   let used = usage.download + usage.upload;
   let total = usage.total;
@@ -67,17 +70,17 @@ function getUserInfo(url) {
   return new Promise((resolve) =>
     setTimeout(
       () =>
-      $httpClient.head(request, (err, resp) => {
-        if (err) $done();
-        resolve(
-          resp.headers[
-            Object.keys(resp.headers).find(
-              (key) => key.toLowerCase() === "subscription-userinfo"
-            )
-          ]
-        );
-      }),
-      1000
+        $httpClient.head(request, (err, resp) => {
+          if (err) $done();
+          resolve(
+            resp.headers[
+              Object.keys(resp.headers).find(
+                (key) => key.toLowerCase() === "subscription-userinfo"
+              )
+            ]
+          );
+        }),
+      delay
     )
   );
 }
@@ -162,7 +165,7 @@ function sendNotification(usageRate, expire, infoList) {
     count.resetLeft = resetLeft;
   }
   if (resetDay == today && count.resetDay && usageRate < 5) {
-     $notification.post(`${title} | 流量已重置`, subtitle, body);
+    $notification.post(`${title} | 流量已重置`, subtitle, body);
     count.resetDay = 0;
   }
   if (expire) {
@@ -177,4 +180,12 @@ function sendNotification(usageRate, expire, infoList) {
     }
   }
   $persistentStore.write(JSON.stringify(notifyCounter), title);
+}
+
+async function is_enhanced_mode() {
+  return new Promise((resolve) =>
+    $httpAPI("GET", "v1/features/enhanced_mode", {}, (data) => {
+      resolve(data.enabled);
+    })
+  );
 }
