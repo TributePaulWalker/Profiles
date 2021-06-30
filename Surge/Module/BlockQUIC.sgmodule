@@ -1,0 +1,4 @@
+#!name= 屏蔽HTTP3/QUIC协议。
+#!desc=解释：1. HTTP3/QUIC 协议开始流行，但是国内 ISP 和国际出口的 UDP 优先级都很低，表现很差，屏蔽掉以强制回退 HTTP2/HTTP1.1。2. REJECT-NO-DROP 表示不使用默认的自动丢包逻辑，这样 Surge 每次都会返回 ICMP Port Unreachable，应用会立刻回退而不是等超时。
+[Rule]
+AND,((PROTOCOL,UDP),(DEST-PORT,443)),REJECT-NO-DROP
