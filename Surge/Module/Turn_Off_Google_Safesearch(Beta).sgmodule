@@ -1,5 +1,5 @@
 #!name=Turn Off Google Safesearch(Beta)
-#!desc=关闭 Google 安全搜索。第二条用于被 Google 识别成中国大陆，也就是访问不了 https://www.google.com/maps/timeline 的 IP。桌面端请使用 https://google.com/ncr。
+#!desc=关闭 Google 安全搜索。(第二条)用于解决被 Google 识别成中国大陆(访问不了https://www.google.com/maps/timeline)的节点导致谷歌香港安全搜索锁死的问题。桌面端请使用 https://google.com/ncr。
 #!system=ios
 
 [URL Rewrite]
