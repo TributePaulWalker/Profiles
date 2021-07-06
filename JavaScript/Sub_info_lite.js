@@ -66,7 +66,7 @@ function getUrlParams(url) {
 }
 
 function getUserInfo(url) {
-  let request = { headers: { "User-Agent": "Quantumult X" }, url };
+ let request = { headers: { "User-Agent": "Quantumult%20X" }, url };
   return new Promise((resolve) =>
     setTimeout(
       () =>
