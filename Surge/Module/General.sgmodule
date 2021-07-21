@@ -69,9 +69,8 @@
 ^https?:\/\/api\.abema\.io\/v\d\/ip\/check - reject
 
 # bstar intl
-(^https?:\/\/app\.biliintl\.com\/intl\/gateway\/v\d/(app|ogv)\/.+)(&s_locale=zh-Hans_[A-Z]{2})(.+)(&sim_code=\d+)(.+) $1&s_locale=zh-Hans_PH$4&sim_code=51503$6 302
-(^https?:\/\/app\.biliintl\.com\/x\/(reply\/|dm\/v\d\/view).+)(&s_locale=zh-Hans_[A-Z]{2})(.+)(&sim_code=\d+)(.+) $1&s_locale=zh-Hans_PH$4&sim_code=51503$6 302
-(^https?:\/\/passport\.biliintl\.com\/x\/intl\/passport-login\/.+)(&s_locale=zh-Hans_[A-Z]{2})(.+) $1&s_locale=zh-Hans_PH$3 302
+(^https?:\/\/app\.biliintl\.com\/(x\/)?(intl|dm|reply|history|v\d/msgfeed).+)(&s_locale=zh-Hans_[A-Z]{2})(.+)(&sim_code=\d+)(.+) $1&s_locale=zh-Hans_PH$5&sim_code=51503$7 header
+(^https?:\/\/passport\.biliintl\.com\/x\/intl\/passport-login\/.+)(&s_locale=zh-Hans_[A-Z]{2})(.+)(&sim_code=\d+)(.+) $1&s_locale=zh-Hans_PH$35&sim_code=51503$5 header
 
 # AICoin
 ^http:\/\/(www.)?aicoin\.cn\/$ https://www.aicoin.cn/?long_lives_aicoin=%22live%22 302
