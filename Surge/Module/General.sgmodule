@@ -76,8 +76,8 @@
 ^http:\/\/(www.)?aicoin\.cn\/$ https://www.aicoin.cn/?long_lives_aicoin=%22live%22 302
 
 [Script]
-bstar_login = type=http-request,pattern=^https?:\/\/passport\.biliintl\.com\/x\/intl\/passport-login\/(sms\/send|reg\/sms|oauth2\/access_token|login\/sms),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Rewrite/bstar.js,script-update-interval=0
-bstar_play = type=http-request,pattern=^https?:\/\/app\.biliintl\.com\/(intl\/gateway\/v\d\/app\/data\/report\/heartbeat\/mobile|x\/(history|reply)/v\d/add),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Rewrite/bstar.js,script-update-interval=0
+bstar_login = type=http-request,pattern=^https?:\/\/passport\.biliintl\.com\/x\/intl\/passport-login\/(sms\/send|reg\/sms|oauth2\/access_token|login\/sms),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/TributePaulWalker/Profiles/main/JavaScript/Bstar.js,script-update-interval=0
+bstar_play = type=http-request,pattern=^https?:\/\/app\.biliintl\.com\/(intl\/gateway\/v\d\/app\/data\/report\/heartbeat\/mobile|x\/(history|reply)/v\d/add),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/TributePaulWalker/Profiles/main/JavaScript/Bstar.js,script-update-interval=0
 
 [MITM]
 hostname = %INSERT% www.google.cn,api.abema.io,app.biliintl.com,passport.biliintl.com
