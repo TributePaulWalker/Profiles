@@ -1,9 +1,0 @@
-#!name=Wikiwand
-#!desc=Wikipedia to Wikiwand
-
-[URL Rewrite]
-^https://zh.(m.)?wikipedia.org/zh(-\w*)?(?=/) https://www.wikiwand.com/zh$2 302
-^https://(\w*).(m.)?wikipedia.org/wiki https://www.wikiwand.com/$1 302
-
-[MITM]
-hostname = %INSERT% *.wikipedia.org,*.wikiwand.com
