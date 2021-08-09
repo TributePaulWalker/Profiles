@@ -184,7 +184,7 @@ function sendNotification(usageRate, expire, infoList) {
 
 async function is_enhanced_mode() {
   return new Promise((resolve) =>
-    $httpAPI("GET", "v1/features/enhanced_mode", {}, (data) => {
+    $httpAPI("GET", "v1/features/enhanced_mode", null, (data) => {
       resolve(data.enabled);
     })
   );
