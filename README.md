@@ -30,9 +30,9 @@
 ## 感谢各位大佬的规则以及维护分享！
 
 
-⚠️ 郑重声明：
+⚠️ ## 郑重声明：
 
-本规则基于## ConnerosHua的## [DivineEngine](https://github.com/DivineEngine/Profiles/tree/master)，基于个人使用方便的基础上加入了各位大佬的脚本和规则。感谢各位大佬的辛勤维护和无私付出。在此特别致谢！
+本规则基于ConnerosHua的[DivineEngine](https://github.com/DivineEngine/Profiles/tree/master)，基于个人使用方便的基础上加入了各位大佬的脚本和规则。感谢各位大佬的辛勤维护和无私付出。在此特别致谢！
 
 ⚠️ 免责声明：
 
