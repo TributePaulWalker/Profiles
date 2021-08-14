@@ -25,9 +25,9 @@
 * [Qure](https://github.com/Koolson/Qure)
 * [Orz-3](https://github.com/Orz-3)
 
-## 排名不分先后，
+## 排名不分先后。
 
-## 感谢各位大佬的规则以及维护分享！
+## 感谢各位大佬的规则分享以及辛勤维护！
 
 
 ## ⚠️ 郑重声明：
