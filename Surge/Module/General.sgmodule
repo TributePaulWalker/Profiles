@@ -21,6 +21,8 @@
 ^https?:\/\/(www.)?ign\.xn--fiqs8s\/ http://cn.ign.com/ccpref/us 302
 # > Fake Website Made By C&J Marketing
 ^https?:\/\/(www.)?abbyychina\.com\/ https://www.abbyy.cn/ 302
+^https?:\/\/(www.)?alienskins\.cn\/ https://exposure.software/ 302
+^https?:\/\/(www.)?anydeskchina\.cn\/ https://anydesk.com/zhs 302
 ^https?:\/\/(www.)?bartender\.cc\/ https://www.macbartender.com/ 302
 ^https?:\/\/(www.)?(betterzipcn|betterzip)\.(com|net)\/ https://macitbetter.com/ 302
 ^https?:\/\/(www.)?beyondcompare\.cc\/ https://www.scootersoftware.com/ 302
@@ -34,9 +36,11 @@
 ^https?:\/\/(www.)?easyrecoverychina\.com\/ https://www.ontrack.com/ 302
 ^https?:\/\/(www.)?ediuschina\.com\/ https://www.grassvalley.com/ 302
 ^https?:\/\/(www.)?flstudiochina\.com\/ https://www.image-line.com/ 302
+^https?:\/\/(www.)?folxchina\.cn\/ https://mac.eltima.com/cn/download-manager.html 302
 ^https?:\/\/(www.)?formysql\.com\/ https://www.navicat.com.cn/ 302
 ^https?:\/\/(www.)?guitarpro\.cc\/ https://www.guitar-pro.com/ 302
 ^https?:\/\/(www.)?huishenghuiying\.com\.cn\/ https://www.coreldraw.com/cn/ 302
+^https?:\/\/(www.)?hypeapp\.cn\/ https://tumult.com/hype/ 302
 ^https?:\/\/hypersnap\.mairuan\.com\/ https://www.hyperionics.com/ 302
 ^https?:\/\/(www.)?iconworkshop\.cn\/ https://www.axialis.com/ 302
 ^https?:\/\/(www.)?idmchina\.net\/ https://www.internetdownloadmanager.com/ 302
@@ -64,17 +68,16 @@
 ^https?:\/\/(www.)?xshellcn\.com\/ https://www.netsarang.com/zh/xshell/ 302
 ^https?:\/\/(www.)?yuanchengxiezuo\.com\/ https://www.teamviewer.com/ 302
 ^https?:\/\/(www.)?zbrushcn.com/ https://pixologic.com/ 302
-^https?:\/\/(www.)?anydeskchina.cn/ https://anydesk.com/zhs 302
 
 # AbeamTV - api.abema.io
 ^https?:\/\/api\.abema\.io\/v\d\/ip\/check - reject
 
-# bstar intl
-(^https?:\/\/app\.biliintl\.com\/(x\/)?(intl|dm|reply|history|v\d/msgfeed).+)(&s_locale=zh-Hans_[A-Z]{2})(.+)(&sim_code=\d+)(.+) $1&s_locale=zh-Hans_PH$5&sim_code=51503$7 header
-(^https?:\/\/passport\.biliintl\.com\/x\/intl\/passport-login\/.+)(&s_locale=zh-Hans_[A-Z]{2})(.+)(&sim_code=\d+)(.+) $1&s_locale=zh-Hans_PH$35&sim_code=51503$5 header
+[Script]
+bstar_login = type=http-request,pattern=^https?:\/\/passport\.biliintl\.com\/x\/intl\/passport-login\/(sms\/send|reg\/sms|oauth2\/access_token|login\/sms),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Rewrite/bstar.js,script-update-interval=0
+bstar_play = type=http-request,pattern=^https?:\/\/app\.biliintl\.com\/(intl\/gateway\/v\d\/app\/data\/report\/heartbeat\/mobile|x\/(history|reply)/v\d/add),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Rewrite/bstar.js,script-update-interval=0
 
-# AICoin
-^http:\/\/(www.)?aicoin\.cn\/$ https://www.aicoin.cn/?long_lives_aicoin=%22live%22 302
+[MITM]
+hostname = %INSERT% www.google.cn,api.abema.io,app.biliintl.com,passport.biliintl.com
 
 [Script]
 bstar_login = type=http-request,pattern=^https?:\/\/passport\.biliintl\.com\/x\/intl\/passport-login\/(sms\/send|reg\/sms|oauth2\/access_token|login\/sms),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/TributePaulWalker/Profiles/main/JavaScript/Bstar.js,script-update-interval=0
