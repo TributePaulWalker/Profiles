@@ -17,6 +17,8 @@
 ^https?:\/\/(www.)?yhd\.com\/ https://yhd.com/ 302
 
 # Redirect False to True
+# > Firefox - www.firefox.com.cn
+^https?:\/\/(www.)?firefox\.com\.cn\/(download\/)?$ https://www.mozilla.org/zh-CN/firefox/new/ 302
 # > IGN China to IGN Global
 ^https?:\/\/(www.)?ign\.xn--fiqs8s\/ http://cn.ign.com/ccpref/us 302
 # > Fake Website Made By C&J Marketing
@@ -71,6 +73,7 @@
 
 # AbeamTV - api.abema.io
 ^https?:\/\/api\.abema\.io\/v\d\/ip\/check - reject
+
 
 # bstar intl
 (^https?:\/\/app\.biliintl\.com\/(x\/)?(intl|dm|reply|history|v\d/msgfeed).+)(&s_locale=zh-Hans_[A-Z]{2})(.+)(&sim_code=\d+)(.+) $1&s_locale=zh-Hans_PH$5&sim_code=51503$7 header
