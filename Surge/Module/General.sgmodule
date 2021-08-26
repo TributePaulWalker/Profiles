@@ -87,4 +87,4 @@ bstar_login = type=http-request,pattern=^https?:\/\/passport\.biliintl\.com\/x\/
 bstar_play = type=http-request,pattern=^https?:\/\/app\.biliintl\.com\/(intl\/gateway\/v\d\/app\/data\/report\/heartbeat\/mobile|x\/(history|reply)/v\d/add),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/TributePaulWalker/Profiles/main/JavaScript/Bstar.js,script-update-interval=0
 
 [MITM]
-hostname = %INSERT% www.google.cn,api.abema.io,app.biliintl.com,passport.biliintl.com
+hostname = %APPEND% www.google.cn,www.firefox.com.cn,api.abema.io,app.biliintl.com,passport.biliintl.com
