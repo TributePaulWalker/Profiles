@@ -7,4 +7,4 @@
 https://www\.google\.com\.hk\/search\?q=([\w.]+)&(.+) https://www.google.com.sg/search?q=$1&safe=off 302
 
 [MITM]
-hostname = %INSERT% www.google.com,www.google.com.*
+hostname = %APPEND% www.google.com,www.google.com.*
