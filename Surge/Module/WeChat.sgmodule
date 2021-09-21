@@ -1,0 +1,8 @@
+#!name=WeChat
+#!desc=WeChat 直连
+
+[Rule]
+# > WeChat
+AND,((OR,((DEST-PORT,443), (DEST-PORT,80), (DEST-PORT,8080))), (OR,((IP-CIDR,129.226.3.47/32,no-resolve), (IP-CIDR,101.32.118.25/16,no-resolve))), (PROTOCOL,TCP)),DIRECT
+DOMAIN-SUFFIX,wechat.com,DIRECT
+DOMAIN-SUFFIX,servicewechat.com,DIRECT
