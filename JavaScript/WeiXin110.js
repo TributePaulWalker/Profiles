@@ -13,7 +13,7 @@ hostname= weixin110.qq.com
 Surge 4.2.0+ 脚本配置:
 **********************
 [Script]
-tbopener.js = type=http-response,pattern=^https?:\/\/weixin110\.qq\.com\/cgi-bin\/mmspamsupport-bin\/newredirectconfirmcgi,script-path= https://raw.githubusercontent.com/TributePaulWalker/Profiles/main/JavaScript/WeiXin110.js
+微信链接跳转 = type=http-response,pattern=^https?:\/\/weixin110\.qq\.com\/cgi-bin\/mmspamsupport-bin\/newredirectconfirmcgi,script-path= https://raw.githubusercontent.com/TributePaulWalker/Profiles/main/JavaScript/WeiXin110.js
 [MITM] 
 hostname= weixin110.qq.com
 */
