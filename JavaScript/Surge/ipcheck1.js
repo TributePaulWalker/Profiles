@@ -36,7 +36,7 @@
                 + (wifi.ssid ? `外部 IP：${externalIP}\n` : `外部 IP：${externalIP}\n`)
                 + (wifi.ssid ? `节点 ISP : ${isp}\n` : `节点 ISP : ${isp}\n`)
                 + (wifi.ssid ? `节点位置 : ${emoji} ${country} | ${city}` : `节点位置 : ${emoji} ${country} | ${city}`),
-        icon: wifi.ssid ? "network" : "network"",
+        icon: "network"",
         'icon-color': wifi.ssid ? "#FFD700" : "#FFD700"
         };
         $.done(body);
