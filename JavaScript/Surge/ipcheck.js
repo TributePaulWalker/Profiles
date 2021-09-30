@@ -1,3 +1,8 @@
+/*
+
+https://raw.githubusercontent.com/congcong0806/surge-list/master/Script/ipcheck.js
+
+*/
 let url = "http://ip-api.com/json"
 
 $httpClient.get(url, function(error, response, data){
