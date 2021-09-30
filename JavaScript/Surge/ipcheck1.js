@@ -1,8 +1,5 @@
 /**
- * Surge 網路詳情面板
- * 原始作者 @author: Peng-YM
- * 本人僅翻譯為繁體中文自用
- * 並與另一位 @聰聰 大的節點資訊面板進行整合
+ * Surge 网络信息面板
  */
  const $ = API("NetInfoPanel", true);
  const $http = HTTP();
@@ -15,8 +12,8 @@
      // No network connection
      if (!v4IP) {
          $.done({
-             title: "尚未連接網際網路",
-             content: "請檢察網路狀態後再度測試",
+             title: "尚未接入网络",
+             content: "请检查网络后重试",
              icon: "wifi.exclamationmark",
              'icon-color': "#CB1B45"
          });
@@ -33,12 +30,12 @@
         let city = jsonData.city
         let isp = jsonData.isp
         const body = {
-        title: wifi.ssid || "行動數據",
+        title: wifi.ssid || "移动数据",
         content: `內部 IP：${ip} \n`
                 + (wifi.ssid ? `路由器地址：${router}\n` : "")
                 + (wifi.ssid ? `外部 IP：${externalIP}\n` : `外部 IP：${externalIP}\n`)
-                + (wifi.ssid ? `節點 ISP : ${isp}\n` : `節點 ISP : ${isp}\n`)
-                + (wifi.ssid ? `節點位置 : ${emoji} ${country} | ${city}` : `節點位置 : ${emoji} ${country} | ${city}`),
+                + (wifi.ssid ? `节点 ISP : ${isp}\n` : `节点 ISP : ${isp}\n`)
+                + (wifi.ssid ? `节点位置 : ${emoji} ${country} | ${city}` : `节点位置 : ${emoji} ${country} | ${city}`),
         icon: wifi.ssid ? "network" : "network"",
         'icon-color': wifi.ssid ? "#FFD700" : "#FFD700"
         };
