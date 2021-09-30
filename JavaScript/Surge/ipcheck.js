@@ -38,7 +38,7 @@
             + (wifi.ssid ? `节点 ISP : ${isp}\n` : `节点 ISP : ${isp}\n`)
             + (wifi.ssid ? `节点位置 : ${emoji} ${country} | ${city}` : `节点位置 : ${emoji} ${country} | ${city}`),
         icon: wifi.ssid ? "wifi" : "simcard",
-        'icon-color': wifi.ssid ? "#005CAF" : "#F9BF45"
+        'icon-color': wifi.ssid ? "##F9BF45" : "#F9BF45"
         };
         $.done(body);
     });
