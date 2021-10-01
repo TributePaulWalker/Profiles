@@ -3,7 +3,7 @@
 https://raw.githubusercontent.com/congcong0806/surge-list/master/Script/ipcheck.js
 
 */
-let url = "http://ip-api.com/json"
+let url = "http://ip-api.com/json/?lang=zh-CN"
 
 $httpClient.get(url, function(error, response, data){
     let jsonData = JSON.parse(data)
@@ -12,9 +12,10 @@ $httpClient.get(url, function(error, response, data){
     let emoji = getFlagEmoji(jsonData.countryCode)
     let city = jsonData.city
     let isp = jsonData.isp
+    let org =jsonData.org
   body = {
     title: "节点信息",
-    content: `IP: ${ip}\nISP: ${isp}\n位置: ${emoji}${country} - ${city}`,
+    content: `IP信息: ${ip}\n运营商家: ${isp}\n数据中心: ${org}\n地理位置: ${emoji}${country} - ${city}`,
     icon: "network",
     'icon-color': "#FFD700"
   }
