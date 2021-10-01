@@ -31,7 +31,7 @@ else{
         `节点 ISP : ${jsonData.isp}\n` +
         `节点位置 : ${getFlagEmoji(jsonData.countryCode)} | ${jsonData.country} - ${jsonData.city}`,
       icon: wifi.ssid ? 'wifi' : 'network',
-      'icon-color': wifi.ssid ? '#FFD700' : '#FFD700',
+      'icon-color': wifi.ssid ? '#005CAF' : '#F9BF45',
     });
   });
 };
