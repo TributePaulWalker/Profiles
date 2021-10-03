@@ -9,7 +9,7 @@ Surge配置参考注释，感谢@asukanana,感谢@congcong.
 Amy = select, policy-path=http://sub.info?url=encode后的机场节点链接&reset_day=13&alert=1&title=Amytelecom, update-interval=3600
 
 [Script]
-机场信息 = type=http-request,pattern=http://sub\.info,script-path=https://raw.githubusercontent.com/TributePaulWalker/Profiles/main/JavaScript/Sub_info_lite.js,timeout=10
+机场信息 = type=http-request,pattern=http://sub\.info,script-path=https://raw.githubusercontent.com/TributePaulWalker/Profiles/main/JavaScript/Surge/Sub_info_lite.js,timeout=10
 ----------------------------------------
 
 脚本不用修改，直接配置就好。
