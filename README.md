@@ -21,6 +21,7 @@
 * [Anurag Hazra](https://github.com/anuraghazra)
 * [zqzess](https://github.com/zqzess)
 * [chouchoui](https://github.com/chouchoui)
+* [HotKids](https://github.com/HotKids)
 * [Qure](https://github.com/Koolson/Qure)
 * [Orz-3](https://github.com/Orz-3)
 
