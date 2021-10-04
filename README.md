@@ -11,7 +11,6 @@
 * [maicoo](https://github.com/blankmagic/surge)
 * [Yichahucha](https://github.com/yichahucha/surge/tree/master)
 * [Hackl0us](https://github.com/Hackl0us)
-* [ChuheGit](https://github.com/ChuheGit/1)
 * [NobyDa](https://github.com/NobyDa)
 * [KOP-XIAO](https://github.com/KOP-XIAO)
 * [Peng-YM](https://github.com/Peng-YM)
