@@ -1,6 +1,8 @@
 /*
 By：Pysta
 
+GitHub:https://github.com/mieqq/mieqq
+
 * [Panel]
 * 配置重载=title="配置重载",content="配置重载",icon:"arrow.triangle.2.circlepath.doc.on.clipboard","icon-color":"#FFD700",style=info,script-name=配置重载,update-interval=-1
 
