@@ -28,23 +28,20 @@ let now = new Date();
 let today = now.getDate();
 let month = now.getMonth();
 let year = now.getFullYear();
-let params = getUrlParams($request.url);
-let resetDay = parseInt(params["due_day"] || params["reset_day"]);
-let resetLeft = getRmainingDays(resetDay);
-let delay = 0;
+let args = getArgs($request.url);
+let resetDay = parseInt(args["due_day"] || args["reset_day"]);
+let resetDayLeft = getRmainingDays(resetDay);
 
 (async () => {
-  let is_enhanced = await is_enhanced_mode();
-  if (is_enhanced) delay = 2000;
-  let usage = await getDataUsage(params.url);
+  let usage = await getDataInfo(args.url);
   let used = usage.download + usage.upload;
   let total = usage.total;
-  let expire = usage.expire || params.expire;
+  let expire = usage.expire || args.expire;
   let localProxy = "=http, localhost, 6152";
-  let infoList = [`使用：${bytesToSize(used)} | ${bytesToSize(total)}`];
+  let infoList = [`${bytesToSize(used)} | ${bytesToSize(total)}`];
 
-  if (resetLeft) {
-    infoList.push(`重置：剩余${resetLeft}天`);
+  if (resetDayLeft) {
+    infoList.push(`重置：剩余${resetDayLeft}天`);
   }
   if (expire) {
     if (/^[\d]+$/.test(expire)) expire *= 1000;
@@ -55,7 +52,7 @@ let delay = 0;
   $done({ response: { body } });
 })();
 
-function getUrlParams(url) {
+function getArgs(url) {
   return Object.fromEntries(
     url
       .slice(url.indexOf("?") + 1)
@@ -67,32 +64,39 @@ function getUrlParams(url) {
 
 function getUserInfo(url) {
   let request = { headers: { "User-Agent": "Quantumult%20X" }, url };
-  return new Promise((resolve) =>
-    setTimeout(
-      () =>
-        $httpClient.head(request, (err, resp) => {
-          if (err) $done();
-          resolve(
-            resp.headers[
-              Object.keys(resp.headers).find(
-                (key) => key.toLowerCase() === "subscription-userinfo"
-              )
-            ]
-          );
-        }),
-      delay
-    )
+  return new Promise((resolve, reject) =>
+    $httpClient.head(request, (err, resp) => {
+      if (err != null) {
+        reject(err);
+        return;
+      }
+      if (resp.status !== 200) {
+        reject("Not Available");
+        return;
+      }
+      let header = Object.keys(resp.headers).find(
+        (key) => key.toLowerCase() === "subscription-userinfo"
+      );
+      if (header) {
+        resolve(resp.headers[header]);
+        return;
+      }
+      reject("链接响应头不带有流量信息");
+    })
   );
 }
 
-async function getDataUsage(url) {
-  let info = await getUserInfo(url);
-  if (!info) {
-    $notification.post("SubInfo", "", "链接响应头不带有流量信息");
-    $done();
+async function getDataInfo(url) {
+  const [err, data] = await getUserInfo(url)
+    .then((data) => [null, data])
+    .catch((err) => [err, null]);
+  if (err) {
+    console.log(err);
+    return;
   }
+
   return Object.fromEntries(
-    info
+    data
       .match(/\w+=\d+/g)
       .map((item) => item.split("="))
       .map(([k, v]) => [k, parseInt(v)])
@@ -124,8 +128,8 @@ function formatTime(time) {
 }
 
 function sendNotification(usageRate, expire, infoList) {
-  if (!params.alert) return;
-  let title = params.title || "Sub Info";
+  if (!args.alert) return;
+  let title = args.title || "Sub Info";
   let subtitle = infoList[0];
   let body = infoList.slice(1).join("\n");
   usageRate = usageRate * 100;
@@ -136,7 +140,7 @@ function sendNotification(usageRate, expire, infoList) {
   let notifyCounter = JSON.parse($persistentStore.read(title) || "{}");
   if (!notifyCounter[resetTime]) {
     notifyCounter = {
-      [resetTime]: { usageRate: 80, resetLeft: 3, expire: 31, resetDay: 1 },
+      [resetTime]: { usageRate: 80, resetDayLeft: 3, expire: 31, resetDay: 1 },
     };
   }
 
@@ -156,13 +160,13 @@ function sendNotification(usageRate, expire, infoList) {
       }
     }
   }
-  if (resetLeft && resetLeft < count.resetLeft && resetDay != today) {
+  if (resetDayLeft && resetDayLeft < count.resetDayLeft && resetDay != today) {
     $notification.post(
-      `${title} | 流量将在${resetLeft}天后重置`,
+      `${title} | 流量将在${resetDayLeft}天后重置`,
       subtitle,
       body
     );
-    count.resetLeft = resetLeft;
+    count.resetDayLeft = resetDayLeft;
   }
   if (resetDay == today && count.resetDay && usageRate < 5) {
     $notification.post(`${title} | 流量已重置`, subtitle, body);
@@ -180,12 +184,4 @@ function sendNotification(usageRate, expire, infoList) {
     }
   }
   $persistentStore.write(JSON.stringify(notifyCounter), title);
-}
-
-async function is_enhanced_mode() {
-  return new Promise((resolve) =>
-    $httpAPI("GET", "v1/features/enhanced_mode", null, (data) => {
-      resolve(data.enabled);
-    })
-  );
 }
