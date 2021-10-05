@@ -22,7 +22,7 @@ $httpClient.get(url, function(error, response, data){
     title: "网络信息",
     content: `IP信息: ${ip}\n运营商: ${isp}\nIP位置: ${emoji}${country} - ${city}`,
     icon: "link.icloud",
-    'icon-color': "#FFD700"
+    'icon-color': "#0089A7"
   }
   $done(body);
 });
