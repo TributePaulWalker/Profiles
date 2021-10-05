@@ -1,5 +1,7 @@
 /*
 By：mieqq（https://github.com/mieqq/mieqq）
+https://github.com/mieqq/mieqq/blob/master/sub_info.js
+
 Surge配置参考注释，感谢@asukanana,感谢@congcong.
 
 示例↓↓↓ 
