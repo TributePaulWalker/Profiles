@@ -35,7 +35,13 @@ let resetDay = parseInt(args["due_day"] || args["reset_day"]);
 let resetDayLeft = getRmainingDays(resetDay);
 
 (async () => {
+  let is_enhanced = await is_enhanced_mode();
+  if (is_enhanced) await sleep(2000)
   let usage = await getDataInfo(args.url);
+  if (!usage) {
+    $done({})
+    return;
+  }
   let used = usage.download + usage.upload;
   let total = usage.total;
   let expire = usage.expire || args.expire;
@@ -186,4 +192,16 @@ function sendNotification(usageRate, expire, infoList) {
     }
   }
   $persistentStore.write(JSON.stringify(notifyCounter), title);
+}
+
+function is_enhanced_mode() {
+  return new Promise((resolve) =>
+    $httpAPI("GET", "v1/features/enhanced_mode", null, (data) => {
+      resolve(data.enabled);
+    })
+  );
+}
+
+function sleep(ms) {
+  return new Promise(resolve => setTimeout(resolve, ms))
 }
