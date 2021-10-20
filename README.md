@@ -22,6 +22,7 @@
 * [zqzess](https://github.com/zqzess)
 * [chouchoui](https://github.com/chouchoui)
 * [HotKids](https://github.com/HotKids)
+* [VirgilClyne](https://github.com/VirgilClyne)
 * [Qure](https://github.com/Koolson/Qure)
 * [Orz-3](https://github.com/Orz-3)
 
