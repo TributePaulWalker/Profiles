@@ -4,6 +4,8 @@
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=TributePaulWalker&layout=compact&theme=vue)](https://github.com/TributePaulWalker/TributePaulWalker)
 
+## 欢迎 Star✨✨✨
+
 ## *特别感谢*
 
 * [ConnersHua](https://github.com/DivineEngine/Profiles/tree/master)
@@ -18,6 +20,7 @@
 * [nzw9314](https://github.com/nzw9314)
 * [Tartarus2014](https://github.com/Tartarus2014)
 * [Semporia](https://github.com/Semporia)
+* [scomper](https://github.com/scomper/Surge)
 * [Anurag Hazra](https://github.com/anuraghazra)
 * [zqzess](https://github.com/zqzess)
 * [chouchoui](https://github.com/chouchoui)
