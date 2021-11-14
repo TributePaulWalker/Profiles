@@ -27,6 +27,7 @@
 * [HotKids](https://github.com/HotKids)
 * [fishingworld](https://github.com/fishingworld)
 * [VirgilClyne](https://github.com/VirgilClyne)
+* [MuTu](https://github.com/githubdulong)
 * [Qure](https://github.com/Koolson/Qure)
 * [Orz-3](https://github.com/Orz-3)
 
