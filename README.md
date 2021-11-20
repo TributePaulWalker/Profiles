@@ -14,6 +14,7 @@
 * [Yichahucha](https://github.com/yichahucha/surge/tree/master)
 * [Hackl0us](https://github.com/Hackl0us)
 * [NobyDa](https://github.com/NobyDa)
+* [VirgilClyne](https://github.com/VirgilClyne)
 * [KOP-XIAO](https://github.com/KOP-XIAO)
 * [Peng-YM](https://github.com/Peng-YM)
 * [Chavy](https://github.com/chavyleung)
@@ -26,7 +27,6 @@
 * [chouchoui](https://github.com/chouchoui)
 * [HotKids](https://github.com/HotKids)
 * [fishingworld](https://github.com/fishingworld)
-* [VirgilClyne](https://github.com/VirgilClyne)
 * [Qure](https://github.com/Koolson/Qure)
 * [Orz-3](https://github.com/Orz-3)
 
