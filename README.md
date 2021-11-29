@@ -28,6 +28,7 @@
 * [HotKids](https://github.com/HotKids)
 * [fishingworld](https://github.com/fishingworld)
 * [zZPiglet](https://github.com/zZPiglet/Task/tree/master)
+* [app2smile](https://github.com/app2smile)
 * [Qure](https://github.com/Koolson/Qure)
 * [Orz-3](https://github.com/Orz-3)
 
