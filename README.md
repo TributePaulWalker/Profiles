@@ -29,6 +29,7 @@
 * [fishingworld](https://github.com/fishingworld)
 * [zZPiglet](https://github.com/zZPiglet/Task/tree/master)
 * [app2smile](https://github.com/app2smile)
+* [id77](https://github.com/id77)
 * [Qure](https://github.com/Koolson/Qure)
 * [Orz-3](https://github.com/Orz-3)
 
