@@ -26,7 +26,6 @@
 * [zqzess](https://github.com/zqzess)
 * [chouchoui](https://github.com/chouchoui)
 * [HotKids](https://github.com/HotKids)
-* [fishingworld](https://github.com/fishingworld)
 * [zZPiglet](https://github.com/zZPiglet/Task/tree/master)
 * [app2smile](https://github.com/app2smile)
 * [id77](https://github.com/id77)
