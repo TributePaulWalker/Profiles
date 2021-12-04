@@ -29,6 +29,7 @@
 * [lhie1](https://github.com/lhie1/Rules/tree/master)
 * [zZPiglet](https://github.com/zZPiglet/Task/tree/master)
 * [app2smile](https://github.com/app2smile)
+* [LucaLin](https://github.com/LucaLin233)
 * [id77](https://github.com/id77)
 * [Qure](https://github.com/Koolson/Qure)
 * [Orz-3](https://github.com/Orz-3)
