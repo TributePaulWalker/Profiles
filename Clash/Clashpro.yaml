@@ -260,7 +260,7 @@ proxy-providers:
       interval: 600
       url: http://www.gstatic.com/generate_204
       
-   JP:
+  JP:
     type: http
     url: "https://dove.589669.xyz/all2clash?&sub=此处替换为你的订阅转换链接"
     interval: 3600
