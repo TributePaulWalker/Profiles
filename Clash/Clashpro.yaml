@@ -241,7 +241,7 @@ proxy-providers:
 
   Servers: #「机场」订阅
     type: http
-    url: "https://dove.589669.xyz/all2clash?&sub=此处替换为你的订阅转换链接&tfo=1&udp=1&emoji=0&sort=0" # 放机场订阅链接
+    url: "https://dove.589669.xyz/all2clash?&sub=此处替换为你的订阅转换链接" # 放机场订阅链接
     interval: 3600
     path: ./Proxy/List.yaml # 注意此处文件名不可相同
     health-check:
@@ -273,7 +273,7 @@ proxy-groups:
     use:
       - Servers
     proxies:
-      - 节点订阅 # 嵌套使用订阅节点策略组
+      - UrlTest # 嵌套使用订阅节点策略组
       - DIRECT
 
 
@@ -304,7 +304,7 @@ proxy-groups:
       - PROXY
       - DIRECT
 
-  - name: "节点订阅"
+  - name: "UrlTest"
     type: url-test
     use:
       - Servers
