@@ -1,3 +1,5 @@
+# Update-2021.12.05.21.15
+
 # Port of HTTP(S) proxy server on the local end
 # port: 7890
 
@@ -240,7 +242,7 @@ proxy-providers:
 # 此处只是订阅示例，如果没有订阅链接的使用需求，此处及 proxy-groups 的相关内容可删除
   HK:
     type: http
-    url: "https://dove.589669.xyz/all2clash?&sub=你Urlencode后的订阅&tfo=1&udp=1&emoji=2&sort=0"
+    url: "https://dove.589669.xyz/all2clash?&sub=此处替换为你的订阅转换链接"
     interval: 3600
     path: ./Proxy/HKList.yaml
     health-check:
@@ -250,7 +252,7 @@ proxy-providers:
 
   TW:
     type: http
-    url: "https://dove.589669.xyz/all2clash?&sub=你Urlencode后的订阅&tfo=1&udp=1&emoji=2&sort=0"
+    url: "https://dove.589669.xyz/all2clash?&sub=此处替换为你的订阅转换链接"
     interval: 3600
     path: ./Proxy/TWList.yaml
     health-check:
@@ -260,7 +262,7 @@ proxy-providers:
       
    JP:
     type: http
-    url: "https://dove.589669.xyz/all2clash?&sub=你Urlencode后的订阅&tfo=1&udp=1&emoji=2&sort=0"
+    url: "https://dove.589669.xyz/all2clash?&sub=此处替换为你的订阅转换链接"
     interval: 3600
     path: ./Proxy/JPList.yaml
     health-check:
@@ -270,7 +272,7 @@ proxy-providers:
 
   SG:
     type: http
-    url: "https://dove.589669.xyz/all2clash?&sub=你Urlencode后的订阅&tfo=1&udp=1&emoji=2&sort=0"
+    url: "https://dove.589669.xyz/all2clash?&sub=此处替换为你的订阅转换链接"
     interval: 3600
     path: ./Proxy/SGList.yaml
     health-check:
@@ -280,7 +282,7 @@ proxy-providers:
 
   US:
     type: http
-    url: "https://dove.589669.xyz/all2clash?&sub=你Urlencode后的订阅&tfo=1&udp=1&emoji=2&sort=0"
+    url: "https://dove.589669.xyz/all2clash?&sub=此处替换为你的订阅转换链接"
     interval: 3600
     path: ./Proxy/USList.yaml
     health-check:
