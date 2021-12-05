@@ -238,16 +238,57 @@ proxy-providers:
   #
   #
 # 此处只是订阅示例，如果没有订阅链接的使用需求，此处及 proxy-groups 的相关内容可删除
-
-  Servers: #「机场」订阅
+  HK:
     type: http
-    url: "https://dove.589669.xyz/all2clash?&sub=此处替换为你的订阅转换链接" # 放机场订阅链接
+    url: "https://dove.589669.xyz/all2clash?&sub=你Urlencode后的订阅&tfo=1&udp=1&emoji=2&sort=0"
     interval: 3600
-    path: ./Proxy/List.yaml # 注意此处文件名不可相同
+    path: ./Proxy/HKList.yaml
     health-check:
       enable: true
       interval: 600
       url: http://www.gstatic.com/generate_204
+
+  TW:
+    type: http
+    url: "https://dove.589669.xyz/all2clash?&sub=你Urlencode后的订阅&tfo=1&udp=1&emoji=2&sort=0"
+    interval: 3600
+    path: ./Proxy/TWList.yaml
+    health-check:
+      enable: true
+      interval: 600
+      url: http://www.gstatic.com/generate_204
+      
+   JP:
+    type: http
+    url: "https://dove.589669.xyz/all2clash?&sub=你Urlencode后的订阅&tfo=1&udp=1&emoji=2&sort=0"
+    interval: 3600
+    path: ./Proxy/JPList.yaml
+    health-check:
+      enable: true
+      interval: 600
+      url: http://www.gstatic.com/generate_204
+
+  SG:
+    type: http
+    url: "https://dove.589669.xyz/all2clash?&sub=你Urlencode后的订阅&tfo=1&udp=1&emoji=2&sort=0"
+    interval: 3600
+    path: ./Proxy/SGList.yaml
+    health-check:
+      enable: true
+      interval: 600
+      url: http://www.gstatic.com/generate_204
+
+  US:
+    type: http
+    url: "https://dove.589669.xyz/all2clash?&sub=你Urlencode后的订阅&tfo=1&udp=1&emoji=2&sort=0"
+    interval: 3600
+    path: ./Proxy/USList.yaml
+    health-check:
+      enable: true
+      interval: 600
+      url: http://www.gstatic.com/generate_204
+      
+    
 
 proxy-groups:
 # 策略组示例请查阅 Clash 项目 README 以使用最新格式：https://github.com/Dreamacro/clash/blob/master/README.md
@@ -270,18 +311,16 @@ proxy-groups:
 # 代理节点选择
   - name: "PROXY"
     type: select
-    use:
-      - Servers
     proxies:
-      - UrlTest # 嵌套使用订阅节点策略组
-      - DIRECT
-
+      - HK
+      - TW
+      - JP
+      - SG
+      - US
 
 # 白名单模式 PROXY, 黑名单模式 DIRECT, 不知道别动
   - name: "Final"
     type: select
-    use:
-      - Servers
     proxies:
       - PROXY
       - DIRECT
@@ -289,8 +328,6 @@ proxy-groups:
 # 国际流媒体服务
   - name: "Streaming"
     type: select
-    use:
-      - Servers
     proxies:
       - PROXY
       - DIRECT
@@ -298,18 +335,47 @@ proxy-groups:
 # Telegram 服务
   - name: "Telegram"
     type: select
-    use:
-      - Servers
     proxies:
-      - PROXY
-      - DIRECT
-
-  - name: "UrlTest"
+      - SG
+      - HK
+      - US
+      
+  - name: "HK"
     type: url-test
     use:
-      - Servers
+      - HK
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
+
+  - name: "TW"
+    type: url-test
+    use:
+      - TW
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 300
+    
+  - name: "JP"
+    type: url-test
+    use:
+      - JP
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 300
+    
+  - name: "SG"
+    type: url-test
+    use:
+      - SG
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 300
+
+  - name: "US"
+    type: url-test
+    use:
+      - US
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 300
+    
+  
 
 # 关于 Rule Provider 请查阅：https://lancellc.gitbook.io/clash/clash-config-file/rule-provider
 rule-providers:
@@ -327,7 +393,28 @@ rule-providers:
     path: ./RuleSet/Unbreak.yaml
     url: https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/Unbreak.yaml
     interval: 86400
+    
+  Advertising:
+    type: http
+    behavior: classical
+    path: ./RuleSet/Guard/Advertising.yaml
+    url: https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Clash/RuleSet/Guard/Advertising.yaml
+    interval: 86400
 
+  Hijacking:
+    type: http
+    behavior: classical
+    path: ./RuleSet/Guard/Hijacking.yaml
+    url: https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Clash/RuleSet/Guard/Hijacking.yaml
+    interval: 86400
+
+  Privacy:
+    type: http
+    behavior: classical
+    path: ./RuleSet/Guard/Privacy.yaml
+    url: https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Clash/RuleSet/Guard/Privacy.yaml
+    interval: 86400
+    
   Streaming:
     type: http
     behavior: classical
@@ -355,19 +442,33 @@ rule-providers:
     path: ./RuleSet/China.yaml
     url: https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/China.yaml
     interval: 86400
-
+    
+  ChinaIP:
+    type: http
+    behavior: ipcidr
+    path: ./RuleSet/Extra/ChinaIP.yaml
+    url: https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Clash/RuleSet/Extra/ChinaIP.yaml
+    interval: 86400
+    
 # 规则
 rules:
   # Unbreak
   - RULE-SET,Unbreak,DIRECT
-
-  # Global Area Network
+  
+  # Advertising
+  - RULE-SET,Advertising,REJECT
+  
+  # Hijacking
+  - RULE-SET,Hijacking,REJECT
+  
+  # Privacy
+  - RULE-SET,Privacy,REJECT
+  
+  # (Telegram)
+  - RULE-SET,Telegram,Telegram
 
   # (Streaming Media)
   - RULE-SET,Streaming,Streaming
-
-  # (Telegram)
-  - RULE-SET,Telegram,Telegram
 
   # (DNS Cache Pollution) / (IP Blackhole) / (Region-Restricted Access Denied) / (Network Jitter)
   - RULE-SET,Global,PROXY
