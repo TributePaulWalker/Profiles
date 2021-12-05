@@ -314,11 +314,11 @@ proxy-groups:
   - name: "PROXY"
     type: select
     proxies:
-      - HK
-      - TW
-      - JP
-      - SG
-      - US
+      - 香港
+      - 台湾
+      - 日本
+      - 狮城
+      - 美国
 
 # 白名单模式 PROXY, 黑名单模式 DIRECT, 不知道别动
   - name: "Final"
@@ -338,39 +338,39 @@ proxy-groups:
   - name: "Telegram"
     type: select
     proxies:
-      - SG
-      - HK
-      - US
+      - 狮城
+      - 香港
+      - 美国
       
-  - name: "HK"
+  - name: "香港"
     type: url-test
     use:
       - HK
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
 
-  - name: "TW"
+  - name: "台湾"
     type: url-test
     use:
       - TW
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
     
-  - name: "JP"
+  - name: "日本"
     type: url-test
     use:
       - JP
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
     
-  - name: "SG"
+  - name: "狮城"
     type: url-test
     use:
       - SG
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
 
-  - name: "US"
+  - name: "美国"
     type: url-test
     use:
       - US
