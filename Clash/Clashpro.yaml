@@ -334,7 +334,7 @@ rule-providers:
     path: ./RuleSet/StreamingMedia/Streaming.yaml
     url: https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/StreamingMedia/Streaming.yaml
     interval: 86400
-
+  
   Telegram:
     type: http
     behavior: classical
