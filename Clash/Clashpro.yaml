@@ -345,6 +345,7 @@ proxy-groups:
       - 狮城
       - 香港
       - 美国
+      - PROXY
       
   - name: "香港"
     type: url-test
