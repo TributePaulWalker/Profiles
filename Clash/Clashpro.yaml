@@ -1,4 +1,4 @@
-# Update-2021.12.06.09.45
+# Update-2021.12.06.13.00
 
 # Port of HTTP(S) proxy server on the local end
 # port: 7890
@@ -311,7 +311,7 @@ proxy-groups:
 # Fallback 比较实用的策略组类型，用于测试服务器节点的可用性，当第一个节点不可用时切换到第二个，以此类推。
 
 # 代理节点选择
-  - name: "PROXY"
+  - name: "Proxy"
     type: select
     proxies:
       - 香港
@@ -324,8 +324,8 @@ proxy-groups:
   - name: "Final"
     type: select
     proxies:
-      - PROXY
-      - DIRECT
+      - Proxy
+      - Direct
 
 # 国际流媒体服务
   - name: "Streaming"
@@ -336,7 +336,7 @@ proxy-groups:
       - 日本
       - 狮城
       - 美国
-      - DIRECT
+      - Direct
 
 # Telegram 服务
   - name: "Telegram"
@@ -345,7 +345,7 @@ proxy-groups:
       - 狮城
       - 香港
       - 美国
-      - PROXY
+      - Proxy
       
   - name: "香港"
     type: url-test
@@ -460,16 +460,16 @@ rule-providers:
 # 规则
 rules:
   # Unbreak
-  - RULE-SET,Unbreak,DIRECT
+  - RULE-SET,Unbreak,Direct
   
   # Advertising
-  - RULE-SET,Advertising,REJECT
+  - RULE-SET,Advertising,Reject
   
   # Hijacking
-  - RULE-SET,Hijacking,REJECT
+  - RULE-SET,Hijacking,Reject
   
   # Privacy
-  - RULE-SET,Privacy,REJECT
+  - RULE-SET,Privacy,Reject
   
   # (Telegram)
   - RULE-SET,Telegram,Telegram
@@ -478,24 +478,24 @@ rules:
   - RULE-SET,Streaming,Streaming
 
   # (DNS Cache Pollution) / (IP Blackhole) / (Region-Restricted Access Denied) / (Network Jitter)
-  - RULE-SET,Global,PROXY
+  - RULE-SET,Global,Proxy
 
   # China Area Network
-  - RULE-SET,China,DIRECT
+  - RULE-SET,China,Direct
 
   # Local Area Network
-  - IP-CIDR,192.168.0.0/16,DIRECT
-  - IP-CIDR,10.0.0.0/8,DIRECT
-  - IP-CIDR,172.16.0.0/12,DIRECT
-  - IP-CIDR,127.0.0.0/8,DIRECT
-  - IP-CIDR,100.64.0.0/10,DIRECT
-  - IP-CIDR,224.0.0.0/4,DIRECT
-  - IP-CIDR,fe80::/10,DIRECT
+  - IP-CIDR,192.168.0.0/16,Direct
+  - IP-CIDR,10.0.0.0/8,Direct
+  - IP-CIDR,172.16.0.0/12,Direct
+  - IP-CIDR,127.0.0.0/8,Direct
+  - IP-CIDR,100.64.0.0/10,Direct
+  - IP-CIDR,224.0.0.0/4,Direct
+  - IP-CIDR,fe80::/10,Direct
   
   # Tencent
-  - IP-CIDR,119.28.28.28/32,DIRECT
-  - IP-CIDR,182.254.116.0/24,DIRECT
+  - IP-CIDR,119.28.28.28/32,Direct
+  - IP-CIDR,182.254.116.0/24,Direct
   # GeoIP China
-  - GEOIP,CN,DIRECT
+  - GEOIP,CN,Direct
 
   - MATCH,Final
