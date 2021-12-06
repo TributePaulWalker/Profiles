@@ -1,4 +1,4 @@
-# Update-2021.12.05.21.15
+# Update-2021.12.06.09.45
 
 # Port of HTTP(S) proxy server on the local end
 # port: 7890
@@ -331,7 +331,11 @@ proxy-groups:
   - name: "Streaming"
     type: select
     proxies:
-      - PROXY
+      - 香港
+      - 台湾
+      - 日本
+      - 狮城
+      - 美国
       - DIRECT
 
 # Telegram 服务
