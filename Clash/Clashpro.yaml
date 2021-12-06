@@ -463,13 +463,13 @@ rules:
   - RULE-SET,Unbreak,DIRECT
   
   # Advertising
-  - RULE-SET,Advertising,Reject
+  - RULE-SET,Advertising,REJECT
   
   # Hijacking
-  - RULE-SET,Hijacking,Reject
+  - RULE-SET,Hijacking,REJECT
   
   # Privacy
-  - RULE-SET,Privacy,Reject
+  - RULE-SET,Privacy,REJECT
   
   # (Telegram)
   - RULE-SET,Telegram,Telegram
