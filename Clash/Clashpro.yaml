@@ -325,7 +325,7 @@ proxy-groups:
     type: select
     proxies:
       - Proxy
-      - Direct
+      - DIRECT
 
 # 国际流媒体服务
   - name: "Streaming"
@@ -336,7 +336,7 @@ proxy-groups:
       - 日本
       - 狮城
       - 美国
-      - Direct
+      - DIRECT
 
 # Telegram 服务
   - name: "Telegram"
@@ -460,7 +460,7 @@ rule-providers:
 # 规则
 rules:
   # Unbreak
-  - RULE-SET,Unbreak,Direct
+  - RULE-SET,Unbreak,DIRECT
   
   # Advertising
   - RULE-SET,Advertising,Reject
@@ -481,21 +481,21 @@ rules:
   - RULE-SET,Global,Proxy
 
   # China Area Network
-  - RULE-SET,China,Direct
+  - RULE-SET,China,DIRECT
 
   # Local Area Network
-  - IP-CIDR,192.168.0.0/16,Direct
-  - IP-CIDR,10.0.0.0/8,Direct
-  - IP-CIDR,172.16.0.0/12,Direct
-  - IP-CIDR,127.0.0.0/8,Direct
-  - IP-CIDR,100.64.0.0/10,Direct
-  - IP-CIDR,224.0.0.0/4,Direct
-  - IP-CIDR,fe80::/10,Direct
+  - IP-CIDR,192.168.0.0/16,DIRECT
+  - IP-CIDR,10.0.0.0/8,DIRECT
+  - IP-CIDR,172.16.0.0/12,DIRECT
+  - IP-CIDR,127.0.0.0/8,DIRECT
+  - IP-CIDR,100.64.0.0/10,DIRECT
+  - IP-CIDR,224.0.0.0/4,DIRECT
+  - IP-CIDR,fe80::/10,DIRECT
   
   # Tencent
-  - IP-CIDR,119.28.28.28/32,Direct
-  - IP-CIDR,182.254.116.0/24,Direct
+  - IP-CIDR,119.28.28.28/32,DIRECT
+  - IP-CIDR,182.254.116.0/24,DIRECT
   # GeoIP China
-  - GEOIP,CN,Direct
+  - GEOIP,CN,DIRECT
 
   - MATCH,Final
