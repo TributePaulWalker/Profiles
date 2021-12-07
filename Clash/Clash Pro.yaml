@@ -1,4 +1,4 @@
-# Update-2021.12.06.14.12
+# Update-2021.12.07.11.02
 
 # Port of HTTP(S) proxy server on the local end
 # port: 7890
@@ -174,53 +174,6 @@ dns:
 proxies:
 # 支持的协议及加密算法示例请查阅 Clash 项目 README 以使用最新格式：https://github.com/Dreamacro/clash/wiki/configuration
 
-  # Shadowsocks(Websocket + TLS)
-  - name: "1"
-    type: ss
-    server: server
-    port: 443
-    cipher: chacha20-ietf-poly1305
-    password: "password"
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket # no QUIC now
-      tls: true # wss
-      # skip-cert-verify: true
-      # host: bing.com
-      path: "/s"
-      # mux: true
-      # headers:
-      #   custom: value
-
-  # VMess(Websocket + TLS)
-  - name: "2"
-    type: vmess
-    server: v2ray.cool
-    port: 443
-    uuid: a3482e88-686a-4a58-8126-99c9df64b7bf
-    alterId: 32
-    cipher: auto
-    # udp: true
-    tls: true
-    # skip-cert-verify: true
-    network: ws
-    ws-path: /v
-    # ws-headers:
-    #   Host: v2ray.com
-
-  # Trojan
-  - name: "3"
-    type: trojan
-    server: server
-    port: 443
-    password: yourpsk
-    # udp: true
-    # sni: example.com # aka server name
-    # alpn:
-    #   - h2
-    #   - http/1.1
-    # skip-cert-verify: true
-
 # 服务器节点订阅
 proxy-providers:
   # name: # Provider 名称
@@ -326,6 +279,15 @@ proxy-groups:
     proxies:
       - Proxy
       - DIRECT
+      
+# Telegram 服务
+  - name: "Telegram"
+    type: select
+    proxies:
+      - 狮城
+      - 香港
+      - 美国
+      - Proxy      
 
 # 国际流媒体服务
   - name: "Streaming"
@@ -338,14 +300,6 @@ proxy-groups:
       - 美国
       - DIRECT
 
-# Telegram 服务
-  - name: "Telegram"
-    type: select
-    proxies:
-      - 狮城
-      - 香港
-      - 美国
-      - Proxy
       
   - name: "香港"
     type: url-test
