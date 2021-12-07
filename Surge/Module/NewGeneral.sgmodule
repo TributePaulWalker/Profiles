@@ -7,7 +7,7 @@ internet-test-url = http://wifi.vivo.com.cn/generate_204
 # > 代理测速 URL
 proxy-test-url = http://cp.cloudflare.com/generate_204
 # > 测试超时（秒）
-test-timeout = 5
+test-timeout = 3
 
 # > 自定义 GeoIP 数据库
 geoip-maxmind-url = https://raw.githubusercontent.com/Hackl0us/GeoIP2-CN/release/Country.mmdb
