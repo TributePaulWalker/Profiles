@@ -298,8 +298,6 @@ proxy-groups:
       - 日本
       - 狮城
       - 美国
-      - Proxy
-
       
   - name: "香港"
     type: url-test
