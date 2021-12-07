@@ -298,7 +298,7 @@ proxy-groups:
       - 日本
       - 狮城
       - 美国
-      - DIRECT
+      - Proxy
 
       
   - name: "香港"
