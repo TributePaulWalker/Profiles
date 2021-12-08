@@ -22,7 +22,7 @@
 * [Tartarus2014](https://github.com/Tartarus2014)
 * [Semporia](https://github.com/Semporia)
 * [scomper](https://github.com/scomper/Surge)
-* [Anurag Hazra](https://github.com/anuraghazra)
+* [Anurag Hazra](https://github.com/anuraghazra/github-readme-stats)
 * [zqzess](https://github.com/zqzess)
 * [chouchoui](https://github.com/chouchoui)
 * [HotKids](https://github.com/HotKids)
