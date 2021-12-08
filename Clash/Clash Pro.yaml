@@ -1,4 +1,4 @@
-# Update-2021.12.07.11.02
+# Update-2021.12.08.09.37
 
 # 本地HTTPS代理端口
 # port: 7890
@@ -284,10 +284,9 @@ proxy-groups:
   - name: "Telegram"
     type: select
     proxies:
-      - SG
       - HK
+      - SG
       - US
-      - Proxy      
 
 # 国际流媒体服务
   - name: "Streaming"
