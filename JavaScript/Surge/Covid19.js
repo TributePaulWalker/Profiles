@@ -28,7 +28,7 @@ $httpClient.get(url, function(error, response, data){
     if (i == list.length - 1) {
      $done({
        title: "疫情查询:新增|现存"+ "   "+nowtime(),
-       icon:"aqi.high",
+       icon:"filemenu.and.cursorarrow",
        "icon-color":"#0089A7",
        content: ala.replace(/\n$/, "")
      });
