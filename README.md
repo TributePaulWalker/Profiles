@@ -23,6 +23,7 @@
 * [Semporia](https://github.com/Semporia)
 * [scomper](https://github.com/scomper/Surge)
 * [Anurag Hazra](https://github.com/anuraghazra/github-readme-stats)
+* [fishingworld](https://github.com/fishingworld)
 * [zqzess](https://github.com/zqzess)
 * [chouchoui](https://github.com/chouchoui)
 * [HotKids](https://github.com/HotKids)
