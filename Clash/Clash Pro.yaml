@@ -1,4 +1,4 @@
-# Update-2021.12.08.09.37
+# Update-2021.12.16.16.20
 
 # 本地HTTPS代理端口
 # port: 7890
@@ -356,21 +356,21 @@ rule-providers:
     type: http
     behavior: classical
     path: ./RuleSet/Guard/Advertising.yaml
-    url: https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Clash/RuleSet/Guard/Advertising.yaml
+    url: https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/Guard/Advertising.yaml
     interval: 86400
 
   Hijacking:
     type: http
     behavior: classical
     path: ./RuleSet/Guard/Hijacking.yaml
-    url: https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Clash/RuleSet/Guard/Hijacking.yaml
+    url: https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/Guard/Hijacking.yaml
     interval: 86400
 
   Privacy:
     type: http
     behavior: classical
     path: ./RuleSet/Guard/Privacy.yaml
-    url: https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Clash/RuleSet/Guard/Privacy.yaml
+    url: https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/Guard/Privacy.yaml
     interval: 86400
     
   Streaming:
@@ -405,7 +405,7 @@ rule-providers:
     type: http
     behavior: ipcidr
     path: ./RuleSet/Extra/ChinaIP.yaml
-    url: https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Clash/RuleSet/Extra/ChinaIP.yaml
+    url: https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/Extra/ChinaIP.yaml
     interval: 86400
     
 # 规则
