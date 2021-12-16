@@ -1,4 +1,4 @@
-# Update-2021.12.16.16.20
+# Update-2021.12.16.17.23
 
 # 本地HTTPS代理端口
 # port: 7890
@@ -352,27 +352,6 @@ rule-providers:
     url: https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/Unbreak.yaml
     interval: 86400
     
-  Advertising:
-    type: http
-    behavior: classical
-    path: ./RuleSet/Guard/Advertising.yaml
-    url: https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/Guard/Advertising.yaml
-    interval: 86400
-
-  Hijacking:
-    type: http
-    behavior: classical
-    path: ./RuleSet/Guard/Hijacking.yaml
-    url: https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/Guard/Hijacking.yaml
-    interval: 86400
-
-  Privacy:
-    type: http
-    behavior: classical
-    path: ./RuleSet/Guard/Privacy.yaml
-    url: https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/Guard/Privacy.yaml
-    interval: 86400
-    
   Streaming:
     type: http
     behavior: classical
@@ -401,26 +380,10 @@ rule-providers:
     url: https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/China.yaml
     interval: 86400
     
-  ChinaIP:
-    type: http
-    behavior: ipcidr
-    path: ./RuleSet/Extra/ChinaIP.yaml
-    url: https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/Extra/ChinaIP.yaml
-    interval: 86400
-    
 # 规则
 rules:
   # Unbreak
   - RULE-SET,Unbreak,DIRECT
-  
-  # Advertising
-  - RULE-SET,Advertising,REJECT
-  
-  # Hijacking
-  - RULE-SET,Hijacking,REJECT
-  
-  # Privacy
-  - RULE-SET,Privacy,REJECT
   
   # (Telegram)
   - RULE-SET,Telegram,Telegram
