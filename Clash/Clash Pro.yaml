@@ -52,7 +52,7 @@ proxy-providers:
 
   HK:
     type: http
-    url: "https://dove.589669.xyz/all2clash?&sub=Encode后的订阅&filter=(%3F%3D.*(%E6%B8%AF%7CHK%7C(%3Fi)Hong))&emoji=-1&sort=0"
+    url: "https://dove.589669.xyz/all2clash?&sub=你Encode后的订阅&filter=(%3F%3D.*(%E6%B8%AF%7CHK%7C(%3Fi)Hong))&emoji=-1&sort=0"
     interval: 3600
     path: ./Proxy/HKList.yaml
     health-check:
@@ -62,7 +62,7 @@ proxy-providers:
 
   TW:
     type: http
-    url: "https://dove.589669.xyz/all2clash?&sub=Encode后的订阅&filter=(%3F%3D.*(%E5%8F%B0%7CTW%7C(%3Fi)Taiwan))&emoji=-1&sort=0"
+    url: "https://dove.589669.xyz/all2clash?&sub=你Encode后的订阅&filter=(%3F%3D.*(%E5%8F%B0%7CTW%7C(%3Fi)Taiwan))&emoji=-1&sort=0"
     interval: 3600
     path: ./Proxy/TWList.yaml
     health-check:
@@ -72,7 +72,7 @@ proxy-providers:
 
   SG:
     type: http
-    url: "https://dove.589669.xyz/all2clash?&sub=Encode后的订阅&filter=(%3F%3D.*(%E6%96%B0%7C%E7%8B%AE%7C%E7%8D%85%7CSG%7C(%3Fi)Singapore))&emoji=-1&sort=0"
+    url: "https://dove.589669.xyz/all2clash?&sub=你Encode后的订阅&filter=(%3F%3D.*(%E6%96%B0%7C%E7%8B%AE%7C%E7%8D%85%7CSG%7C(%3Fi)Singapore))&emoji=-1&sort=0"
     interval: 3600
     path: ./Proxy/SGList.yaml
     health-check:
@@ -82,7 +82,7 @@ proxy-providers:
 
   JP:
     type: http
-    url: "https://dove.589669.xyz/all2clash?&sub=Encode后的订阅 k&filter=(%3F%3D.*(%E6%97%A5%7CJP%7C(%3Fi)Japan))&emoji=-1&sort=0"
+    url: "https://dove.589669.xyz/all2clash?&sub=你Encode后的订阅&filter=(%3F%3D.*(%E6%97%A5%7CJP%7C(%3Fi)Japan))&emoji=-1&sort=0"
     interval: 3600
     path: ./Proxy/JPList.yaml
     health-check:
@@ -92,7 +92,7 @@ proxy-providers:
 
   US:
     type: http
-    url: "https://dove.589669.xyz/all2clash?&sub=Encode后的订阅&filter=(%3F%3D.*(%E7%BE%8E%7CUS%7C(%3Fi)States%7CAmerican))&emoji=-1&sort=0"
+    url: "https://dove.589669.xyz/all2clash?&sub=你Encode后的订阅&filter=(%3F%3D.*(%E7%BE%8E%7CUS%7C(%3Fi)States%7CAmerican))&emoji=-1&sort=0"
     interval: 3600
     path: ./Proxy/USList.yaml
     health-check:
