@@ -13,7 +13,7 @@ test-timeout = 3
 geoip-maxmind-url = https://raw.githubusercontent.com/Hackl0us/GeoIP2-CN/release/Country.mmdb
 
 # > 跳过代理
-skip-proxy = %APPEND% passenger.t3go.cn
+skip-proxy = %APPEND% passenger.t3go.cn, 193.168.0.1/32
 # > 排除简单主机名
 exclude-simple-hostnames = true
 
