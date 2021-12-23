@@ -1,5 +1,5 @@
 #!name=Panels
-#!desc=信息面板
+#!desc=Surge 信息面板
 
 [Panel]
 Panel = title=TributePaulWalker, content=GitHub:https://github.com/TributePaulWalker,icon=aqi.medium,icon-color=#0089A7
