@@ -1,5 +1,5 @@
 #!name=New Advanced Settings & URL Redirect
-#!desc=最后更新时间 2021-12-28 08:53
+#!desc=最后更新时间 2021-12-28 09:00
 
 [General]
 # > Internet 测试 URL
@@ -11,6 +11,7 @@ test-timeout = 3
 
 # > 自定义 GeoIP 数据库
 geoip-maxmind-url = https://raw.githubusercontent.com/Hackl0us/GeoIP2-CN/release/Country.mmdb
+# geoip-maxmind-url = https://raw.githubusercontent.com/JMVoid/ipip2mmdb/release/Country.mmdb
 # geoip-maxmind-url = https://raw.githubusercontent.com/Loyalsoldier/geoip/release/Country.mmdb
 
 # > 跳过代理
