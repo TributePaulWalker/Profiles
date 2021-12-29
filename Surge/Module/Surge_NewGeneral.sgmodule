@@ -21,9 +21,6 @@ exclude-simple-hostnames = true
 # > Always Real IP Hosts
 always-real-ip = %APPEND% msftconnecttest.com, msftncsi.com, *.msftconnecttest.com, *.msftncsi.com, *.srv.nintendo.net, *.stun.playstation.net, xbox.*.microsoft.com, *.xboxlive.com, *.battlenet.com.cn, *.battlenet.com, *.blzstatic.cn, *.battle.net
 
-# > VIF Excluded Routes
-tun-excluded-routes = %APPEND% 239.255.255.250/32
-
 [URL Rewrite]
 # Redirect Google Search Service
 ^https?:\/\/(www.)?(g|google)\.cn https://www.google.com 302
