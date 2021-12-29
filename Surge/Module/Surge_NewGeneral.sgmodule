@@ -1,5 +1,5 @@
 #!name=New Advanced Settings & URL Redirect
-#!desc=最后更新时间 2021-12-28 09:00
+#!desc=最后更新时间 2021-12-29-11:27
 
 [General]
 # > Internet 测试 URL
@@ -9,7 +9,7 @@ proxy-test-url = http://cp.cloudflare.com/generate_204
 # > 测试超时（秒）
 test-timeout = 3
 
-# > 自定义 GeoIP 数据库
+# > 自定义 GeoIP 数据库(二选一即可）
 geoip-maxmind-url = https://raw.githubusercontent.com/Hackl0us/GeoIP2-CN/release/Country.mmdb
 # geoip-maxmind-url = https://raw.githubusercontent.com/Loyalsoldier/geoip/release/Country.mmdb
 
