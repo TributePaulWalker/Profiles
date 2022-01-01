@@ -1,5 +1,5 @@
 #!name=New Advanced Settings & URL Redirect
-#!desc=最后更新时间 2021-12-29 11:31
+#!desc=最后更新时间 2022-1-2 09:55
 
 [General]
 # > Internet 测试 URL
@@ -14,7 +14,7 @@ geoip-maxmind-url = https://raw.githubusercontent.com/Hackl0us/GeoIP2-CN/release
 # geoip-maxmind-url = https://raw.githubusercontent.com/Loyalsoldier/geoip/release/Country.mmdb
 
 # > 跳过代理
-skip-proxy = %APPEND% 193.168.0.1/32
+skip-proxy = %APPEND% 193.168.0.1/32, 192.168.122.1/32
 # > 排除简单主机名
 exclude-simple-hostnames = true
 
