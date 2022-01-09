@@ -90,7 +90,7 @@ always-real-ip = %APPEND% msftconnecttest.com, msftncsi.com, *.msftconnecttest.c
 ^https?:\/\/(www.)?vegaschina\.cn\/ https://www.vegascreativesoftware.com/ 302
 ^https?:\/\/(www.)?xshellcn\.com\/ https://www.netsarang.com/zh/xshell/ 302
 ^https?:\/\/(www.)?yuanchengxiezuo\.com\/ https://www.teamviewer.com/ 302
-^https?:\/\/(www.)?zbrushcn.com/ https://pixologic.com/ 302
+^https?:\/\/(www.)?zbrushcn\.com\/ https://pixologic.com/ 302
 
 # AbeamTV - api.abema.io
 ^https?:\/\/api\.abema\.io\/v\d\/ip\/check - reject
