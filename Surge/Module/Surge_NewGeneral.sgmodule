@@ -1,5 +1,5 @@
 #!name=New Advanced Settings & URL Redirect
-#!desc=最后更新时间 2022-1-10 07:20
+#!desc=最后更新时间 2022-1-15 16:25
 
 [General]
 # > Internet 测试 URL
@@ -19,7 +19,7 @@ skip-proxy = %APPEND% 193.168.0.1/32, 192.168.122.1/32
 exclude-simple-hostnames = true
 
 # > Always Real IP Hosts
-always-real-ip = %APPEND% msftconnecttest.com, msftncsi.com, *.msftconnecttest.com, *.msftncsi.com, *.srv.nintendo.net, *.stun.playstation.net, xbox.*.microsoft.com, *.xboxlive.com, *.battlenet.com.cn, *.battlenet.com, *.blzstatic.cn, *.battle.net
+always-real-ip = %APPEND% *.msftconnecttest.com, *.msftncsi.com, *.srv.nintendo.net, *.stun.playstation.net, xbox.*.microsoft.com, *.xboxlive.com, *.logon.battlenet.com.cn, *.logon.battle.net, stun.l.google.com
 
 [URL Rewrite]
 # Redirect Google Search Service
