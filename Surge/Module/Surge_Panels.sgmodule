@@ -4,7 +4,7 @@
 [Panel]
 Panel = title=TributePaulWalker, content=GitHub:https://github.com/TributePaulWalker,icon=aqi.medium,icon-color=#5AC8FA
 
-节假日提醒 = script-name=节假日提醒,update-interval=600
+节假日倒计时 = script-name=节假日倒计时,update-interval=600
 
 疫情统计 = script-name=疫情统计, title=新冠疫情查询, content=请刷新, update-interval=600
 
@@ -18,7 +18,7 @@ Sub_info_panel1 = script-name=Sub_info_panel1,update-interval=600
 
 
 [Script]
-节假日提醒 = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/TributePaulWalker/Profiles/main/JavaScript/Surge/Timecard.js
+节假日倒计时 = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/TributePaulWalker/Profiles/main/JavaScript/Surge/Timecard.js
 
 疫情统计 = type=generic, script-path=https://raw.githubusercontent.com/TributePaulWalker/Profiles/main/JavaScript/Surge/Covid19.js
 
