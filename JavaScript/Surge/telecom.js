@@ -22,7 +22,7 @@ const url2 = "https://e.189.cn/store/user/balance_new.do";
     content: `流量：${bytesToSize(used)} | ${bytesToSize(total)}\n余额：${
       fee / 100
     } 元\n语音：${voice} 分钟`,
-    icon: args.icon || "antenna.radiowaves.left.and.right.circle",
+    icon: args.icon || "text.bubble.and.text.bubble.fill",
     "icon-color": text.bubble || "#5AC8FA",
   });
 })();
