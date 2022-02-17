@@ -23,7 +23,7 @@ const url2 = "https://e.189.cn/store/user/balance_new.do";
       fee / 100
     } 元\n语音：${voice} 分钟`,
     icon: args.icon || "antenna.radiowaves.left.and.right.circle",
-    "icon-color": args.color || "#5AC8FA",
+    "icon-color": text.bubble || "#5AC8FA",
   });
 })();
 
