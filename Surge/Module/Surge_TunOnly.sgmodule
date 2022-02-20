@@ -4,4 +4,3 @@
 
 [General]
 compatibility-mode = 3
-force-http-engine-hosts = %APPEND% *:80
