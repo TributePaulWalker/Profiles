@@ -33,6 +33,7 @@
 * [smartmimi](https://github.com/smartmimi/conf/tree/master)
 * [LucaLin](https://github.com/LucaLin233)
 * [id77](https://github.com/id77)
+* [Neurogram](https://github.com/Neurogram-R)
 * [Hausd0rff](https://github.com/yqc007/QuantumultX)
 * [Qure](https://github.com/Koolson/Qure)
 * [Orz-3](https://github.com/Orz-3)
