@@ -1,7 +1,4 @@
 /*
-By：mieqq（https://github.com/mieqq/mieqq）
-https://github.com/mieqq/mieqq/blob/master/sub_info.js
-
 Surge配置参考注释，感谢@asukanana,感谢@congcong.
 
 示例↓↓↓ 
@@ -9,7 +6,6 @@ Surge配置参考注释，感谢@asukanana,感谢@congcong.
 
 [Proxy Group]
 Amy = select, policy-path=http://sub.info?url=encode后的机场节点链接&reset_day=13&alert=1&title=Amytelecom, update-interval=3600
-
 [Script]
 机场信息 = type=http-request,pattern=http://sub\.info,script-path=https://raw.githubusercontent.com/TributePaulWalker/Profiles/main/JavaScript/Surge/Sub_info_lite.js,timeout=10
 ----------------------------------------
@@ -45,8 +41,8 @@ let resetDayLeft = getRmainingDays(resetDay);
   let used = usage.download + usage.upload;
   let total = usage.total;
   let expire = usage.expire || args.expire;
-  let localProxy = "=http, localhost, 6152";
-  let infoList = [`使用：${bytesToSize(used)} | ${bytesToSize(total)}`];
+  let localProxy = ['=http, localhost, 6152','=http, 127.0.0.1, 6152','=socks5,127.0.0.1, 6153']
+  let infoList = [`${bytesToSize(used)} | ${bytesToSize(total)}`];
 
   if (resetDayLeft) {
     infoList.push(`重置：剩余${resetDayLeft}天`);
@@ -56,7 +52,7 @@ let resetDayLeft = getRmainingDays(resetDay);
     infoList.push(`到期：${formatTime(expire)}`);
   }
   sendNotification(used / total, expire, infoList);
-  let body = infoList.map((item) => item + localProxy).join("\n");
+  let body = infoList.map((item, index) => item+localProxy[index]).join("\n");
   $done({ response: { body } });
 })();
 
