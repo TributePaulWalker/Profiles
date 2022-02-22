@@ -1,0 +1,12 @@
+#!name=Redirect Google URL
+#!desc=Redirect Google URL & Service
+
+[URL Rewrite]
+# Redirect Google search
+^https?://(.*?[.])?(?:g|google).cn https://$1google.com 302
+^https?://(.*?[.])?(?:g|google).com.hk https://$1google.com 302
+# Redirect Google service
+^http://(www.)?google\.cn https://www.google.com 302
+^http://(www.)?g\.cn https://www.google.com 302
+[MITM]
+hostname = %APPEND% *.google.cn, *.google.com.hk
