@@ -1,0 +1,9 @@
+#!name=Skip Proxy Lists
+#!desc=跳过部分应用的代理检测
+#!system=ios
+
+# 网上国网、顺丰金融、广东农信 www.baidu.com
+# 建行生活 yunbusiness.ccb.com
+
+[General]
+skip-proxy = %APPEND% www.baidu.com,yunbusiness.ccb.com
