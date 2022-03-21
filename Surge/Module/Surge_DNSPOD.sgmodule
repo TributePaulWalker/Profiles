@@ -1,0 +1,5 @@
+#!name=DNSPOD
+#!desc=腾讯公用基础doh
+
+[General]
+doh-server = %APPEND% https://doh.pub/dns-query
