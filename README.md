@@ -36,6 +36,7 @@
 * [id77](https://github.com/id77)
 * [Neurogram](https://github.com/Neurogram-R)
 * [Hausd0rff](https://github.com/yqc007/QuantumultX)
+* [MuTu](https://github.com/githubdulong/Script)
 * [Qure](https://github.com/Koolson/Qure)
 * [Orz-3](https://github.com/Orz-3)
 
