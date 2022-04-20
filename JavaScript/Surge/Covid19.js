@@ -27,7 +27,7 @@ $httpClient.get(url, function(error, response, data){
     num(list[i], res);
     if (i == list.length - 1) {
      $done({
-       title: "疫情   : 新增 | 现存"+ "   "+nowtime(),
+       title: "疫情   :  新增 | 现存"+ "   "+nowtime(),
        icon:"filemenu.and.cursorarrow",
        "icon-color":"#5AC8FA",
        content: ala.replace(/\n$/, "")
