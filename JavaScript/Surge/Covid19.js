@@ -18,7 +18,7 @@ function num(location, result) {
     ala = ala +loc +"   :   " +loc_new_res[1].padStart(5,"\u0020")+":"+loc_now_res[1].padStart(5,"\u0020")+ "\n";
   } else {
     //console.log("获取" + loc + "的信息失败");
-    ala = ala + loc + "  :   查无数据\n";
+    ala = ala + loc + "   :   查无数据\n";
   }
 };
 $httpClient.get(url, function(error, response, data){
