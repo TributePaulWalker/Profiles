@@ -34,6 +34,7 @@
 * [smartmimi](https://github.com/smartmimi/conf/tree/master)
 * [LucaLin](https://github.com/LucaLin233)
 * [id77](https://github.com/id77)
+* [Privacy protection tools](https://github.com/privacy-protection-tools/anti-AD)
 * [Neurogram](https://github.com/Neurogram-R)
 * [Hausd0rff](https://github.com/yqc007/QuantumultX)
 * [MuTu](https://github.com/githubdulong/Script)
