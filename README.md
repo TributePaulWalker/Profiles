@@ -32,7 +32,6 @@
 * [zZPiglet](https://github.com/zZPiglet/Task/tree/master)
 * [app2smile](https://github.com/app2smile)
 * [smartmimi](https://github.com/smartmimi/conf/tree/master)
-* [LucaLin](https://github.com/LucaLin233)
 * [id77](https://github.com/id77)
 * [Privacy protection tools](https://github.com/privacy-protection-tools/anti-AD)
 * [Neurogram](https://github.com/Neurogram-R)
