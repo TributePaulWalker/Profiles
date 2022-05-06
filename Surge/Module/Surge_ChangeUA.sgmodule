@@ -1,4 +1,4 @@
-# name=ChangeUA
+#!name=ChangeUA
 #!desc=更换 User-Agent 以提升体验，使用手机百度 Quark 的 User-Agent。
 
 [Header Rewrite]
