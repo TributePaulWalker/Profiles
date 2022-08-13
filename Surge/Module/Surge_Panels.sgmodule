@@ -1,0 +1,31 @@
+#!name=Surge Panels
+#!desc=Surge 信息面板
+
+[Panel]
+Panel = title=TributePaulWalker, content=GitHub:https://github.com/TributePaulWalker,icon=aqi.medium,icon-color=#5AC8FA
+
+节假日倒计时 = script-name=节假日倒计时,update-interval=600
+
+疫情统计 = script-name=疫情统计, title=新冠疫情查询, content=请刷新, update-interval=600
+
+Sub_info_panel = script-name=Sub_info_panel,update-interval=600
+
+Sub_info_panel1 = script-name=Sub_info_panel1,update-interval=600
+
+网络信息 = script-name=网络信息,title=网络信息,content=请刷新,style=info,update-interval=60
+
+配置重载 = title=配置重载,content=配置重载,style=info,script-name=配置重载,update-interval=-1
+
+
+[Script]
+节假日倒计时 = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/TributePaulWalker/Profiles/main/JavaScript/Surge/Timecard.js
+
+疫情统计 = type=generic, script-path=https://raw.githubusercontent.com/TributePaulWalker/Profiles/main/JavaScript/Surge/Covid19.js
+
+# encode地址链接: https://www.urlencoder.org/
+Sub_info_panel = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/mieqq/mieqq/master/sub_info_panel.js,script-update-interval=0,argument=url=[URL encode 后的机场节点链接]&reset_day=28&title=E-Net&icon=icloud&color=#5AC8FA&method=get
+Sub_info_panel1 = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/mieqq/mieqq/master/sub_info_panel.js,script-update-interval=0,argument=url=[URL encode 后的机场节点链接]&reset_day=10&title=BitzNet&icon=icloud&color=#5AC8FA
+
+网络信息 = type=generic,timeout=5,script-path=https://raw.githubusercontent.com/TributePaulWalker/Profiles/main/JavaScript/Surge/ipcheck.js
+
+配置重载 = script-path=https://raw.githubusercontent.com/TributePaulWalker/Profiles/main/JavaScript/Surge/Profile-Reload.js,type=generic
