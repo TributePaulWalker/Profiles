@@ -38,6 +38,7 @@
 * [Hausd0rff](https://github.com/yqc007/QuantumultX)
 * [MuTu](https://github.com/githubdulong/Script)
 * [Rabbit-Spec](https://github.com/Rabbit-Spec/Surge)
+* [Virgil Clyne](https://github.com/VirgilClyne?tab=repositories)
 * [Qure](https://github.com/Koolson/Qure)
 * [Orz-3](https://github.com/Orz-3)
 
