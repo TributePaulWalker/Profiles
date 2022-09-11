@@ -35,7 +35,6 @@
 * [id77](https://github.com/id77)
 * [Privacy protection tools](https://github.com/privacy-protection-tools/anti-AD)
 * [Neurogram](https://github.com/Neurogram-R)
-* [Hausd0rff](https://github.com/yqc007/QuantumultX)
 * [MuTu](https://github.com/githubdulong/Script)
 * [Rabbit-Spec](https://github.com/Rabbit-Spec/Surge)
 * [Virgil Clyne](https://github.com/VirgilClyne?tab=repositories)
