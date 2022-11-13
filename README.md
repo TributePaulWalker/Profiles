@@ -27,7 +27,6 @@
 * [fishingworld](https://github.com/fishingworld)
 * [zqzess](https://github.com/zqzess)
 * [chouchoui](https://github.com/chouchoui)
-* [HotKids](https://github.com/HotKids)
 * [lhie1](https://github.com/lhie1/Rules/tree/master)
 * [zZPiglet](https://github.com/zZPiglet/Task/tree/master)
 * [app2smile](https://github.com/app2smile)
