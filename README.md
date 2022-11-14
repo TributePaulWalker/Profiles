@@ -36,6 +36,7 @@
 * [Neurogram](https://github.com/Neurogram-R)
 * [MuTu](https://github.com/githubdulong/Script)
 * [Rabbit-Spec](https://github.com/Rabbit-Spec/Surge)
+* [MartinsKing](https://github.com/ClydeTime?tab=repositories)
 * [Virgil Clyne](https://github.com/VirgilClyne?tab=repositories)
 * [Zeaphyou](https://github.com/Zeaphyou)
 * [Qure](https://github.com/Koolson/Qure)
