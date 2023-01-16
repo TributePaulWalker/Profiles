@@ -12,6 +12,7 @@ hostname = pan.baidu.com
 
 QuantumultX
 [rewrite_local]
+# 百度云VIP倍速播放
 https:\/\/pan\.baidu\.com\/rest\/2\.0\/membership\/user url script-response-body https://raw.githubusercontent.com/TributePaulWalker/Profiles/main/JavaScript/Surge/BaiduCloud.js
 
 [MITM]
