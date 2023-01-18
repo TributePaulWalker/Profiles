@@ -6,7 +6,7 @@
  * 定时任务添加： 0 7,10 * * * https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/js/Mine/wnCalendar/wnCalendar.js
  */
 const $ = new Env('wnCalendar', true)
-let title = '📅 今日黄历'
+let title = '今日黄历'
 let proxy = 'https://ghproxy.com/'
 let url = 'https://raw.githubusercontent.com/zqzess/openApiData/main/calendar/'
 let date = new Date()
@@ -54,14 +54,14 @@ function doWork(){
                     desc += i.term?' ' + i.term:''
                     desc += i.value?' ' + i.value:''
                     // 拼接消息体
-                    notifyContent = '干支纪法：' + i.gzYear + '年 ' + i.gzMonth + '月 ' + i.gzDate + '日\n📆农历：' + i.lMonth + '月' + i.lDate + '\n🎉今日：' + desc + '\n🈲️忌：' + i.avoid + '\n✅宜：' + i.suit
+                    notifyContent = '干支纪法：' + i.gzYear + '年 ' + i.gzMonth + '月 ' + i.gzDate + '日\n农历：' + i.lMonth + '月' + i.lDate + '\n今日：' + desc + '\n忌：' + i.avoid + '\n宜：' + i.suit
                 }
             })
             $.isSurge() ? body = {
                 title: title,
                 content: notifyContent,
                 icon: 'calendar',
-                'icon-color': '#9999FF'
+                'icon-color': '#5AC8FA'
             } : body = {title: title, content: notifyContent, icon: 'calendar', backgroundColor: '#9999FF'}
             console.log('\n内容：\n' + notifyContent)
             $.msg(title, nlDate, notifyContent)
