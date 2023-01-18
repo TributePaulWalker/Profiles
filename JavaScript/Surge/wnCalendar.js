@@ -60,7 +60,7 @@ function doWork(){
             $.isSurge() ? body = {
                 title: title,
                 content: notifyContent,
-                icon: 'calendar',
+                icon: 'list.bullet.rectangle',
                 'icon-color': '#5AC8FA'
             } : body = {title: title, content: notifyContent, icon: 'calendar', backgroundColor: '#9999FF'}
             console.log('\n内容：\n' + notifyContent)
