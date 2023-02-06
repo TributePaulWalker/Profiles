@@ -5,7 +5,8 @@
  * 感谢@chavyleung提供的Env
  * 定时任务添加：
  * [task_local]
- * 0 8 * * * https://raw.githubusercontent.com/TributePaulWalker/Profiles/main/JavaScript/QuanmutultX/Timecard.js
+ * # 节假提醒
+ * 0 7 * * * https://raw.githubusercontent.com/TributePaulWalker/Profiles/main/JavaScript/QuanmutultX/Timecard.js
  * 申明：部分函数方法来源于TimeCard.js，其原始作者@smartmimi
  */
 const $ = new Env('DaysMatter', true)
