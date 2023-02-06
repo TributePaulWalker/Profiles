@@ -8,11 +8,11 @@ GitHub：https://github.com/githubdulong
 
 Surge：
 [Script]
-每日一句 = type=cron,cronexp=8 8 8 * * *,wake-system=1,script-path=https://raw.githubusercontent.com/githubdulong/Script/master/One.js
+每日一句 = type=cron,cronexp=8 8 8 * * *,wake-system=1,script-path=https://raw.githubusercontent.com/TributePaulWalker/Profiles/main/JavaScript/Surge/One.js
 
 QuanmutultX：
 [task_local]
-8 8 8 * * * https://raw.githubusercontent.com/githubdulong/Script/master/One.js, tag=每日一句
+8 8 8 * * * https://raw.githubusercontent.com/TributePaulWalker/Profiles/main/JavaScript/Surge/One.js, tag=每日一句
 
 */
 
