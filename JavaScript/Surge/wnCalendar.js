@@ -3,7 +3,14 @@
  * @author: zqzess
  * 仓库地址：https://github.com/zqzess/rule_for_quantumultX
  * 感谢@chavyleung提供的Env
- * 定时任务添加： 0 7,10 * * * https://raw.githubusercontent.com/TributePaulWalker/Profiles/main/JavaScript/Surge/wnCalendar.js
+ * 定时任务添加：
+ * [Script]
+ * 今日黄历播报 = type=cron,timeout=20,cronexp=0 7 * * *,wake-system=1,script-path=https://raw.githubusercontent.com/TributePaulWalker/Profiles/main/JavaScript/Surge/wnCalendar.js
+ * 或者面板[Panel]添加：
+ * [Panel]
+ * 今日黄历 = script-name=今日黄历,title=今日黄历,content=请刷新,style=info,update-interval=86400
+ * [Script]
+ * 今日黄历 = type=generic,timeout=20,script-path=https://raw.githubusercontent.com/TributePaulWalker/Profiles/main/JavaScript/Surge/wnCalendar.js
  */
 const $ = new Env('wnCalendar', true)
 let title = '今日黄历'
