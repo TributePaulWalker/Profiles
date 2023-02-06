@@ -3,7 +3,7 @@
  * @author: zqzess
  * 仓库地址：https://github.com/zqzess/rule_for_quantumultX
  * 感谢@chavyleung提供的Env
- * 定时任务添加： 0 9 * * * https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/js/Mine/wnCalendar/DaysMatter.js
+ * 定时任务[task_local]添加： 0 8 * * * https://raw.githubusercontent.com/TributePaulWalker/Profiles/main/JavaScript/QuanmutultX/Timecard.js
  * 申明：部分函数方法来源于TimeCard.js，其原始作者@smartmimi
  */
 const $ = new Env('DaysMatter', true)
