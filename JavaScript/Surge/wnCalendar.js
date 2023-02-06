@@ -3,7 +3,7 @@
  * @author: zqzess
  * 仓库地址：https://github.com/zqzess/rule_for_quantumultX
  * 感谢@chavyleung提供的Env
- * 定时任务添加： 0 7,10 * * * https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/js/Mine/wnCalendar/wnCalendar.js
+ * 定时任务添加： 0 7,10 * * * https://raw.githubusercontent.com/TributePaulWalker/Profiles/main/JavaScript/Surge/wnCalendar.js
  */
 const $ = new Env('wnCalendar', true)
 let title = '今日黄历'
