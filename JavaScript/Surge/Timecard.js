@@ -1,10 +1,11 @@
 /*
- * Surge：
- * [Panel]
- * 节假提醒 = script-name=节假提醒,update-interval=3600
- *
- * [Script]
- * 节假提醒 = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/TributePaulWalker/Profiles/main/JavaScript/Surge/Timecard.js
+Surge：
+
+[Panel]
+节假提醒 = script-name=节假提醒,update-interval=3600
+
+[Script]
+节假提醒 = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/TributePaulWalker/Profiles/main/JavaScript/Surge/Timecard.js
  
  */
 var tlist = {
