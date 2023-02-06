@@ -3,6 +3,8 @@ By：Pysta
 
 GitHub:https://github.com/mieqq/mieqq
 
+Surge：
+
 [Panel]
 配置重载 = title=配置重载,content=配置重载,style=info,script-name=配置重载,update-interval=-1
 
