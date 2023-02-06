@@ -9,7 +9,7 @@ QuanmutultX：
 定时任务添加：
 [task_local]
 # 节假提醒
-0 7 * * * https://raw.githubusercontent.com/TributePaulWalker/Profiles/main/JavaScript/QuanmutultX/Timecard.js
+0 7 * * * https://raw.githubusercontent.com/TributePaulWalker/Profiles/main/JavaScript/QuanmutultX/Timecard.js, tag=节假提醒, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Daily.png, enabled=true
 
 申明：部分函数方法来源于TimeCard.js，其原始作者@smartmimi
 原脚本：https://raw.githubusercontent.com/smartmimi/conf/master/surge/timecard.js
