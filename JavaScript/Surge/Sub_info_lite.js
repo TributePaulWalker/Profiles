@@ -5,6 +5,8 @@ https://github.com/mieqq/mieqq/blob/master/sub_info.js
 示例↓↓↓ 
 ----------------------------------------
 
+Surge：
+
 [Proxy Group]
 Amy = select, policy-path=http://sub.info?url=encode后的机场节点链接&reset_day=13&alert=1&title=Amytelecom, update-interval=3600
 [Script]
