@@ -8,7 +8,11 @@
  * 定时任务添加：
  * [Script]
  * 今日黄历播报 = type=cron,timeout=20,cronexp=0 7 * * *,wake-system=1,script-path=https://raw.githubusercontent.com/TributePaulWalker/Profiles/main/JavaScript/Surge/wnCalendar.js
- * 或者面板添加：
+
+
+ * 或者--------------------------
+
+ * 面板添加：
  * [Panel]
  * 今日黄历 = script-name=今日黄历,title=今日黄历,content=请刷新,style=info,update-interval=86400
  * [Script]
