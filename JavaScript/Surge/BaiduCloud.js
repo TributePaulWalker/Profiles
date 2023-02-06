@@ -1,17 +1,19 @@
 /*
- * QuanmutultX：
- * [rewrite_local]
- * # 百度云VIP倍速播放
- * https:\/\/pan\.baidu\.com\/rest\/2\.0\/membership\/user url script-response-body https://raw.githubusercontent.com/TributePaulWalker/Profiles/main/JavaScript/Surge/BaiduCloud.js
- * [mitm]
- * hostname = pan.baidu.com
+ QuanmutultX：
+ [rewrite_local]
+ # 百度云VIP倍速播放
+ https:\/\/pan\.baidu\.com\/rest\/2\.0\/membership\/user url script-response-body https://raw.githubusercontent.com/TributePaulWalker/Profiles/main/JavaScript/Surge/BaiduCloud.js
+
+ [mitm]
+ hostname = pan.baidu.com
  
  
- * Surge：
- * [Script]
- * 百度云VIP倍速播放 = type=http-response,pattern=https:\/\/pan\.baidu\.com\/rest\/2\.0\/membership\/user,requires-body=1,max-size=0,timeout=20,script-path=https://raw.githubusercontent.com/TributePaulWalker/Profiles/main/JavaScript/Surge/BaiduCloud.js
- * [mitm]
- * hostname = pan.baidu.com
+ Surge：
+ [Script]
+ 百度云VIP倍速播放 = type=http-response,pattern=https:\/\/pan\.baidu\.com\/rest\/2\.0\/membership\/user,requires-body=1,max-size=0,timeout=20,script-path=https://raw.githubusercontent.com/TributePaulWalker/Profiles/main/JavaScript/Surge/BaiduCloud.js
+ 
+ [mitm]
+ hostname = pan.baidu.com
  
  
  */
