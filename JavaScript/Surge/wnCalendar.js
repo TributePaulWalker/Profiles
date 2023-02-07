@@ -79,7 +79,7 @@ function doWork(){
                     desc += i.term?' ' + i.term:''
                     desc += i.value?' ' + i.value:''
                     // 拼接消息体
-                    notifyContent = '干支纪法：' + i.gzYear + '年 ' + i.gzMonth + '月 ' + i.gzDate + '日\n农历：' + i.lMonth + '月' + i.lDate + '\n🎉今日：' + desc + '\n🈲️忌：' + i.avoid + '\n✅宜：' + i.suit
+                    notifyContent = '干支纪法：' + i.gzYear + '年 ' + i.gzMonth + '月 ' + i.gzDate + '日\n农历：' + i.lMonth + '月' + i.lDate + '\n今日：' + desc + '\n忌：' + i.avoid + '\n宜：' + i.suit
                 }
             })
             $.isSurge() ? body = {
