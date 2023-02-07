@@ -68,3 +68,14 @@ Brian 对任何脚本以及问题概不负责，包括但不限于由任何脚�
 我们自认为打破了信息的壁垒，其实打破的是保护我们的屏障。因为外网真的存在很多误导性言论，来自各个利益集团对中国网民疯狂洗脑，他们往往还喜欢以平等自由等旗号自称，但仔细想想真的是这样吗？我只知道美国是最善于运用舆论的国家，会结合大数据潜移默化地改变你的观念。如果大家在上网过程中不经意看到了某些观点，务必保留自己独立思考的能力，如果你是一个容易被带偏的人，则建议回到屏障之中，本规则不对你开放。
 
 本规则只提供给大家用于更便捷地学习和工作。如果你是对上述观点持反对意见以及极端政治人士，或者已被洗脑，请立即离开，本项目不对你开放。
+
+
+### 项目 Star 数增长趋势
+
+[![Stargazers over time]
+(https://starchart.cc/TributePaulWalker/Profiles.svg)]
+(https://starchart.cc/TributePaulWalker/Profiles)
+
+### 访问量
+
+![](http://profile-counter.glitch.me/TributePaulWalker/count.svg)
