@@ -69,13 +69,6 @@ Brian 对任何脚本以及问题概不负责，包括但不限于由任何脚�
 
 本规则只提供给大家用于更便捷地学习和工作。如果你是对上述观点持反对意见以及极端政治人士，或者已被洗脑，请立即离开，本项目不对你开放。
 
-
-### 项目 Star 数增长趋势
-
-[![Stargazers over time]
-(https://starchart.cc/TributePaulWalker/Profiles.svg)]
-(https://starchart.cc/TributePaulWalker/Profiles)
-
 ### 项目 Star 数增长趋势
 
 [![Stargazers over time](https://starchart.cc/TributePaulWalker/Profiles.svg)](https://starchart.cc/TributePaulWalker/Profiles)
