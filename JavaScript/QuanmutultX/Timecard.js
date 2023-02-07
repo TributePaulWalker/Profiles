@@ -55,7 +55,7 @@ async function startWork() {
         title: title_random(tnumcount(Number(0))),
         content: notifyContent,
         icon: icon_now(tnumcount(Number(0))),
-        'icon-color': '#339900'
+        'icon-color': '#5AC8FA'
     } : body = {title: title_random(tnumcount(Number(0))), content: notifyContent, icon: icon_now(tnumcount(Number(0))), backgroundColor: '#339900'}
     $.log('\n面板显示内容：\n' + notifyContent)
     // $.msg(title, '', notifyContent)
