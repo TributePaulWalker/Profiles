@@ -76,6 +76,9 @@ Brian 对任何脚本以及问题概不负责，包括但不限于由任何脚�
 (https://starchart.cc/TributePaulWalker/Profiles.svg)]
 (https://starchart.cc/TributePaulWalker/Profiles)
 
+### 项目 Star 数增长趋势
+
+[![Stargazers over time](https://starchart.cc/TributePaulWalker/Profiles.svg)](https://starchart.cc/TributePaulWalker/Profiles)
 ### 访问量
 
 ![](http://profile-counter.glitch.me/TributePaulWalker/count.svg)
