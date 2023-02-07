@@ -5,11 +5,3 @@
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=TributePaulWalker&layout=compact&theme=vue)](https://github.com/TributePaulWalker/TributePaulWalker)
 
 纯自用。
-
-### 访问量
-
-![](http://profile-counter.glitch.me/TributePaulWalker/Profiles/tree/main/JavaScript.svg)
-
-### 项目 Star 数增长趋势
-
-[![Stargazers over time](https://starchart.cc/TributePaulWalker/Profiles/tree/main/JavaScript.svg)](https://starchart.cc/TributePaulWalker/Profiles/tree/main/JavaScript)
