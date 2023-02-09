@@ -59,7 +59,7 @@ async function startWork() {
     $.isSurge() ? body = {
         title: title_random(tnumcount(Number(0))),
         content: notifyContent,
-        icon: icon_now(list.dash.header.rectangle(Number(0))),
+        icon: icon_now(tnumcount(Number(0))),
         'icon-color': '#5AC8FA'
     } : body = {title: title_random(tnumcount(Number(0))), content: notifyContent, icon: icon_now(tnumcount(Number(0))), backgroundColor: '#339900'}
     $.log('\n面板显示内容：\n' + notifyContent)
