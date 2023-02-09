@@ -41,7 +41,7 @@ let defaultDaysData =
     {'date': '2023-5-31', 'name': '楠楠生日'},
     {'date': '2023-7-22', 'name': '老婆生日'},
     {'date': '2023-9-7', 'name': '多多生日'},
-    {'date': '2023-11-15', 'name': '妹妹生日'} // 内置假日
+    {'date': '2023-11-15', 'name': '妹妹生日'}] // 内置假日
 
 let tnow = new Date()
 let tnowf = tnow.getFullYear() + "-" + (tnow.getMonth() + 1) + "-" + tnow.getDate()
