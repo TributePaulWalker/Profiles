@@ -34,7 +34,7 @@ let userDays2 = $.getdata('@DaysMatter.userDays2') // 用户浮动假日
 let userDaysName2 = $.getdata('@DaysMatter.userDaysName2')
 let userDaysData = $.getjson('@DaysMatter.userDaysData', {'list': []}) // 备用变量
 let defaultDaysData =
-    [{'date': '2023-2-10', 'name': '老爸生日'},
+    [{'date': '2023-2-12', 'name': '老爸生日'},
     {'date': '2023-3-27', 'name': '结婚纪念日3周年'},
     {'date': '2023-5-9', 'name': '生日'},
     {'date': '2023-5-22', 'name': '奶奶生日'},
