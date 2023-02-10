@@ -3,8 +3,11 @@
 本脚本是假日倒计时，支持Surge(Panel,Cron),Stash(Tile,Cron),Loon,QuantumultX,Shadowrocket
 @author: zqzess
 仓库地址：https://github.com/zqzess/rule_for_quantumultX
+原脚本地址：https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/js/Mine/wnCalendar/DaysMatter.js
 感谢@chavyleung提供的Env
- 
+
+修改：TributePaulWalker
+
 QuanmutultX：
 定时任务添加：
 [task_local]
