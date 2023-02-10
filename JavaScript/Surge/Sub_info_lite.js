@@ -1,7 +1,9 @@
 /*
 Surge配置参考注释，感谢@asukanana,感谢@congcong.
-By：mieqq（https://github.com/mieqq/mieqq）
-https://github.com/mieqq/mieqq/blob/master/sub_info.js
+By：mieqq
+GitHub：https://github.com/mieqq/mieqq
+原脚本地址：https://github.com/mieqq/mieqq/blob/master/sub_info.js
+修改：TributePaulWalker
 示例↓↓↓ 
 ----------------------------------------
 
