@@ -6,6 +6,8 @@ README：https://raw.githubusercontent.com/githubdulong/Script/master/One.js
 原作者：@MuTu888 
 GitHub：https://github.com/githubdulong
 
+修改：TributePaulWalker
+
 Surge：
 [Script]
 每日一句 = type=cron,cronexp=8 8 8 * * *,wake-system=1,script-path=https://raw.githubusercontent.com/TributePaulWalker/Profiles/main/JavaScript/Surge/One.js
