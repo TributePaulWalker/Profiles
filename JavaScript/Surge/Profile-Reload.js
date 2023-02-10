@@ -1,7 +1,9 @@
 /*
 By：Pysta
 
-GitHub:https://github.com/mieqq/mieqq
+GitHub地址:https://github.com/mieqq/mieqq
+
+修改：TributePaulWalker
 
 Surge：
 
