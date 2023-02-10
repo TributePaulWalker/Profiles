@@ -3,6 +3,8 @@
 本脚本旨在获取当日的黄历，支持Surge(Panel,Cron),Stash(Tile,Cron),Loon,QuantumultX,Shadowrocket
 @author: zqzess
 仓库地址：https://github.com/zqzess/rule_for_quantumultX
+原脚本地址：https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/js/Mine/wnCalendar/wnCalendar.js
+修改：TributePaulWalker
 感谢@chavyleung提供的Env
 
 
