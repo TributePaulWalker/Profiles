@@ -1,6 +1,7 @@
 /*
-https://raw.githubusercontent.com/congcong0806/surge-list/master/Script/ipcheck.js
-
+脚本原作者：聪聪
+原脚本地址：https://raw.githubusercontent.com/congcong0806/surge-list/master/Script/ipcheck.js
+修改：TributePaulWalker
 Surge：
 
 [Panel]
