@@ -2,8 +2,10 @@
 
 申明：部分函数方法来源于TimeCard.js，其原始作者@smartmimi
 原脚本：https://raw.githubusercontent.com/smartmimi/conf/master/surge/timecard.js
-@smartmimi GitHub：https://github.com/smartmimi/conf/tree/master
+原脚本作者：@smartmimi 
+GitHub：https://github.com/smartmimi/conf/tree/master
 
+修改：TributePaulWalker
 Surge：
 
 [Panel]
