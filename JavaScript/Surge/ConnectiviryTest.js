@@ -1,3 +1,18 @@
+/*
+原脚本：https://raw.githubusercontent.com/Keywos/rule/main/JS/ConnectivityTest.js
+
+修改：TributePaulWalker
+Surge：
+
+
+[Panel]
+ConnectivityTest = script-name=ConnectivityTest,update-interval=1
+
+[Script]
+ConnectivityTest = type=generic,timeout=3,script-path=https://raw.githubusercontent.com/TributePaulWalker/Profiles/main/JavaScript/Surge/ConnectiviryTest.js,argument=title=ConnectivityTest&server=false
+ 
+ */
+
 let $ = {
 baidu:'https://www.baidu.com',
 google:'https://www.google.com/generate_204',
