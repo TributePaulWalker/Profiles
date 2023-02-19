@@ -11,9 +11,9 @@ youtube:'https://www.youtube.com/'
 
 }
 !(async () => {
-await Promise.all([http($.baidu),http($. google),http($. github),,http($.youtube)]).then((x)=>{
+await Promise.all([http($.baidu),http($. google),http($. github),http($.youtube)]).then((x)=>{
 	$done({
-    title: 'Network Connectivity Test',
+    title: 'Network ConnectivityTest',
     content: x.join('\n'),
     icon: 'timer',
     'icon-color': '#5AC8FA',
