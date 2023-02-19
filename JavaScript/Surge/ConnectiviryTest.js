@@ -1,5 +1,6 @@
 /*
-加入了百度和bilibili测速,感谢@小白脸重写脚本原脚本,原作者@yibeizipeini来自于https://raw.githubusercontent.com/yibeizipeini/JavaScript/Surge/ConnectivityTest.js
+感谢@小白脸 重写脚本原脚本
+原作者@yibeizipeini来自于https://raw.githubusercontent.com/yibeizipeini/JavaScript/Surge/ConnectivityTest.js
  */
 let $ = {
 
