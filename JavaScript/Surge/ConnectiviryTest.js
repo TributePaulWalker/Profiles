@@ -1,25 +1,14 @@
 /*
-原脚本：https://raw.githubusercontent.com/Keywos/rule/main/JS/ConnectivityTest.js
-
-修改：TributePaulWalker
-Surge：
-
-
-[Panel]
-ConnectivityTest = script-name=ConnectivityTest,update-interval=1
-
-[Script]
-ConnectivityTest = type=generic,timeout=3,script-path=https://raw.githubusercontent.com/TributePaulWalker/Profiles/main/JavaScript/Surge/ConnectiviryTest.js,argument=title=ConnectivityTest&server=false
- 
+加入了百度和bilibili测速,感谢@小白脸重写脚本原脚本,原作者@yibeizipeini来自于https://raw.githubusercontent.com/yibeizipeini/JavaScript/Surge/ConnectivityTest.js
  */
-
 let $ = {
+
 baidu:'https://www.baidu.com',
 google:'https://www.google.com/generate_204',
-youtube:'https://www.youtube.com/',
-github:'https://www.github.com'
-}
+github:'https://www.github.com',
+youtube:'https://www.youtube.com/'
 
+}
 !(async () => {
 await Promise.all([http($.baidu),http($.bilibili),http($. github),http($. google),http($.youtube)]).then((x)=>{
 	$done({
@@ -30,7 +19,6 @@ await Promise.all([http($.baidu),http($.bilibili),http($. github),http($. google
   })
 })
 })();
-
 function http(req) {
     return new Promise((r) => {
 			let time = Date.now();
