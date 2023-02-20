@@ -15,7 +15,7 @@ await Promise.all([http($.baidu),http($. google),http($. github),http($.youtube)
 	$done({
     title: '网络延迟',
     content: x.join('\n'),
-    icon: 'link.icloud',
+    icon: 'bolt.horizontal.icloud',
     'icon-color': '#5AC8FA',
   })
 })
