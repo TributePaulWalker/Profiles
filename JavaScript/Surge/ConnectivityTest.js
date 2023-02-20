@@ -11,27 +11,29 @@ Surge:
 
  */
 let $ = {
-baidu:'https://www.baidu.com',
-google:'https://www.google.com/generate_204',
-youtube:'https://www.youtube.com/',
-github:'https://www.github.com'
+Baidu:'https://www.baidu.com',
+Google:'https://www.google.com/generate_204',
+Youtube:'https://www.youtube.com/',
+Github:'https://www.github.com'
 }
+
 !(async () => {
-await Promise.all([http($.baidu),http($. google),http($.youtube),http($. github)]).then((x)=>{
+await Promise.all([http('Baidu'),http('Google'),http('Youtube'),http('Github')]).then((x)=>{
 	$done({
-    title: '延迟测试',
+    title: '网络延迟',
     content: x.join('\n'),
     icon: 'bolt.horizontal.icloud',
     'icon-color': '#5AC8FA',
   })
 })
 })();
+
 function http(req) {
     return new Promise((r) => {
 			let time = Date.now();
-        $httpClient.post(req, (err, resp, data) => {
-            r(req.split(".")[1]+
-						'\xa0\xa0\xa0\xa0\xa0\t: ' +
+        $httpClient.post($[req], (err, resp, data) => {
+            r(req +
+						'\xa0\xa0\xa0\t: ' +
 						(Date.now() - time)+' ms');
         });
     });
