@@ -20,18 +20,17 @@ Github:'https://www.github.com'
 !(async () => {
 await Promise.all([http('Baidu'),http('Google'),http('Youtube'),http('Github')]).then((x)=>{
 	$done({
-    title: '网络延迟',
+    title: 'Network Connectivity Test',
     content: x.join('\n'),
-    icon: 'bolt.horizontal.icloud',
-    'icon-color': '#5AC8FA',
+    icon: 'timer',
+    'icon-color': '#FF5A9AF9',
   })
 })
 })();
-
 function http(req) {
     return new Promise((r) => {
 			let time = Date.now();
-        $httpClient.post($[req], (err, resp, data) => {
+        $httpClient.post(req, (err, resp, data) => {
             r(req.split(".")[1]+
 						'\xa0\xa0\xa0\xa0\xa0\t: ' +
 						(Date.now() - time)+' ms');
