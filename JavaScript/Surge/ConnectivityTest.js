@@ -11,10 +11,10 @@ Surge:
 
  */
 let $ = {
-Baidu:'https://www.baidu.com',
-Google:'https://www.google.com/generate_204',
-Youtube:'https://www.youtube.com/',
-Github:'https://www.github.com'
+Baidu 'https://www.baidu.com',
+Google 'https://www.google.com/generate_204',
+Youtube 'https://www.youtube.com/',
+Github 'https://www.github.com'
 }
 
 !(async () => {
