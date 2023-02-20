@@ -13,11 +13,12 @@ Surge:
 let $ = {
 Baidu:'https://www.baidu.com',
 Google:'https://www.google.com/generate_204',
+youtube:'https://www.youtube.com/',
 Github:'https://www.github.com'
 }
 
 !(async () => {
-await Promise.all([http('Baidu'),http('Google'),http('Github')]).then((x)=>{
+await Promise.all([http('Baidu'),http('Google'),http('Youtube'),http('Github')]).then((x)=>{
 	$done({
     title: '网络延迟',
     content: x.join('\n'),
@@ -31,7 +32,7 @@ function http(req) {
     return new Promise((r) => {
 			let time = Date.now();
         $httpClient.post($[req], (err, resp, data) => {
-            r(req +
+            r(req.split(".")[1]+
 						'\xa0\xa0\xa0\xa0\xa0\t: ' +
 						(Date.now() - time)+' ms');
         });
