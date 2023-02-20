@@ -11,7 +11,7 @@ YouTube:'https://www.youtube.com/'
 
 }
 !(async () => {
-await Promise.all([http($.baidu),http($. google),http($. github),http($.youtube)]).then((x)=>{
+await Promise.all([http($.Baidu),http($. Google),http($. GitHub),http($.YouTube)]).then((x)=>{
 	$done({
     title: '网络延迟',
     content: x.join('\n'),
