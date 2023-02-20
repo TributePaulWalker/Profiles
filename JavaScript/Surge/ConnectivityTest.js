@@ -22,8 +22,8 @@ await Promise.all([http('Baidu'),http('Google'),http('Youtube'),http('Github')])
 	$done({
     title: 'Network Connectivity Test',
     content: x.join('\n'),
-    icon: 'timer',
-    'icon-color': '#FF5A9AF9',
+    icon: 'bolt.horizontal.icloud',
+    'icon-color': '#5AC8FA',
   })
 })
 })();
