@@ -11,16 +11,15 @@ Surge:
 
  */
 let $ = {
-Baidu:'https://www.baidu.com',
-Google:'https://www.google.com/generate_204',
+baidu:'https://www.baidu.com',
+google:'https://www.google.com/generate_204',
 youtube:'https://www.youtube.com/',
-Github:'https://www.github.com'
+github:'https://www.github.com'
 }
-
 !(async () => {
-await Promise.all([http('Baidu'),http('Google'),http('Youtube'),http('Github')]).then((x)=>{
+await Promise.all([http($.baidu),http($. google),http($.youtube),http($. github)]).then((x)=>{
 	$done({
-    title: 'Network Connectivity Test',
+    title: '延迟测试',
     content: x.join('\n'),
     icon: 'bolt.horizontal.icloud',
     'icon-color': '#5AC8FA',
