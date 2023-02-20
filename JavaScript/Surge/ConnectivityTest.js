@@ -4,10 +4,10 @@
  */
 let $ = {
 
-baidu:'https://www.baidu.com',
-google:'https://www.google.com/generate_204',
-github:'https://www.github.com',
-youtube:'https://www.youtube.com/'
+Baidu:'https://www.baidu.com',
+Google:'https://www.google.com/generate_204',
+GitHub:'https://www.github.com',
+YouTube:'https://www.youtube.com/'
 
 }
 !(async () => {
