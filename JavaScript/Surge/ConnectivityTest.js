@@ -1,17 +1,24 @@
 /*
 感谢@小白脸 重写脚本原脚本
 原作者@yibeizipeini来自于https://raw.githubusercontent.com/yibeizipeini/JavaScript/Surge/ConnectivityTest.js
+
+Surge:
+[Panel]
+网络延迟 = script-name=网络延迟,update-interval=1
+
+[Script]
+网络延迟 = type=generic,timeout=3,script-path=https://raw.githubusercontent.com/TributePaulWalker/Profiles/main/JavaScript/Surge/ConnectivityTest.js,argument=title=网络延迟&server=false
+
  */
 let $ = {
-
 Baidu:'https://www.baidu.com',
 Google:'https://www.google.com/generate_204',
-GitHub:'https://www.github.com',
-YouTube:'https://www.youtube.com/'
-
+Youtube:'https://www.youtube.com/',
+Github:'https://www.github.com'
 }
+
 !(async () => {
-await Promise.all([http($.Baidu),http($. Google),http($. GitHub),http($.YouTube)]).then((x)=>{
+await Promise.all([http('Baidu'),http('Google'),http('Youtube'),http('Github')]).then((x)=>{
 	$done({
     title: '网络延迟',
     content: x.join('\n'),
@@ -20,11 +27,12 @@ await Promise.all([http($.Baidu),http($. Google),http($. GitHub),http($.YouTube)
   })
 })
 })();
+
 function http(req) {
     return new Promise((r) => {
 			let time = Date.now();
-        $httpClient.post(req, (err, resp, data) => {
-            r(req.split(".")[1]+
+        $httpClient.post($[req], (err, resp, data) => {
+            r(req +
 						'\xa0\xa0\xa0\xa0\xa0\t: ' +
 						(Date.now() - time)+' ms');
         });
