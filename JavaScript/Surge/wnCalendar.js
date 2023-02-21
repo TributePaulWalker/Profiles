@@ -12,7 +12,7 @@ Surge：
 
 定时任务添加：
 [Script]
-今日黄历播报 = type=cron,timeout=20,cronexp=0 7 * * *,wake-system=1,script-path=https://raw.githubusercontent.com/TributePaulWalker/Profiles/main/JavaScript/Surge/wnCalendar.js
+今日黄历播报 = type=cron,timeout=30,cronexp=0 7 * * *,wake-system=1,script-path=https://raw.githubusercontent.com/TributePaulWalker/Profiles/main/JavaScript/Surge/wnCalendar.js
 
 
 或者--------------------------
@@ -22,7 +22,7 @@ Surge：
 今日黄历 = script-name=今日黄历,title=今日黄历,content=请刷新,style=info,update-interval=86400
 
 [Script]
-今日黄历 = type=generic,timeout=20,script-path=https://raw.githubusercontent.com/TributePaulWalker/Profiles/main/JavaScript/Surge/wnCalendar.js
+今日黄历 = type=generic,timeout=30,script-path=https://raw.githubusercontent.com/TributePaulWalker/Profiles/main/JavaScript/Surge/wnCalendar.js
 
 
 QuanmutultX：
