@@ -8,7 +8,7 @@ Surge：
 网络信息 = script-name=网络信息, title="网络信息", content="请刷新", style=info, update-interval=60
 
 [Script]
-网络信息 = type=generic,timeout=3,script-path=https://raw.githubusercontent.com/TributePaulWalker/Profiles/main/JavaScript/Surge/ipcheck.js
+网络信息 = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/TributePaulWalker/Profiles/main/JavaScript/Surge/ipcheck.js
 
 */
 
