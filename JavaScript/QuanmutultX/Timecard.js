@@ -8,11 +8,23 @@
 
 修改：TributePaulWalker
 
+Surge:
+[Panel]
+假日提醒 = script-name=假日提醒,titlt=假日提醒,content=请刷新,style=info,update-interval=3600
+[Script]
+假日提醒 = type = generic,timeout=30,script-path=https://raw.githubusercontent.com/TributePaulWalker/Profiles/main/JavaScript/QuanmutultX/Timecard.js
+
+或者直接添加定时任务：
+[Script]
+假日提醒 = type = cron,timeout=30,wake-system=1,cronexp=30 7 * * *, script-path=https://raw.githubusercontent.com/TributePaulWalker/Profiles/main/JavaScript/QuanmutultX/Timecard.js
+
+
 QuanmutultX：
 定时任务添加：
 [task_local]
 # 节假提醒
 0 7 * * * https://raw.githubusercontent.com/TributePaulWalker/Profiles/main/JavaScript/QuanmutultX/Timecard.js, tag=节假提醒, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Daily.png, enabled=true
+
 
 申明：部分函数方法来源于TimeCard.js，其原始作者@smartmimi
 原脚本：https://raw.githubusercontent.com/smartmimi/conf/master/surge/timecard.js
