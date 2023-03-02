@@ -4,10 +4,10 @@
 
 Surge:
 [Panel]
-网络延迟 = script-name=网络延迟,update-interval=1
+网络延迟 = script-name=网络延迟,update-interval=5
 
 [Script]
-网络延迟 = type=generic,timeout=3,script-path=https://raw.githubusercontent.com/TributePaulWalker/Profiles/main/JavaScript/Surge/ConnectivityTest.js,argument=title=网络延迟&server=false
+网络延迟 = type=generic,timeout=5,script-path=https://raw.githubusercontent.com/TributePaulWalker/Profiles/main/JavaScript/Surge/ConnectivityTest.js,argument=title=网络延迟&server=false
 
  */
 let $ = {
