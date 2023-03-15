@@ -75,10 +75,6 @@ Brian 对任何脚本以及问题概不负责，包括但不限于由任何脚�
 [![Stargazers over time](https://starchart.cc/TributePaulWalker/Profiles.svg)](https://starchart.cc/TributePaulWalker/Profiles)
 
 
-## Stargazers over time
-
-[![Stargazers over time](https://starchart.cc/TributePaulWalker/Profiles.svg)](https://starchart.cc/TributePaulWalker/Profiles)
-
 ### 项目访问量统计
 
 
