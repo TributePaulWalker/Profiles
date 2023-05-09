@@ -58,7 +58,7 @@ try {
       if (policyGroupName(`${Group}`) === "Direct") {
          $surge.setSelectGroupPolicy(`${Group}`, `${policy}`);
          $notification.post(
-            `🎉🎉🎉切换成功 监控时间${time}秒`,
+            `🎉切换成功 监控时间${time}秒`,
             `当前速度—> ${speed_unit(current_speed)}——> ${minSpeed} MB/s`,
             `${host}平均下载速度低于${minSpeed} MB/s 已自动切换至${policy}策略`,
          );
@@ -67,6 +67,6 @@ try {
       }
    })();
 } catch (err) {
-   $notification.post("错误: ❌", err.message || err, "☹️😞😫切换失败");
+   $notification.post("错误: ❌", err.message || err, "😞切换失败");
    $done({});
 }
