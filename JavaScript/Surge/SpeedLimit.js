@@ -31,7 +31,6 @@ Apple策略优选 = type=rule,timeout=60,script-path=https://raw.githubuserconte
 • 遇到不能用直接删缓存 last_update_time；
 
 -----------------------------------------
------------------------------------------
 */
 
 const policyGroupName = (Group) => {
