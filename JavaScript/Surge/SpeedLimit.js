@@ -1,10 +1,10 @@
 /*
 
 作者：小白脸
-版本：1.0.5
+版本：1.0.6
 搬运：@MuTu888
 仓库：https://github.com/githubdulong
-日期：2023.05.13.12:45
+日期：2023.05.15.20:18
 Surge配置参考注释
 
 示例↓↓↓ 
@@ -31,6 +31,7 @@ Apple策略优选 = type=rule,timeout=60,script-path=https://raw.githubuserconte
 • 遇到不能用直接删缓存 last_update_time；
 
 -----------------------------------------
+
 */
 
 const policyGroupName = (Group, policyStrategies = "decisions") => {
@@ -38,16 +39,19 @@ const policyGroupName = (Group, policyStrategies = "decisions") => {
 };
 
 const speed = (includes = "?.inCurrentSpeed") => {
-   return new Promise((r) => {
-      $httpAPI("GET", "/v1/requests/active", null, (data) =>
-         r(
-            eval(
-               `const Data =
-data.requests.filter(item => item.URL.includes('${host}'));					
-	Data[0]	? Data.reduce((prev, current) => (prev.speed > current.speed) ? prev : current)${includes} : undefined;`,
-            ),
-         ),
-      );
+   return new Promise((r, j) => {
+      $httpAPI("GET", "/v1/requests/active", null, (data) => {
+         //-
+         try {
+            const Data = eval(
+               `data.requests.filter(item => item.URL.includes('${host}')).reduce((prev, current) => (prev.speed > current.speed) ? prev : current)${includes}`,
+            );
+            r(Data);
+         } catch (error) {
+            j();
+         }
+         //-
+      });
    });
 };
 
@@ -76,13 +80,18 @@ const _Group = cache[host]?.Group;
 const _policy0 = cache[host]?.policy0;
 
 if (_Group && _policy0 && Date.now() - lastUpdateTime >= 0.16 * 3600000) {
-   policyGroupName(_Group) !== _policy0 && $surge.setSelectGroupPolicy(_Group, _policy0) &&
-		(cache[host].policy = _policy0);
+   policyGroupName(_Group) !== _policy0 &&
+      $surge.setSelectGroupPolicy(_Group, _policy0) &&
+      (cache[host].policy = _policy0);
 }
 
 $done({ matched: true });
 
 !(async () => {
+   //限制并发请求
+   if (cache[host]?.switch === "1") return;
+   write("1");
+
    try {
       const findArg = async (G, isFound) => {
          let arg = $argument.match(`${G}.+?minSpeed=[0-9]+`);
@@ -134,25 +143,12 @@ $done({ matched: true });
       const policy1 = policyGroupName(Group); // 现在使用的
       const policy0 = arr_policy[0];
       const End = arr_policy[index_p - 1];
-      let policys = cache[host]?.policy;
-
-      //存储的
-      if (policy1 === policy0) {
-         policys = policy0;
-         write("0");
-      }
-
-      //限制并发请求
-      if (cache[host].switch === "1") return;
-      write("1");
 
       let current_speed;
       let count = 0;
-
       for (let i = 0; i < Math.ceil(time / 3); i++) {
          await new Promise((r) => setTimeout(r, 3000));
          current_speed = await speed();
-         if (current_speed === undefined) return;
 
          if (current_speed === 0) count++;
 
@@ -174,7 +170,6 @@ $done({ matched: true });
       );
       cache[host].time = Date.now();
       cache[host].Group = Group;
-      cache[host].policy = p;
       cache[host].policy0 = policy0;
       write("0");
    } catch (err) {
