@@ -16,7 +16,7 @@ AND,((DOMAIN,iosapps.itunes.apple.com), (SCRIPT,Apple策略优选)),Apple
 
 [Script]
 # Apple下载速度低于10MB将自动触发替换策略
-Apple策略优选 = type=rule,timeout=60,script-path=https://raw.githubusercontent.com/TributePaulWalker/Profiles/main/JavaScript/Surge/SpeedLimit.js,argument="Return=10min,Group=Apple&policy=Direct,Proxy,Support&time=15&minSpeed=10"
+Apple策略优选 = type=rule,timeout=60,script-path=https://raw.githubusercontent.com/TributePaulWalker/Profiles/main/JavaScript/Surge/SpeedLimit.js,argument="Return=10min,Group=Apple&policy=Direct,Proxy&time=15&minSpeed=10"
 
 -----------------------------------------
 • 支持监控多个策略组，每个策略组可以监控多个域名，and 套 or 规则 or 可以放多个域名 and最下面放脚本规则；
