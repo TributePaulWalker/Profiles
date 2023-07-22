@@ -36,6 +36,7 @@
 * [MartinsKing](https://github.com/ClydeTime?tab=repositories)
 * [Virgil Clyne](https://github.com/VirgilClyne?tab=repositories)
 * [ExaAlice](https://github.com/ExaAlice/Alice)
+* [Alexandr Garbuzov](https://github.com/anuraghazra/github-readme-stats/blob/master/docs/readme_cn.md)
 * [Qure](https://github.com/Koolson/Qure)
 * [Orz-3](https://github.com/Orz-3)
 
