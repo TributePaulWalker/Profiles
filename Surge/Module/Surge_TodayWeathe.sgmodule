@@ -3,4 +3,4 @@
 [Panel]
 今日天气=script-name=今日天气
 [Script]
-今日天气=type=generic,script-path= https://raw.githubusercontent.com/TributePaulWalker/Profiles/main/JavaScript/Surge/TodayWeather.js,argument=icon=sun.max.fill&color=#ffc400&cityId= 101201101
+今日天气=type=generic,script-path= https://raw.githubusercontent.com/TributePaulWalker/Profiles/main/JavaScript/Surge/TodayWeather.js,argument=icon=sun.max.fill&color=#ffc400&cityId=101201101
