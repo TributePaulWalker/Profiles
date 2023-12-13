@@ -1,6 +1,0 @@
-#!name=今日天气
-#!desc=复制内容到本地模块 在cityId=后面填写所在城市对应的代码 如cityId=101020100 
-[Panel]
-今日天气=script-name=今日天气,update-interval=3600
-[Script]
-今日天气=type=generic,script-path= https://raw.githubusercontent.com/TributePaulWalker/Profiles/main/JavaScript/Surge/TodayWeather.js,argument=icon=sun.max.fill&color=#ffc400&cityId=101201101
