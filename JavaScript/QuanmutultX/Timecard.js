@@ -49,14 +49,15 @@ let userDays2 = $.getdata('@DaysMatter.userDays2') // 用户浮动假日
 let userDaysName2 = $.getdata('@DaysMatter.userDaysName2')
 let userDaysData = $.getjson('@DaysMatter.userDaysData', {'list': []}) // 备用变量
 let defaultDaysData =
-    [{'date': '2023-2-12', 'name': '老爸生日'},
-    {'date': '2023-3-27', 'name': '结婚纪念日3周年'},
-    {'date': '2023-5-9', 'name': '生日'},
-    {'date': '2023-5-22', 'name': '奶奶生日'},
-    {'date': '2023-5-31', 'name': '楠楠生日'},
-    {'date': '2023-7-22', 'name': '老婆生日'},
-    {'date': '2023-9-7', 'name': '多多生日'},
-    {'date': '2023-11-15', 'name': '妹妹生日'}] // 内置假日
+    {'date': '2024-3-2', 'name': '老爸生日'},
+    {'date': '2024-3-27', 'name': '结婚纪念日3周年'},
+    {'date': '2024-428-9', 'name': '生日'},
+    {'date': '2024-5-11', 'name': '奶奶生日'},
+    {'date': '2024-5-20', 'name': '楠楠生日'},
+    {'date': '2024-7-10', 'name': '老婆生日'},
+    {'date': '2024-8-26', 'name': '多多生日'},
+    {'date': '2024-11-3', 'name': '妹妹生日'},
+    {'date': '2024-11-7', 'name': '肖丽生日'}  ] // 内置假日
 
 let tnow = new Date()
 let tnowf = tnow.getFullYear() + "-" + (tnow.getMonth() + 1) + "-" + tnow.getDate()
