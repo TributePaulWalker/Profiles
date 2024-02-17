@@ -1,6 +1,6 @@
 #!name=网络延迟
 #!desc=网络连通性测试 Baidu,Google,YouTube,Github
-
+#!category=Brian
 
 [Panel]
 网络延迟 = script-name=网络延迟,update-interval=1
