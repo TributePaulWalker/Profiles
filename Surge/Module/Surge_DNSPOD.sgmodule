@@ -1,6 +1,0 @@
-#!name=DNSPOD
-#!desc=腾讯公用基础doh
-#!category=Brian
-
-[General]
-doh-server = %APPEND% https://doh.pub/dns-query
