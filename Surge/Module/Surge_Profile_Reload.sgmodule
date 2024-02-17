@@ -1,5 +1,6 @@
 #!name= Surge-Profile-Reload
 #!desc= Surge 配置重载，刷新DNS缓存
+#!category=配置重载
 
 [Panel]
 配置重载 = title=配置重载,content=配置重载,style=info,script-name=配置重载,update-interval=-1
