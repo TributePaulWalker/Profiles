@@ -1,5 +1,6 @@
 #!name=GitHub 加速
 #!desc=自动使用 mirror.ghproxy.com 加速, 去除 github.com 的 Content-Security-Policy
+#!category=GitHub 加速
 
 [URL Rewrite]
 ^(https?:\/\/(raw\.githubusercontent\.com|gist\.githubusercontent\.com|github\.com\/[^/]+\/[^/]+(\/releases\/download|\/archive))\/.+?)$ https://mirror.ghproxy.com/$1 302
