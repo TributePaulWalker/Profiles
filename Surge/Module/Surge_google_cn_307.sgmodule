@@ -1,5 +1,6 @@
 #!name= 谷歌中国重定向
 #!desc=将 google.cn 的请求重定向到 google.com
+#!category=Brian
 
 [URL Rewrite]
 ^(http|https):\/\/(www.)?(g|google)\.cn https://www.google.com 307
