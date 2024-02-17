@@ -40,7 +40,7 @@ let content = ''
           )}/s ↓ ${formatFlow(item.inMaxSpeed, 2)}/s`
     })
     .join('\n\n')
-  title = '网络接口信息'
+  title = '网络接口'
 })()
   .catch(async e => {
     $.logErr(e)
