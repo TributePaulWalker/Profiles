@@ -1,6 +1,6 @@
 #!name=网络接口信息
 #!desc=查询网络接口的网速和流量 
-#!category=网络接口信息
+#!category=Brian
 
 [Panel]
 网络接口 = script-name=网络接口,update-interval=1
