@@ -1,6 +1,6 @@
 #!name=节假提醒
 #!desc=节假日预览，节日当天早上有提醒。
-#!category=节假提醒
+#!category=Brian
 
 [Panel]
 节假提醒 = script-name=节假提醒,update-interval=600
