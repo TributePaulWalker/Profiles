@@ -3,6 +3,7 @@
 #!category=Brian
 
 [General]
+# Update-2024.02.19.11.35
 # > 跳过代理
 skip-proxy = %APPEND% passenger.t3go.cn, www.baidu.com, yunbusiness.ccb.com
 
@@ -13,6 +14,13 @@ always-real-ip = %APPEND% *.msftconnecttest.com, *.msftncsi.com, *.srv.nintendo.
 # tun-excluded-routes = %APPEND% 239.255.255.250/32
 
 [Host]
+# Apple
+apple.com = server:223.5.5.5
+*icloud.com = server:223.5.5.5
+*icloud.com.cn = server:223.5.5.5
+*testflight.apple.com = server:8.8.4.4
+*.apple.com = server:https://doh.dns.apple.com/dns-query
+*.itunes.com = server:https://doh.dns.apple.com/dns-query
 
 [URL Rewrite]
 # Redirect Google Search Service
