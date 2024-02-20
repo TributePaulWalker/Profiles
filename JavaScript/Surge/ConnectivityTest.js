@@ -22,7 +22,7 @@ await Promise.all([http('Baidu'),http('Google'),http('Youtube'),http('Github')])
 	$done({
     title: '网络延迟',
     content: x.join('\n'),
-    icon: 'key.icloud',
+    icon: 'bolt.horizontal.icloud',
     'icon-color': '#5AC8FA',
   })
 })
