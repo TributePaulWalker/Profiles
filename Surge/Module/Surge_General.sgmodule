@@ -14,6 +14,7 @@ always-real-ip = %APPEND% *.msftconnecttest.com, *.msftncsi.com, *.srv.nintendo.
 # tun-excluded-routes = %APPEND% 239.255.255.250/32
 
 [Host]
+# 本地 DNS 映射
 # Apple
 apple.com = server:223.5.5.5
 *icloud.com = server:223.5.5.5
