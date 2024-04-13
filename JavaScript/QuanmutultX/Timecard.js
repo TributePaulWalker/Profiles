@@ -50,7 +50,7 @@ let userDaysName2 = $.getdata('@DaysMatter.userDaysName2')
 let userDaysData = $.getjson('@DaysMatter.userDaysData', {'list': []}) // 备用变量
 let defaultDaysData =
     {'date': '2024-3-2', 'name': '老爸生日'},
-    {'date': '2024-3-27', 'name': '结婚纪念日3周年'},
+    {'date': '2024-3-27', 'name': '结婚纪念日4周年'},
     {'date': '2024-428-9', 'name': '生日'},
     {'date': '2024-5-11', 'name': '奶奶生日'},
     {'date': '2024-5-20', 'name': '楠楠生日'},
