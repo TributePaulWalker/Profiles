@@ -3,9 +3,9 @@
 #!category=Brian
 
 [General]
-# Update-2024.02.19.11.35
+# Update-2024.04.25.08.33
 # > 跳过代理
-skip-proxy = %APPEND% passenger.t3go.cn, www.baidu.com, yunbusiness.ccb.com
+skip-proxy = %APPEND% localhost, *.local, passenger.t3go.cn, www.baidu.com, yunbusiness.ccb.com
 
 # > Always Real IP Hosts
 always-real-ip = %APPEND% *.msftconnecttest.com, *.msftncsi.com, *.srv.nintendo.net, *.stun.playstation.net, xbox.*.microsoft.com, *.xboxlive.com, *.logon.battlenet.com.cn, *.logon.battle.net, stun.l.google.com
