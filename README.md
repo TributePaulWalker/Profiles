@@ -34,6 +34,7 @@
 * [MuTu](https://github.com/githubdulong/Script)
 * [Keywos](https://github.com/Keywos)
 * [xream](https://github.com/xream)
+* [LucaLin233](https://github.com/LucaLin233/Luca_Conf)
 * [Rabbit-Spec](https://github.com/Rabbit-Spec/Surge)
 * [MartinsKing](https://github.com/ClydeTime?tab=repositories)
 * [Virgil Clyne](https://github.com/VirgilClyne?tab=repositories)
