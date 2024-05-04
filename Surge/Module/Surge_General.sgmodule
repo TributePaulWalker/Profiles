@@ -3,7 +3,7 @@
 #!category=Brian
 
 [General]
-# Update-2024.04.25.08.33
+# Update-2024.05.04.16.20
 # > 跳过代理
 skip-proxy = %APPEND% localhost, *.local, passenger.t3go.cn, www.baidu.com, yunbusiness.ccb.com
 
@@ -24,12 +24,6 @@ apple.com = server:223.5.5.5
 *.itunes.com = server:https://doh.dns.apple.com/dns-query
 
 [URL Rewrite]
-# Redirect Google Search Service
-^https?:\/\/(www.)?(g|google)\.cn https://www.google.com 302
-
-# Redirect Google Maps Service
-^https?:\/\/(ditu|maps).google\.cn https://maps.google.com 302
-
 # Redirect HTTP to HTTPS
 ^https?:\/\/(www.)?taobao\.com\/ https://taobao.com/ 302
 ^https?:\/\/(www.)?jd\.com\/ https://www.jd.com/ 302
