@@ -37,7 +37,6 @@
 * [LucaLin233](https://github.com/LucaLin233/Luca_Conf)
 * [Rabbit-Spec](https://github.com/Rabbit-Spec/Surge)
 * [MartinsKing](https://github.com/ClydeTime?tab=repositories)
-* [Virgil Clyne](https://github.com/VirgilClyne?tab=repositories)
 * [ExaAlice](https://github.com/ExaAlice/Alice)
 * [Alexandr Garbuzov](https://github.com/anuraghazra/github-readme-stats/blob/master/docs/readme_cn.md)
 *  [Maasea](https://github.com/Maasea)
