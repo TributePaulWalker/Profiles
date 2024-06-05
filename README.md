@@ -8,7 +8,7 @@
 
 ## *特别感谢*
 
-* [ConnersHua](https://github.com/DivineEngine/Profiles/tree/master)
+* [ConnersHua](https://github.com/ConnersHua/RuleGo/tree/master)
 * [mieqq](https://github.com/mieqq/mieqq)
 * [Yachen Liu](https://github.com/Blankwonder)
 * [maicoo](https://github.com/blankmagic/surge)
