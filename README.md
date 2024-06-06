@@ -50,7 +50,7 @@
 
 ## ⚠️ 郑重声明：
 
-本规则基于ConnerosHua的[DivineEngine](https://github.com/DivineEngine/Profiles/tree/master)，基于个人使用方便的基础上加入了各位大佬的脚本和规则。感谢各位大佬的辛勤维护和无私付出。在此特别致谢！
+本规则基于ConnersHua的[RuleGo](https://github.com/ConnersHua/RuleGo/tree/master)，基于个人使用方便的基础上加入了各位大佬的脚本和规则。感谢各位大佬的辛勤维护和无私付出。在此特别致谢！
 
 ## ⚠️ 免责声明：
 
