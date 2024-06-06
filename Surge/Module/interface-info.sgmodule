@@ -1,9 +1,0 @@
-#!name=网络接口信息
-#!desc=查询网络接口的网速和流量 
-#!category=Brian
-
-[Panel]
-网络接口 = script-name=网络接口,update-interval=1
-
-[Script]
-网络接口 = type=generic,timeout=120,script-path=https://raw.githubusercontent.com/TributePaulWalker/Profiles/main/JavaScript/Surge/interface-info.js,argument=icon=filemenu.and.cursorarrow&icon-color=#5AC8FA&STYLE=compact
