@@ -4,4 +4,4 @@
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=TributePaulWalker&layout=compact&theme=vue)](https://github.com/TributePaulWalker/TributePaulWalker)
 
-纯自用。
+停止维护。
