@@ -15,7 +15,7 @@
 * [Yichahucha](https://github.com/yichahucha/surge/tree/master)
 * [Hackl0us](https://github.com/Hackl0us)
 * [NobyDa](https://github.com/NobyDa)
-* [VirgilClyne](https://github.com/VirgilClyne)
+* [VirgilClyne](https://github.com/NSRingo)
 * [KOP-XIAO](https://github.com/KOP-XIAO)
 * [Peng-YM](https://github.com/Peng-YM)
 * [Chavy](https://github.com/chavyleung)
