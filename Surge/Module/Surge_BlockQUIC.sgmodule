@@ -1,6 +1,0 @@
-#!name= 屏蔽HTTP3/QUIC协议。
-#!desc= 由于 HTTP 3 基于 UDP，部分地区 ISP 或线路 UDP 容易受到干扰或限速，启用该模块将阻止 HTTP 3 流量的 UDP 流量，强制回退到 TCP。
-#!category=Brian
-
-[Rule]
-AND,((PROTOCOL,UDP),(DEST-PORT,443)),REJECT-NO-DROP
