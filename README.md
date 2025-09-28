@@ -10,7 +10,6 @@
 
 * [ConnersHua](https://github.com/ConnersHua/RuleGo/tree/master)
 * [mieqq](https://github.com/mieqq/mieqq)
-* [Yachen Liu](https://github.com/Blankwonder)
 * [maicoo](https://github.com/blankmagic/surge)
 * [Yichahucha](https://github.com/yichahucha/surge/tree/master)
 * [NobyDa](https://github.com/NobyDa)
@@ -21,7 +20,6 @@
 * [Semporia](https://github.com/Semporia)
 * [scomper](https://github.com/scomper/Surge)
 * [zqzess](https://github.com/zqzess)
-* [han3013](https://github.com/han3013?tab=repositories)
 * [chouchoui](https://github.com/chouchoui)
 * [zZPiglet](https://github.com/zZPiglet/Task/tree/master)
 * [app2smile](https://github.com/app2smile)
@@ -31,7 +29,6 @@
 * [MuTu](https://github.com/githubdulong/Script)
 * [Keywos](https://github.com/Keywos)
 * [xream](https://github.com/xream)
-* [LucaLin233](https://github.com/LucaLin233/Luca_Conf)
 * [Rabbit-Spec](https://github.com/Rabbit-Spec/Surge)
 * [MartinsKing](https://github.com/ClydeTime?tab=repositories)
 * [ExaAlice](https://github.com/ExaAlice/Alice)
