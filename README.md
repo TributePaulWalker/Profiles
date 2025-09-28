@@ -14,7 +14,7 @@
 * [maicoo](https://github.com/blankmagic/surge)
 * [Yichahucha](https://github.com/yichahucha/surge/tree/master)
 * [NobyDa](https://github.com/NobyDa)
-* [VirgilClyne](https://nsringo.github.io)
+* [VirgilClyne](https://github.com/NSRingo)
 * [Peng-YM](https://github.com/Peng-YM)
 * [Chavy](https://github.com/chavyleung)
 * [Tartarus2014](https://github.com/Tartarus2014)
